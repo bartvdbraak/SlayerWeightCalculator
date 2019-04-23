@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/datatables.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Slayer task weights</h1>
+  <p>A calculator for slayer geeks that need to know percentages.</p> 
+</div>
+  
+<div class="container">
+    <div class="row"> 
+        <div class="col">
+            <h3>Slayer settings</h3>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-6">
+            Unlocked:
+            <form>
+                <ul><input type="checkbox" name="reddragon" value="Bike"> 
+                    Seeing red (Unlocks Red Dragons)</ul>
+                <ul><input type="checkbox" name="mithrildragon" value="Car"> 
+                    I hope you mith me (Unlocks Mithril Dragons)</ul>
+            </form> 
+        </div>
+        <div class="col-6">
+            Blocked tasks:
+            <div id="blocklist">
+                <ul>None (50 QP)</ul>
+                <ul>None (100 QP)</ul>
+                <ul>None (150 QP)</ul>
+                <ul>None (200 QP)</ul>
+                <ul>None (250 QP)</ul>
+                <ul>None (Quest Cape)</ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>Krystilia</h3>
+            <p>Krystilia is a Slayer master found in Edgeville's jail north-east of the bank. When spoken to, she expresses her love for magic and the Wilderness, and claims the guards locked her in the cell for trouble-making.</p>
+            <table id="masterTable" class="table table-bordered table-hover table-condensed">
+                <thead><tr><th title="title1">Monster</th>
+                <th title="title2">Task weight</th>
+                </tr></thead>
+                <tbody>
+                    <tr>
+                    <td>Ankou</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Aviansie</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Bandit</td>
+                    <td>4</td>
+                    </tr>
+                    <tr>
+                    <td>Bear</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Black demon</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Black dragon</td>
+                    <td>4</td>
+                    </tr>
+                    <tr>
+                    <td>Chaos druid</td>
+                    <td>5</td>
+                    </tr>
+                    <tr>
+                    <td>Dark warrior</td>
+                    <td>4</td>
+                    </tr>
+                    <tr>
+                    <td>Earth warrior</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Ent</td>
+                    <td>5</td>
+                    </tr>
+                    <tr>
+                    <td>Fire Giant</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Greater demon</td>
+                    <td>8</td>
+                    </tr>
+                    <tr>
+                    <td>Green dragon</td>
+                    <td>4</td>
+                    </tr>
+                    <tr>
+                    <td>Hellhoud</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Ice giant</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Ice warrior</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Lava dragon</td>
+                    <td>3</td>
+                    </tr>
+                    <tr>
+                    <td>Lesser dragon</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Magic axe</td>
+                    <td>7</td>
+                    </tr>
+                    <tr>
+                    <td>Mammoth</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Revenant</td>
+                    <td>5</td>
+                    </tr>
+                    <tr>
+                    <td>Rogue</td>
+                    <td>5</td>
+                    </tr>
+                    <tr>
+                    <td>Scorpion</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Skeleton</td>
+                    <td>5</td>
+                    </tr>
+                    <tr>
+                    <td>Spider</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Spiritual creatures</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                    <td>Boss</td>
+                    <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
