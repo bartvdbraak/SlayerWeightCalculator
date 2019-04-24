@@ -28,16 +28,26 @@
     </div>
     <div class="row"> 
         <div class="col-6">
-            Unlocked:
+            <p>Unlocks:</p>
             <form>
-                <ul><input type="checkbox" name="reddragon" value="Bike"> 
+                <ul><input type="checkbox" name="reddrags" value="reddrags"> 
                     Seeing red (Unlocks Red Dragons)</ul>
-                <ul><input type="checkbox" name="mithrildragon" value="Car"> 
+                <ul><input type="checkbox" name="mithdrags" value="mithdrags"> 
                     I hope you mith me (Unlocks Mithril Dragons)</ul>
+                <ul><input type="checkbox" name="aviansie" value="aviansie"> 
+                    Watch the birdie (Unlocks Aviansies)</ul>
+                <ul><input type="checkbox" name="tzhaars" value="tzhaars"> 
+                    Hot stuff (Unlocks TzHaars)</ul>
+                <ul><input type="checkbox" name="lizardmen" value="lizardmen"> 
+                    Reptile got ripped (Unlocks Lizardmen)</ul>
+                <ul><input type="checkbox" name="bosses" value="bosses"> 
+                    Like a boss (Unlocks Bosses)</ul>
+                <ul><input type="checkbox" name="fossilwyverns" value="fossilwyverns"> 
+                    Stop the Wyvern (Disables Fossil Island Wyverns)</ul>
             </form> 
         </div>
         <div class="col-6">
-            Blocked tasks:
+            <p>Task blocks:</p>
             <div id="blocklist">
                 <ul>None (50 QP)</ul>
                 <ul>None (100 QP)</ul>
@@ -46,6 +56,13 @@
                 <ul>None (250 QP)</ul>
                 <ul>None (Quest Cape)</ul>
             </div>
+        </div>
+        <div class="col-6 text-center">
+            Slayer level: 
+            <input type="text" name="slayerlevel" value="">
+        </div>
+        <div class="col-6 text-center">
+            <input type="submit" value="Apply changes" onclick="applyChanges()">
         </div>
     </div>
     <div class="row">

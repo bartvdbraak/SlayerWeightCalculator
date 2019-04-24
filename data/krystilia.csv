@@ -1,3 +1,4 @@
+monster,taskweight
 Ankou,6
 Aviansie,7
 Bandit,4
@@ -8,14 +9,14 @@ Chaos druid,5
 Dark warrior,4
 Earth warrior,6
 Ent,5
-Fire Giant,7
+Fire giant,7
 Greater demon,8
 Green dragon,4
-Hellhoud,7
+Hellhound,7
 Ice giant,6
 Ice warrior,7
 Lava dragon,3
-Lesser dragon,6
+Lesser demon,6
 Magic axe,7
 Mammoth,6
 Revenant,5
@@ -24,4 +25,4 @@ Scorpion,6
 Skeleton,5
 Spider,6
 Spiritual creatures,6
-Boss,8
+Wilderness bosses / demi-bosses,8
