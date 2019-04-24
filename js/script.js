@@ -11,10 +11,37 @@ jQuery.fn.dataTable.Api.register( 'sum()', function ( ) {
     }, 0 );
 } );
 
+function setBlocklists() {
+    $.getJSON( "data/monsters.json", function( data ) {
+        
+        var content = '';
+
+        console.log(data)
+        for (i = 0; i < data.length; i++) {
+            console.log(data[i].monster)
+            content += '<option value="'+data[i].monster+'">'+data[i].monster+'</option>'
+        }
+
+        console.log(content)
+
+        $( ".blocktask" ).each(function( index ) {
+            $(this).append(content)
+        });
+
+    })
+}
+
+$(document).ready(function() {
+    setBlocklists();
+});
+
 function filterTasks(data) {
     index_list = []
 
     for (i = 0; i < data.length; i++) {
+        
+        // Unlocks
+        
         switch (data[i].monster) {
             case 'Red dragons':
                 if ($("#reddrags").prop("checked") == false) {
@@ -51,7 +78,20 @@ function filterTasks(data) {
                     index_list.push(i)
                 }
         }
+
+        // Slayer requirement
+
+        if (data[i].slayer_req > $("#slayerlevel").val()) {
+            index_list.push(i)
+        }
+
+        // Task blocks
+
+
+
     }
+
+
     console.log(index_list,data)
     return data
 }
