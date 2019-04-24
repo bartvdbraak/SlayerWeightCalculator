@@ -1,0 +1,112 @@
+{
+    "data": [
+        {
+            "monster": "Ankou",
+            "taskweight": 6
+        },
+        {
+            "monster": "Aviansie",
+            "taskweight": 7
+        },
+        {
+            "monster": "Bandit",
+            "taskweight": 4
+        },
+        {
+            "monster": "Bear",
+            "taskweight": 6
+        },
+        {
+            "monster": "Black demon",
+            "taskweight": 7
+        },
+        {
+            "monster": "Black dragon",
+            "taskweight": 4
+        },
+        {
+            "monster": "Chaos druid",
+            "taskweight": 5
+        },
+        {
+            "monster": "Dark warrior",
+            "taskweight": 4
+        },
+        {
+            "monster": "Earth warrior",
+            "taskweight": 6
+        },
+        {
+            "monster": "Ent",
+            "taskweight": 5
+        },
+        {
+            "monster": "Fire giant",
+            "taskweight": 7
+        },
+        {
+            "monster": "Greater demon",
+            "taskweight": 8
+        },
+        {
+            "monster": "Green dragon",
+            "taskweight": 4
+        },
+        {
+            "monster": "Hellhound",
+            "taskweight": 7
+        },
+        {
+            "monster": "Ice giant",
+            "taskweight": 6
+        },
+        {
+            "monster": "Ice warrior",
+            "taskweight": 7
+        },
+        {
+            "monster": "Lava dragon",
+            "taskweight": 3
+        },
+        {
+            "monster": "Lesser demon",
+            "taskweight": 6
+        },
+        {
+            "monster": "Magic axe",
+            "taskweight": 7
+        },
+        {
+            "monster": "Mammoth",
+            "taskweight": 6
+        },
+        {
+            "monster": "Revenant",
+            "taskweight": 5
+        },
+        {
+            "monster": "Rogue",
+            "taskweight": 5
+        },
+        {
+            "monster": "Scorpion",
+            "taskweight": 6
+        },
+        {
+            "monster": "Skeleton",
+            "taskweight": 5
+        },
+        {
+            "monster": "Spider",
+            "taskweight": 6
+        },
+        {
+            "monster": "Spiritual creatures",
+            "taskweight": 6
+        },
+        {
+            "monster": "Bosses",
+            "taskweight": 8
+        }
+    ]
+}

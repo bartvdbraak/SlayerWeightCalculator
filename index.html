@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Slayer Calc</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -30,19 +30,19 @@
         <div class="col-6">
             <p>Unlocks:</p>
             <form>
-                <ul><input type="checkbox" name="reddrags" value="reddrags"> 
+                <ul><input type="checkbox" name="reddrags" id="reddrags"> 
                     Seeing red (Unlocks Red Dragons)</ul>
-                <ul><input type="checkbox" name="mithdrags" value="mithdrags"> 
+                <ul><input type="checkbox" name="mithdrags" id="mithdrags"> 
                     I hope you mith me (Unlocks Mithril Dragons)</ul>
-                <ul><input type="checkbox" name="aviansie" value="aviansie"> 
+                <ul><input type="checkbox" name="aviansie" id="aviansie"> 
                     Watch the birdie (Unlocks Aviansies)</ul>
-                <ul><input type="checkbox" name="tzhaars" value="tzhaars"> 
+                <ul><input type="checkbox" name="tzhaars" id="tzhaars"> 
                     Hot stuff (Unlocks TzHaars)</ul>
-                <ul><input type="checkbox" name="lizardmen" value="lizardmen"> 
+                <ul><input type="checkbox" name="lizardmen" id="lizardmen"> 
                     Reptile got ripped (Unlocks Lizardmen)</ul>
-                <ul><input type="checkbox" name="bosses" value="bosses"> 
+                <ul><input type="checkbox" name="bosses" id="bosses"> 
                     Like a boss (Unlocks Bosses)</ul>
-                <ul><input type="checkbox" name="fossilwyverns" value="fossilwyverns"> 
+                <ul><input type="checkbox" name="fossilwyverns" id="fossilwyverns"> 
                     Stop the Wyvern (Disables Fossil Island Wyverns)</ul>
             </form> 
         </div>
@@ -69,119 +69,25 @@
         <div class="col">
             <h3>Krystilia</h3>
             <p>Krystilia is a Slayer master found in Edgeville's jail north-east of the bank. When spoken to, she expresses her love for magic and the Wilderness, and claims the guards locked her in the cell for trouble-making.</p>
-            <table id="masterTable" class="table table-bordered table-hover table-condensed">
-                <thead><tr><th title="title1">Monster</th>
-                <th title="title2">Task weight</th>
-                </tr></thead>
+            <table id="example" class="display nowrap" width="100%">
+                <thead>
+                <tr>
+                    <th>Monster</th>
+                    <th>Task weight</th>
+                    <th>Chance</th>
+                </tr>
+                </thead>
+
+                <tfoot>
+                <tr>
+                    <th>Monster</th>
+                    <th>Task weight</th>
+                    <th>Chance</th>
+                </tr>
+                </tfoot>
+
                 <tbody>
-                    <tr>
-                    <td>Ankou</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Aviansie</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Bandit</td>
-                    <td>4</td>
-                    </tr>
-                    <tr>
-                    <td>Bear</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Black demon</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Black dragon</td>
-                    <td>4</td>
-                    </tr>
-                    <tr>
-                    <td>Chaos druid</td>
-                    <td>5</td>
-                    </tr>
-                    <tr>
-                    <td>Dark warrior</td>
-                    <td>4</td>
-                    </tr>
-                    <tr>
-                    <td>Earth warrior</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Ent</td>
-                    <td>5</td>
-                    </tr>
-                    <tr>
-                    <td>Fire Giant</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Greater demon</td>
-                    <td>8</td>
-                    </tr>
-                    <tr>
-                    <td>Green dragon</td>
-                    <td>4</td>
-                    </tr>
-                    <tr>
-                    <td>Hellhoud</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Ice giant</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Ice warrior</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Lava dragon</td>
-                    <td>3</td>
-                    </tr>
-                    <tr>
-                    <td>Lesser dragon</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Magic axe</td>
-                    <td>7</td>
-                    </tr>
-                    <tr>
-                    <td>Mammoth</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Revenant</td>
-                    <td>5</td>
-                    </tr>
-                    <tr>
-                    <td>Rogue</td>
-                    <td>5</td>
-                    </tr>
-                    <tr>
-                    <td>Scorpion</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Skeleton</td>
-                    <td>5</td>
-                    </tr>
-                    <tr>
-                    <td>Spider</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Spiritual creatures</td>
-                    <td>6</td>
-                    </tr>
-                    <tr>
-                    <td>Boss</td>
-                    <td>8</td>
-                    </tr>
+            
                 </tbody>
             </table>
         </div>
