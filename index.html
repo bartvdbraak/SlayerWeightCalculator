@@ -30,20 +30,20 @@
         <div class="col-6">
             <p>Unlocks:</p>
             <form>
-                <ul><input type="checkbox" name="reddrags" id="reddrags"> 
-                    Seeing red (Unlocks Red Dragons)</ul>
-                <ul><input type="checkbox" name="mithdrags" id="mithdrags"> 
-                    I hope you mith me (Unlocks Mithril Dragons)</ul>
-                <ul><input type="checkbox" name="aviansie" id="aviansie"> 
-                    Watch the birdie (Unlocks Aviansies)</ul>
-                <ul><input type="checkbox" name="tzhaars" id="tzhaars"> 
-                    Hot stuff (Unlocks TzHaars)</ul>
-                <ul><input type="checkbox" name="lizardmen" id="lizardmen"> 
-                    Reptile got ripped (Unlocks Lizardmen)</ul>
-                <ul><input type="checkbox" name="bosses" id="bosses"> 
-                    Like a boss (Unlocks Bosses)</ul>
-                <ul><input type="checkbox" name="fossilwyverns" id="fossilwyverns"> 
-                    Stop the Wyvern (Disables Fossil Island Wyverns)</ul>
+                <ul><label><input type="checkbox" name="reddrags" id="reddrags"> 
+                    Seeing red (Unlocks Red Dragons)</label></ul>
+                <ul><label><input type="checkbox" name="mithdrags" id="mithdrags"> 
+                    I hope you mith me (Unlocks Mithril Dragons)</label></ul>
+                <ul><label><input type="checkbox" name="aviansies" id="aviansies"> 
+                    Watch the birdie (Unlocks Aviansies)</label></ul>
+                <ul><label><input type="checkbox" name="tzhaar" id="tzhaar"> 
+                    Hot stuff (Unlocks TzHaars)</label></ul>
+                <ul><label><input type="checkbox" name="lizardmen" id="lizardmen"> 
+                    Reptile got ripped (Unlocks Lizardmen)</label></ul>
+                <ul><label><input type="checkbox" name="bosses" id="bosses"> 
+                    Like a boss (Unlocks Bosses)</label></ul>
+                <ul><label><input type="checkbox" name="fossilwyverns" id="fossilwyverns"> 
+                    Stop the Wyvern (Disables Fossil Island Wyverns)</label></ul>
             </form> 
         </div>
         <div class="col-6">
@@ -59,17 +59,17 @@
         </div>
         <div class="col-6 text-center">
             Slayer level: 
-            <input type="text" name="slayerlevel" value="">
+            <input type="text" min="1" max="99" name="slayerlevel" id="slayerlevel" maxlength="2" placeholder="99" value="99">
         </div>
         <div class="col-6 text-center">
-            <input type="submit" value="Apply changes" onclick="applyChanges()">
+            <input type="submit" value="Apply changes" onclick="applyChanges('krystilia')">
         </div>
     </div>
     <div class="row">
         <div class="col">
             <h3>Krystilia</h3>
             <p>Krystilia is a Slayer master found in Edgeville's jail north-east of the bank. When spoken to, she expresses her love for magic and the Wilderness, and claims the guards locked her in the cell for trouble-making.</p>
-            <table id="example" class="display nowrap" width="100%">
+            <table id="master" class="display nowrap" width="100%">
                 <thead>
                 <tr>
                     <th>Monster</th>

@@ -1,28 +1,28 @@
-monster,taskweight
-Ankou,6
-Aviansie,7
-Bandit,4
-Bear,6
-Black demon,7
-Black dragon,4
-Chaos druid,5
-Dark warrior,4
-Earth warrior,6
-Ent,5
-Fire giant,7
-Greater demon,8
-Green dragon,4
-Hellhound,7
-Ice giant,6
-Ice warrior,7
-Lava dragon,3
-Lesser demon,6
-Magic axe,7
-Mammoth,6
-Revenant,5
-Rogue,5
-Scorpion,6
-Skeleton,5
-Spider,6
-Spiritual creatures,6
-Bosses,8
+monster,taskweight,slayer_req
+Ankou,6,1
+Aviansie,7,1
+Bandit,4,1
+Bear,6,1
+Black demon,7,1
+Black dragon,4,1
+Chaos druid,5,1
+Dark warrior,4,1
+Earth warrior,6,1
+Ent,5,1
+Fire giant,7,1
+Greater demon,8,1
+Green dragon,4,1
+Hellhound,7,1
+Ice giant,6,1
+Ice warrior,7,1
+Lava dragon,3,1
+Lesser demon,6,1
+Magic axe,7,1
+Mammoth,6,1
+Revenant,5,1
+Rogue,5,1
+Scorpion,6,1
+Skeleton,5,1
+Spider,6,1
+Spiritual creatures,6,63
+Bosses,8,1
