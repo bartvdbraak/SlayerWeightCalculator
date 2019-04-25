@@ -110,9 +110,9 @@
     "taskweight": 11
   },
   {
-    "monster": "Greater demons1",
+    "monster": "Greater demons",
     "slayer_req": 9,
-    "taskweight": ""
+    "taskweight": 1
   },
   {
     "monster": "Harpie Bug Swarms",
