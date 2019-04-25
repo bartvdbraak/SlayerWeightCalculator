@@ -85,7 +85,7 @@
   },
   {
     "id": 14,
-    "monster": "Catablepon",
+    "monster": "Catablepons",
     "slayer_req": 1,
     "masters": 2
   },
@@ -127,7 +127,7 @@
   },
   {
     "id": 21,
-    "monster": "Crawling Hands",
+    "monster": "Crawling hands",
     "slayer_req": 5,
     "masters": "1, 2, 4"
   },
@@ -169,7 +169,7 @@
   },
   {
     "id": 28,
-    "monster": "Earth Warriors",
+    "monster": "Earth warriors",
     "slayer_req": 1,
     "masters": 3
   },
@@ -193,7 +193,7 @@
   },
   {
     "id": 32,
-    "monster": "Flesh Crawlers",
+    "monster": "Flesh crawlers",
     "slayer_req": 1,
     "masters": 2
   },

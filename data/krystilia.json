@@ -1,126 +1,126 @@
 [
     {
-      "monster": "Ankou",
+      "monster": "Ankous",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Aviansie",
+      "monster": "Aviansies",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Bandit",
+      "monster": "Bandits",
       "taskweight": 4,
       "slayer_req": 1
     },
     {
-      "monster": "Bear",
+      "monster": "Bears",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Black demon",
+      "monster": "Black demons",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Black dragon",
+      "monster": "Black dragons",
       "taskweight": 4,
       "slayer_req": 1
     },
     {
-      "monster": "Chaos druid",
+      "monster": "Chaos druids",
       "taskweight": 5,
       "slayer_req": 1
     },
     {
-      "monster": "Dark warrior",
+      "monster": "Dark warriors",
       "taskweight": 4,
       "slayer_req": 1
     },
     {
-      "monster": "Earth warrior",
+      "monster": "Earth warriors",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Ent",
+      "monster": "Ents",
       "taskweight": 5,
       "slayer_req": 1
     },
     {
-      "monster": "Fire giant",
+      "monster": "Fire giants",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Greater demon",
+      "monster": "Greater demons",
       "taskweight": 8,
       "slayer_req": 1
     },
     {
-      "monster": "Green dragon",
+      "monster": "Green dragons",
       "taskweight": 4,
       "slayer_req": 1
     },
     {
-      "monster": "Hellhound",
+      "monster": "Hellhounds",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Ice giant",
+      "monster": "Ice giants",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Ice warrior",
+      "monster": "Ice warriors",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Lava dragon",
+      "monster": "Lava dragons",
       "taskweight": 3,
       "slayer_req": 1
     },
     {
-      "monster": "Lesser demon",
+      "monster": "Lesser demons",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Magic axe",
+      "monster": "Magic axes",
       "taskweight": 7,
       "slayer_req": 1
     },
     {
-      "monster": "Mammoth",
+      "monster": "Mammoths",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Revenant",
+      "monster": "Revenants",
       "taskweight": 5,
       "slayer_req": 1
     },
     {
-      "monster": "Rogue",
+      "monster": "Rogues",
       "taskweight": 5,
       "slayer_req": 1
     },
     {
-      "monster": "Scorpion",
+      "monster": "Scorpions",
       "taskweight": 6,
       "slayer_req": 1
     },
     {
-      "monster": "Skeleton",
+      "monster": "Skeletons",
       "taskweight": 5,
       "slayer_req": 1
     },
     {
-      "monster": "Spider",
+      "monster": "Spiders",
       "taskweight": 6,
       "slayer_req": 1
     },

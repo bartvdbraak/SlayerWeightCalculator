@@ -4,8 +4,8 @@
   <title>Slayer Calc</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -21,6 +21,12 @@
 </div>
   
 <div class="container">
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Krystilia</a></li>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+    </ul>
     <div class="row"> 
         <div class="col">
             <h3>Slayer settings</h3>
@@ -69,10 +75,10 @@
             <input type="submit" value="Apply changes" onclick="applyChanges('krystilia')">
         </div>
     </div>
+    
     <div class="row">
         <div class="col">
             <h3>Krystilia</h3>
-            <p>Krystilia is a Slayer master found in Edgeville's jail north-east of the bank. When spoken to, she expresses her love for magic and the Wilderness, and claims the guards locked her in the cell for trouble-making.</p>
             <table id="master" class="display nowrap" width="100%">
                 <thead>
                 <tr>
@@ -82,16 +88,7 @@
                 </tr>
                 </thead>
 
-                <tfoot>
-                <tr>
-                    <th>Monster</th>
-                    <th>Task weight</th>
-                    <th>Chance</th>
-                </tr>
-                </tfoot>
-
                 <tbody>
-            
                 </tbody>
             </table>
         </div>

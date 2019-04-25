@@ -1,28 +1,11 @@
-jQuery.fn.dataTable.Api.register( 'sum()', function ( ) {
-    return this.flatten().reduce( function ( a, b ) {
-        if ( typeof a === 'string' ) {
-            a = a.replace(/[^\d.-]/g, '') * 1;
-        }
-        if ( typeof b === 'string' ) {
-            b = b.replace(/[^\d.-]/g, '') * 1;
-        }
- 
-        return a + b;
-    }, 0 );
-} );
-
 function setBlocklists() {
-    $.getJSON( "data/monsters.json", function( data ) {
+    $.getJSON( "data/monsters.json", {format: "json"}, function( data ) {
         
         var content = '';
 
-        console.log(data)
         for (i = 0; i < data.length; i++) {
-            console.log(data[i].monster)
             content += '<option value="'+data[i].monster+'">'+data[i].monster+'</option>'
         }
-
-        console.log(content)
 
         $( ".blocktask" ).each(function( index ) {
             $(this).append(content)
@@ -31,8 +14,11 @@ function setBlocklists() {
     })
 }
 
+
+
 $(document).ready(function() {
     setBlocklists();
+    applyChanges('krystilia');
 });
 
 function filterTasks(data) {
@@ -87,12 +73,19 @@ function filterTasks(data) {
 
         // Task blocks
 
-
+        $( ".blocktask" ).each(function( index ) {
+            if ($(this).val().toUpperCase() == data[i].monster.toUpperCase()) {
+                index_list.push(i)
+            }
+        });
 
     }
 
-
-    console.log(index_list,data)
+    for (var i in index_list) {
+        data.splice(i, 1)
+        console.log(i)
+    }
+    console.log(data)
     return data
 }
 
@@ -106,10 +99,9 @@ function sumWeights(data) {
 
 var table;
 
-function deleteOldDataTable(table) {
-    if ( $.fn.dataTable.isDataTable( '#master' ) ) {
-        table.destroy();
-    }
+function deleteOldDataTable() {
+    table = $('#master').DataTable()
+    table.destroy();
 }
 
 function applyChanges(master) {
