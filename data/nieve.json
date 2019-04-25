@@ -1,0 +1,212 @@
+[
+  {
+    "monster": "Aberrant spectres",
+    "slayer_req": 60,
+    "taskweight": 6
+  },
+  {
+    "monster": "Abyssal demons",
+    "slayer_req": 85,
+    "taskweight": 9
+  },
+  {
+    "monster": "Adamant dragons",
+    "slayer_req": 1,
+    "taskweight": 2
+  },
+  {
+    "monster": "Ankous",
+    "slayer_req": 1,
+    "taskweight": 5
+  },
+  {
+    "monster": "Aviansies",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Black demons",
+    "slayer_req": 1,
+    "taskweight": 9
+  },
+  {
+    "monster": "Black dragons",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Bloodvelds",
+    "slayer_req": 50,
+    "taskweight": 9
+  },
+  {
+    "monster": "Blue dragons",
+    "slayer_req": 1,
+    "taskweight": 4
+  },
+  {
+    "monster": "Bosses",
+    "slayer_req": "Varies",
+    "taskweight": 8
+  },
+  {
+    "monster": "Brine rats",
+    "slayer_req": 47,
+    "taskweight": 3
+  },
+  {
+    "monster": "Cave horrors",
+    "slayer_req": 58,
+    "taskweight": 5
+  },
+  {
+    "monster": "Cave krakens",
+    "slayer_req": 87,
+    "taskweight": 6
+  },
+  {
+    "monster": "Dagannoths",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Dark beasts",
+    "slayer_req": 90,
+    "taskweight": 5
+  },
+  {
+    "monster": "Drakes",
+    "slayer_req": 84,
+    "taskweight": 7
+  },
+  {
+    "monster": "Dust devils",
+    "slayer_req": 65,
+    "taskweight": 6
+  },
+  {
+    "monster": "Elves",
+    "slayer_req": 1,
+    "taskweight": 4
+  },
+  {
+    "monster": "Fire giants",
+    "slayer_req": 1,
+    "taskweight": 9
+  },
+  {
+    "monster": "Fossil Island Wyverns",
+    "slayer_req": 66,
+    "taskweight": 5
+  },
+  {
+    "monster": "Gargoyles",
+    "slayer_req": 75,
+    "taskweight": 6
+  },
+  {
+    "monster": "Greater demons",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Hellhounds",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Iron dragons",
+    "slayer_req": 1,
+    "taskweight": 5
+  },
+  {
+    "monster": "Kalphites",
+    "slayer_req": 1,
+    "taskweight": 9
+  },
+  {
+    "monster": "Kurasks",
+    "slayer_req": 70,
+    "taskweight": 3
+  },
+  {
+    "monster": "Lizardmen",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Minions of Scabaras",
+    "slayer_req": 1,
+    "taskweight": 4
+  },
+  {
+    "monster": "Mithril dragons",
+    "slayer_req": 1,
+    "taskweight": 5
+  },
+  {
+    "monster": "Mutated Zygomites",
+    "slayer_req": 57,
+    "taskweight": 2
+  },
+  {
+    "monster": "Nechryaels",
+    "slayer_req": 80,
+    "taskweight": 7
+  },
+  {
+    "monster": "Red dragons",
+    "slayer_req": 1,
+    "taskweight": 5
+  },
+  {
+    "monster": "Rune dragons",
+    "slayer_req": 1,
+    "taskweight": 2
+  },
+  {
+    "monster": "Skeletal Wyverns",
+    "slayer_req": 72,
+    "taskweight": 5
+  },
+  {
+    "monster": "Smoke devils",
+    "slayer_req": 93,
+    "taskweight": 7
+  },
+  {
+    "monster": "Spiritual creatures",
+    "slayer_req": 63,
+    "taskweight": 6
+  },
+  {
+    "monster": "Steel dragons",
+    "slayer_req": 1,
+    "taskweight": 5
+  },
+  {
+    "monster": "Suqahs",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Trolls",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Turoths",
+    "slayer_req": 55,
+    "taskweight": 3
+  },
+  {
+    "monster": "TzHaar",
+    "slayer_req": 1,
+    "taskweight": 10
+  },
+  {
+    "monster": "Wyrms",
+    "slayer_req": 62,
+    "taskweight": 7
+  }
+]

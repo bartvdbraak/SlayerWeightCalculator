@@ -1,0 +1,282 @@
+[
+  {
+    "monster": "Aberrant spectres",
+    "slayer_req": 60,
+    "taskweight": 8
+  },
+  {
+    "monster": "Abyssal demons",
+    "slayer_req": 85,
+    "taskweight": 5
+  },
+  {
+    "monster": "Ankous",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Banshees",
+    "slayer_req": 15,
+    "taskweight": 6
+  },
+  {
+    "monster": "Basilisks",
+    "slayer_req": 40,
+    "taskweight": 8
+  },
+  {
+    "monster": "Bloodveld",
+    "slayer_req": 50,
+    "taskweight": 8
+  },
+  {
+    "monster": "Blue dragons",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Brine rats",
+    "slayer_req": 47,
+    "taskweight": 7
+  },
+  {
+    "monster": "Bronze dragons",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Cave bugs",
+    "slayer_req": 7,
+    "taskweight": 7
+  },
+  {
+    "monster": "Cave crawlers",
+    "slayer_req": 10,
+    "taskweight": 7
+  },
+  {
+    "monster": "Cave slimes",
+    "slayer_req": 17,
+    "taskweight": 7
+  },
+  {
+    "monster": "Cockatrices",
+    "slayer_req": 25,
+    "taskweight": 8
+  },
+  {
+    "monster": "Crawling Hands",
+    "slayer_req": 5,
+    "taskweight": 6
+  },
+  {
+    "monster": "Crocodiles",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Dagannoths",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Lizards",
+    "slayer_req": 22,
+    "taskweight": 7
+  },
+  {
+    "monster": "Dust devils",
+    "slayer_req": 65,
+    "taskweight": 8
+  },
+  {
+    "monster": "Earth warriors",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Elves",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Fever spiders",
+    "slayer_req": 42,
+    "taskweight": 7
+  },
+  {
+    "monster": "Fire giants",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Gargoyles",
+    "slayer_req": 75,
+    "taskweight": 5
+  },
+  {
+    "monster": "Ghouls",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Green dragons",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Harpie Bug Swarms",
+    "slayer_req": 33,
+    "taskweight": 8
+  },
+  {
+    "monster": "Hellhounds",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Hill Giants",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Hobgoblins",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Ice giants",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Ice warriors",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Infernal Mages",
+    "slayer_req": 45,
+    "taskweight": 8
+  },
+  {
+    "monster": "Jellies",
+    "slayer_req": 52,
+    "taskweight": 8
+  },
+  {
+    "monster": "Jungle horrors",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Kalphites",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Killerwatts",
+    "slayer_req": 37,
+    "taskweight": 6
+  },
+  {
+    "monster": "Kurasks",
+    "slayer_req": 70,
+    "taskweight": 7
+  },
+  {
+    "monster": "Lesser demons",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Mogres",
+    "slayer_req": 32,
+    "taskweight": 7
+  },
+  {
+    "monster": "Molanisks",
+    "slayer_req": 39,
+    "taskweight": 7
+  },
+  {
+    "monster": "Moss giants",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Nechryaels",
+    "slayer_req": 80,
+    "taskweight": 5
+  },
+  {
+    "monster": "Ogres",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Otherworldly beings",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Pyrefiends",
+    "slayer_req": 30,
+    "taskweight": 8
+  },
+  {
+    "monster": "Rockslugs",
+    "slayer_req": 20,
+    "taskweight": 7
+  },
+  {
+    "monster": "Shades",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Sea snakes",
+    "slayer_req": 40,
+    "taskweight": 6
+  },
+  {
+    "monster": "Shadow warriors",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Spiritual creatures",
+    "slayer_req": 63,
+    "taskweight": 8
+  },
+  {
+    "monster": "Terror dogs",
+    "slayer_req": 40,
+    "taskweight": 6
+  },
+  {
+    "monster": "Trolls",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Turoths",
+    "slayer_req": 55,
+    "taskweight": 8
+  },
+  {
+    "monster": "Vampyres",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Wall beasts",
+    "slayer_req": 35,
+    "taskweight": 6
+  },
+  {
+    "monster": "Werewolves",
+    "slayer_req": 1,
+    "taskweight": 7
+  }
+]

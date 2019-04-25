@@ -1,0 +1,122 @@
+[
+  {
+    "monster": "Banshees",
+    "slayer_req": 15,
+    "taskweight": 8
+  },
+  {
+    "monster": "Bats",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Birds",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Bears",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Cave bugs",
+    "slayer_req": 7,
+    "taskweight": 8
+  },
+  {
+    "monster": "Cave crawlers",
+    "slayer_req": 10,
+    "taskweight": 8
+  },
+  {
+    "monster": "Cave slimes",
+    "slayer_req": 17,
+    "taskweight": 8
+  },
+  {
+    "monster": "Cows",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Crawling Hands",
+    "slayer_req": 5,
+    "taskweight": 8
+  },
+  {
+    "monster": "Dogs",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Dwarves",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Ghosts",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Goblins",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Icefiends",
+    "slayer_req": 1,
+    "taskweight": 8
+  },
+  {
+    "monster": "Kalphites",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Lizards",
+    "slayer_req": 22,
+    "taskweight": 8
+  },
+  {
+    "monster": "Minotaurs",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Monkeys",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Rats",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Scorpions",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Skeletons",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Spiders",
+    "slayer_req": 1,
+    "taskweight": 6
+  },
+  {
+    "monster": "Wolves",
+    "slayer_req": 1,
+    "taskweight": 7
+  },
+  {
+    "monster": "Zombies",
+    "slayer_req": 1,
+    "taskweight": 7
+  }
+]
