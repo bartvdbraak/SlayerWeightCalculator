@@ -2,7 +2,15 @@ String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+function onlyUnique(value, index, self) { 
+    return self.indexOf(value) === index;
+}
+
 function setBlocklists() {
+
+    // generate blocklist options, currently unused for static html
+    // may be reused when updates to monsters.json require new html block options
+
     $.getJSON( "data/monsters.json", {format: "json"}, function( data ) {
         
         var content = '';
@@ -19,7 +27,6 @@ function setBlocklists() {
 }
 
 $(document).ready(function() {
-    setBlocklists();
     applyChanges('krystilia');
 });
 
@@ -27,71 +34,74 @@ function filterTasks(data) {
     index_list = []
 
     for (i = 0; i < data.length; i++) {
-        
-        // Unlocks
-        
-        switch (data[i].monster) {
-            case 'Red dragons':
+        console.log(i,data[i].monster)
+
+        switch (data[i].monster.toUpperCase()) {
+
+            // Slayer point unlocks
+
+            case 'RED DRAGONS':
                 if ($("#reddrags").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Mithril dragons':
+            case 'MITHRIL DRAGONS':
                 if ($("#mithdrags").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Aviansie':
+            case 'AVIANSIES':
                 if ($("#aviansies").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Tzhaar':
+            case 'TZHAAR':
                 if ($("#tzhaar").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Lizardmen':
+            case 'LIZARDMEN':
                 if ($("#lizardmen").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Bosses':
+            case 'BOSSES':
                 if ($("#bosses").prop("checked") == false) {
-                    index_list.push(i)
+                    index_list.unshift(i)
                 }
                 break;
-            case 'Fossil Island Wyverns':
+            case 'FOSSIL ISLAND WYVERNS':
                 if ($("#fossilwyverns").prop("checked") == true) {
-                    index_list.push(i)
-                    console.log('1')
+                    index_list.unshift(i)
                 }
+            
+            // Quest task unlocks
+
+
         }
 
         // Slayer requirement
 
         if (data[i].slayer_req > $("#slayerlevel").val()) {
-            index_list.push(i)
+            index_list.unshift(i)
         }
 
         // Task blocks
 
         $( ".blocktask" ).each(function( index ) {
             if ($(this).val().toUpperCase() == data[i].monster.toUpperCase()) {
-                index_list.push(i)
-                console.log('2')
+                index_list.unshift(i)
             }
         });
 
-        // Quest unlocks
-
     }
 
-    console.log(index_list)
-
-
-    for (var i in index_list) {
-        data.splice(i, 1)
+    unique_list = index_list.filter(onlyUnique);
+    console.log(unique_list)
+    
+    for (var i in unique_list) {
+        console.log(data[unique_list[i]])
+        data.splice(unique_list[i], 1)
     }
 
     return data

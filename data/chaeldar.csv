@@ -1,50 +1,50 @@
-﻿monster;slayer_req;slayer_req
-Aberrant spectres;60;8
-Abyssal demons;85;12
-Aviansies;1;9
-Banshees;15;5
-Basilisks;40;7
-Black demons;1;10
-Bloodvelds;50;8
-Blue dragons;1;8
-Brine rats;47;7
-Bronze dragons;1;11
-Cave crawlers;10;5
-Cave horrors;58;10
-Cave krakens;87;12
-Cave slimes;17;6
-Cockatrices;25;6
-Dagannoths;1;11
-Dust devils;65;9
-Elves;1;8
-Fever spiders;42;7
-Fire giants;1;12
-Fossil Island Wyverns;66;7
-Gargoyles;75;11
-Greater demons1;9
-Harpie Bug Swarms;33;6
-Hellhounds;1;9
-Infernal Mages;45;7
-Iron dragons;1;12
-Jellies;52;10
-Jungle horrors;1;10
-Kalphites;1;11
-Kurasks;70;12
-Lesser demons;1;9
-Lizardmen;1;8
-Lizards;22;5
-Mogres;32;6
-Molanisks;39;6
-Mutated zygomites;57;7
-Nechryaels;80;12
-Pyrefiends;30;6
-Rockslugs;20;5
-Shadow warriors;1;8
-Skeletal Wyverns;72;7
-Spiritual creatures;63;12
-Steel dragon;1;9
-Trolls;1;11
-Turoth;55;10
-TzHaar;1;8
-Wall beasts;35;6
-Wyrms;62;6
+monster,slayer_req,taskweight
+Aberrant spectres,60,8
+Abyssal demons,85,12
+Aviansies,1,9
+Banshees,15,5
+Basilisks,40,7
+Black demons,1,10
+Bloodvelds,50,8
+Blue dragons,1,8
+Brine rats,47,7
+Bronze dragons,1,11
+Cave crawlers,10,5
+Cave horrors,58,10
+Cave krakens,87,12
+Cave slimes,17,6
+Cockatrices,25,6
+Dagannoths,1,11
+Dust devils,65,9
+Elves,1,8
+Fever spiders,42,7
+Fire giants,1,12
+Fossil Island Wyverns,66,7
+Gargoyles,75,11
+Greater demons,1,9
+Harpie Bug Swarms,33,6
+Hellhounds,1,9
+Infernal Mages,45,7
+Iron dragons,1,12
+Jellies,52,10
+Jungle horrors,1,10
+Kalphites,1,11
+Kurasks,70,12
+Lesser demons,1,9
+Lizardmen,1,8
+Lizards,22,5
+Mogres,32,6
+Molanisks,39,6
+Mutated zygomites,57,7
+Nechryaels,80,12
+Pyrefiends,30,6
+Rockslugs,20,5
+Shadow warriors,1,8
+Skeletal Wyverns,72,7
+Spiritual creatures,63,12
+Steel dragon,1,9
+Trolls,1,11
+Turoths,55,10
+TzHaar,1,8
+Wall beasts,35,6
+Wyrms,62,6

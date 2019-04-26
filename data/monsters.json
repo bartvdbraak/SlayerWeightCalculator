@@ -1,554 +1,446 @@
 [
   {
-    "id": 0,
     "monster": "Aberrant spectres",
-    "slayer_req": 60,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 60
   },
   {
-    "id": 1,
     "monster": "Abyssal demons",
-    "slayer_req": 85,
-    "masters": "5, 6"
+    "slayer_req": 85
   },
   {
-    "id": 2,
+    "monster": "Adamant dragons",
+    "slayer_req": 1
+  },
+  {
     "monster": "Ankous",
-    "slayer_req": 1,
-    "masters": "3, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 3,
+    "monster": "Aviansies",
+    "slayer_req": 1
+  },
+  {
+    "monster": "Bandits",
+    "slayer_req": 1
+  },
+  {
     "monster": "Banshees",
-    "slayer_req": 15,
-    "masters": "1, 2, 3, 4, 5"
+    "slayer_req": 15
   },
   {
-    "id": 4,
     "monster": "Basilisks",
-    "slayer_req": 40,
-    "masters": "3, 4, 5"
+    "slayer_req": 40
   },
   {
-    "id": 5,
     "monster": "Bats",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 6,
     "monster": "Bears",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 7,
     "monster": "Birds",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 8,
     "monster": "Black demons",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 9,
     "monster": "Black dragons",
-    "slayer_req": 1,
-    "masters": "5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 10,
     "monster": "Bloodvelds",
-    "slayer_req": 50,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 50
   },
   {
-    "id": 11,
     "monster": "Blue dragons",
-    "slayer_req": 1,
-    "masters": "3, 4, 5"
+    "slayer_req": 1
   },
   {
-    "id": 12,
+    "monster": "Bosses",
+    "slayer_req": 1
+  },
+  {
     "monster": "Brine rats",
-    "slayer_req": 47,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 47
   },
   {
-    "id": 13,
     "monster": "Bronze dragons",
-    "slayer_req": 1,
-    "masters": "3, 4"
+    "slayer_req": 1
   },
   {
-    "id": 14,
     "monster": "Catablepons",
-    "slayer_req": 1,
-    "masters": 2
+    "slayer_req": 1
   },
   {
-    "id": 15,
     "monster": "Cave bugs",
-    "slayer_req": 7,
-    "masters": 1
+    "slayer_req": 7
   },
   {
-    "id": 16,
     "monster": "Cave crawlers",
-    "slayer_req": 10,
-    "masters": "2, 4"
+    "slayer_req": 10
   },
   {
-    "id": 17,
     "monster": "Cave horrors",
-    "slayer_req": 58,
-    "masters": "4, 5, 6"
+    "slayer_req": 58
   },
   {
-    "id": 18,
+    "monster": "Cave krakens",
+    "slayer_req": 87
+  },
+  {
     "monster": "Cave slimes",
-    "slayer_req": 17,
-    "masters": "1, 2, 4"
+    "slayer_req": 17
   },
   {
-    "id": 19,
+    "monster": "Chaos druids",
+    "slayer_req": 1
+  },
+  {
     "monster": "Cockatrices",
-    "slayer_req": 25,
-    "masters": "2, 3"
+    "slayer_req": 25
   },
   {
-    "id": 20,
     "monster": "Cows",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 21,
-    "monster": "Crawling hands",
-    "slayer_req": 5,
-    "masters": "1, 2, 4"
+    "monster": "Crawling Hands",
+    "slayer_req": 5
   },
   {
-    "id": 22,
     "monster": "Crocodiles",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 23,
     "monster": "Dagannoths",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 24,
     "monster": "Dark beasts",
-    "slayer_req": 90,
-    "masters": "6, 5"
+    "slayer_req": 90
   },
   {
-    "id": 25,
+    "monster": "Dark warriors",
+    "slayer_req": 1
+  },
+  {
     "monster": "Dogs",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 26,
+    "monster": "Drakes",
+    "slayer_req": 84
+  },
+  {
     "monster": "Dust devils",
-    "slayer_req": 65,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 65
   },
   {
-    "id": 27,
-    "monster": "Dwarfs",
-    "slayer_req": 1,
-    "masters": 1
+    "monster": "Dwarves",
+    "slayer_req": 1
   },
   {
-    "id": 28,
     "monster": "Earth warriors",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 29,
     "monster": "Elves",
-    "slayer_req": 1,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 30,
+    "monster": "Ents",
+    "slayer_req": 1
+  },
+  {
     "monster": "Fever spiders",
-    "slayer_req": 42,
-    "masters": 4
+    "slayer_req": 42
   },
   {
-    "id": 31,
     "monster": "Fire giants",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 32,
-    "monster": "Flesh crawlers",
-    "slayer_req": 1,
-    "masters": 2
+    "monster": "Flesh Crawlers",
+    "slayer_req": 1
   },
   {
-    "id": 33,
-    "monster": "Fossil Island wyverns",
-    "slayer_req": 66,
-    "masters": "4, 5, 6"
+    "monster": "Fossil Island Wyverns",
+    "slayer_req": 66
   },
   {
-    "id": 34,
     "monster": "Gargoyles",
-    "slayer_req": 75,
-    "masters": "4, 5, 6"
+    "slayer_req": 75
   },
   {
-    "id": 35,
     "monster": "Ghosts",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 36,
     "monster": "Ghouls",
-    "slayer_req": 1,
-    "masters": "2, 3"
+    "slayer_req": 1
   },
   {
-    "id": 37,
     "monster": "Goblins",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 38,
-    "monster": "Goraks",
-    "slayer_req": 1,
-    "masters": 6
-  },
-  {
-    "id": 39,
     "monster": "Greater demons",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 40,
     "monster": "Green dragons",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 41,
-    "monster": "Harpie bug swarms",
-    "slayer_req": 33,
-    "masters": "3, 4, 6"
+    "monster": "Harpie Bug Swarms",
+    "slayer_req": 33
   },
   {
-    "id": 42,
     "monster": "Hellhounds",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 43,
-    "monster": "Hill Giant",
-    "slayer_req": 1,
-    "masters": "2, 3"
+    "monster": "Hill Giants",
+    "slayer_req": 1
   },
   {
-    "id": 44,
     "monster": "Hobgoblins",
-    "slayer_req": 1,
-    "masters": 2
+    "slayer_req": 1
   },
   {
-    "id": 45,
     "monster": "Hydras",
-    "slayer_req": 95,
-    "masters": 7
+    "slayer_req": 95
   },
   {
-    "id": 46,
-    "monster": "Icefiends",
-    "slayer_req": 1,
-    "masters": 1
-  },
-  {
-    "id": 47,
     "monster": "Ice giants",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 48,
     "monster": "Ice warriors",
-    "slayer_req": 1,
-    "masters": "2, 3"
+    "slayer_req": 1
   },
   {
-    "id": 49,
+    "monster": "Icefiends",
+    "slayer_req": 1
+  },
+  {
     "monster": "Infernal Mages",
-    "slayer_req": 45,
-    "masters": "2, 3, 4, 6"
+    "slayer_req": 45
   },
   {
-    "id": 50,
     "monster": "Iron dragons",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 51,
     "monster": "Jellies",
-    "slayer_req": 52,
-    "masters": "3, 4, 6"
+    "slayer_req": 52
   },
   {
-    "id": 52,
     "monster": "Jungle horrors",
-    "slayer_req": 1,
-    "masters": "3, 4, 6"
+    "slayer_req": 1
   },
   {
-    "id": 53,
-    "monster": "Lizardmen",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
-  },
-  {
-    "id": 54,
-    "monster": "Lizards",
-    "slayer_req": 22,
-    "masters": "1, 2, 4"
-  },
-  {
-    "id": 55,
     "monster": "Kalphites",
-    "slayer_req": 1,
-    "masters": "2, 4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 56,
     "monster": "Killerwatts",
-    "slayer_req": 37,
-    "masters": "2, 3"
+    "slayer_req": 37
   },
   {
-    "id": 57,
     "monster": "Kurasks",
-    "slayer_req": 70,
-    "masters": 4
+    "slayer_req": 70
   },
   {
-    "id": 58,
+    "monster": "Lava dragons",
+    "slayer_req": 1
+  },
+  {
     "monster": "Lesser demons",
-    "slayer_req": 1,
-    "masters": "3, 4"
+    "slayer_req": 1
   },
   {
-    "id": 59,
-    "monster": "Mithril dragons",
-    "slayer_req": 1,
-    "masters": "5, 6"
+    "monster": "Lizardmen",
+    "slayer_req": 1
   },
   {
-    "id": 60,
+    "monster": "Lizards",
+    "slayer_req": 22
+  },
+  {
+    "monster": "Magic axes",
+    "slayer_req": 1
+  },
+  {
+    "monster": "Mammoths",
+    "slayer_req": 1
+  },
+  {
+    "monster": "Minions of Scabaras",
+    "slayer_req": 1
+  },
+  {
     "monster": "Minotaurs",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 61,
+    "monster": "Mithril dragons",
+    "slayer_req": 1
+  },
+  {
     "monster": "Mogres",
-    "slayer_req": 32,
-    "masters": "2, 3"
+    "slayer_req": 32
   },
   {
-    "id": 62,
     "monster": "Molanisks",
-    "slayer_req": 39,
-    "masters": 3
+    "slayer_req": 39
   },
   {
-    "id": 63,
     "monster": "Monkeys",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 64,
     "monster": "Moss giants",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 65,
+    "monster": "Mutated zygomites",
+    "slayer_req": 57
+  },
+  {
     "monster": "Nechryaels",
-    "slayer_req": 80,
-    "masters": "5, 6"
+    "slayer_req": 80
   },
   {
-    "id": 66,
     "monster": "Ogres",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 67,
     "monster": "Otherworldly beings",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 68,
     "monster": "Pyrefiends",
-    "slayer_req": 30,
-    "masters": "2, 3"
+    "slayer_req": 30
   },
   {
-    "id": 69,
+    "monster": "Rats",
+    "slayer_req": 1
+  },
+  {
     "monster": "Red dragons",
-    "slayer_req": 1,
-    "masters": "5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 70,
+    "monster": "Revenants",
+    "slayer_req": 1
+  },
+  {
     "monster": "Rockslugs",
-    "slayer_req": 20,
-    "masters": 2
+    "slayer_req": 20
   },
   {
-    "id": 71,
-    "monster": "Scabarites",
-    "slayer_req": 1,
-    "masters": "5, 6"
+    "monster": "Rogues",
+    "slayer_req": 1
   },
   {
-    "id": 72,
+    "monster": "Rune dragons",
+    "slayer_req": 1
+  },
+  {
     "monster": "Scorpions",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 73,
     "monster": "Sea snakes",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 40
   },
   {
-    "id": 74,
     "monster": "Shades",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 75,
     "monster": "Shadow warriors",
-    "slayer_req": 1,
-    "masters": "3, 4"
+    "slayer_req": 1
   },
   {
-    "id": 76,
     "monster": "Skeletal Wyverns",
-    "slayer_req": 72,
-    "masters": "5, 6"
+    "slayer_req": 72
   },
   {
-    "id": 77,
     "monster": "Skeletons",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 78,
     "monster": "Smoke devils",
-    "slayer_req": 93,
-    "masters": "5, 6"
+    "slayer_req": 93
   },
   {
-    "id": 79,
     "monster": "Spiders",
-    "slayer_req": 1,
-    "masters": 1
+    "slayer_req": 1
   },
   {
-    "id": 80,
+    "monster": "Spiritual creatures",
+    "slayer_req": 63
+  },
+  {
+    "monster": "Steel dragon",
+    "slayer_req": 1
+  },
+  {
     "monster": "Steel dragons",
-    "slayer_req": 1,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 81,
     "monster": "Suqahs",
-    "slayer_req": 1,
-    "masters": "5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 82,
     "monster": "Terror dogs",
-    "slayer_req": 40,
-    "masters": 3
+    "slayer_req": 40
   },
   {
-    "id": 83,
     "monster": "Trolls",
-    "slayer_req": 1,
-    "masters": "3, 4, 5, 6"
+    "slayer_req": 1
   },
   {
-    "id": 84,
     "monster": "Turoths",
-    "slayer_req": 55,
-    "masters": "3, 4, 5"
+    "slayer_req": 55
   },
   {
-    "id": 85,
+    "monster": "TzHaar",
+    "slayer_req": 1
+  },
+  {
     "monster": "Vampyres",
-    "slayer_req": 1,
-    "masters": "2, 3"
+    "slayer_req": 1
   },
   {
-    "id": 86,
     "monster": "Wall beasts",
-    "slayer_req": 35,
-    "masters": 2
+    "slayer_req": 35
   },
   {
-    "id": 87,
     "monster": "Waterfiends",
-    "slayer_req": 1,
-    "masters": 5
+    "slayer_req": 1
   },
   {
-    "id": 88,
     "monster": "Werewolves",
-    "slayer_req": 1,
-    "masters": 3
+    "slayer_req": 1
   },
   {
-    "id": 89,
     "monster": "Wolves",
-    "slayer_req": 1,
-    "masters": "1, 2"
+    "slayer_req": 1
   },
   {
-    "id": 90,
+    "monster": "Wyrms",
+    "slayer_req": 62
+  },
+  {
     "monster": "Zombies",
-    "slayer_req": 1,
-    "masters": "1, 2"
-  },
-  {
-    "id": 91,
-    "monster": "Zygomites",
-    "slayer_req": 57,
-    "masters": "4, 5, 6"
+    "slayer_req": 1
   }
 ]
