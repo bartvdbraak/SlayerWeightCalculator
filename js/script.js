@@ -1,3 +1,7 @@
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 function setBlocklists() {
     $.getJSON( "data/monsters.json", {format: "json"}, function( data ) {
         
@@ -13,8 +17,6 @@ function setBlocklists() {
 
     })
 }
-
-
 
 $(document).ready(function() {
     setBlocklists();
@@ -60,8 +62,9 @@ function filterTasks(data) {
                 }
                 break;
             case 'Fossil Island Wyverns':
-                if ($("#wyverns").prop("checked") == true) {
+                if ($("#fossilwyverns").prop("checked") == true) {
                     index_list.push(i)
+                    console.log('1')
                 }
         }
 
@@ -76,16 +79,21 @@ function filterTasks(data) {
         $( ".blocktask" ).each(function( index ) {
             if ($(this).val().toUpperCase() == data[i].monster.toUpperCase()) {
                 index_list.push(i)
+                console.log('2')
             }
         });
 
+        // Quest unlocks
+
     }
+
+    console.log(index_list)
+
 
     for (var i in index_list) {
         data.splice(i, 1)
-        console.log(i)
     }
-    console.log(data)
+
     return data
 }
 
@@ -97,15 +105,21 @@ function sumWeights(data) {
     return total
 }
 
-var table;
+var table, currentMaster;
 
 function deleteOldDataTable() {
     table = $('#master').DataTable()
     table.destroy();
 }
 
+function setMasterTitle(master) {
+    $("#mastertitle").text(master.capitalize());
+}
+
 function applyChanges(master) {
+    currentMaster = master;
     deleteOldDataTable();
+    setMasterTitle(master);
 
     $.getJSON( "data/"+master+".json", function( data ) {
         

@@ -76,13 +76,13 @@
             <input type="text" min="1" max="99" name="slayerlevel" id="slayerlevel" maxlength="2" placeholder="99" value="99">
         </div>
         <div class="col-6 text-center">
-            <input type="submit" value="Apply changes" onclick="applyChanges('krystilia')">
+            <input type="submit" value="Apply changes" onclick="applyChanges(currentMaster)">
         </div>
     </div>
     
     <div class="row">
         <div class="col">
-            <h3>Krystilia</h3>
+            <h3 id="mastertitle"></h3>
             <table id="master" class="display nowrap" width="100%">
                 <thead>
                 <tr>
