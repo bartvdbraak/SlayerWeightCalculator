@@ -21,7 +21,7 @@
 </div>
   
 <div class="container">
-    <ul class="nav nav-tabs justify-content-center mx-auto ">
+    <ul class="nav nav-tabs justify-content-center mx-auto">
         <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#" onclick="applyChanges('krystilia');return false;">Krystilia</a></li>
         <li><a data-toggle="tab" class="nav-link" href="#" onclick="applyChanges('turael');return false;">Turael</a></li>
         <li><a data-toggle="tab" class="nav-link" href="#" onclick="applyChanges('mazchna');return false;">Mazchna</a></li>
@@ -31,7 +31,7 @@
         <li><a data-toggle="tab" class="nav-link" href="#" onclick="applyChanges('nieve');return false;">Nieve/Steve</a></li>
         <li><a data-toggle="tab" class="nav-link" href="#" onclick="applyChanges('duradel');return false;">Duradel</a></li>
     </ul>
-    <div class="row"> 
+    <div class="row pt-3"> 
         <div class="col-12">
             <h3>Slayer settings</h3>
         </div>
@@ -125,8 +125,22 @@
                 </form>    
         </div>
         <div class="col-6 ">
-                <p>Slayer level: 
-                <input type="text" min="1" max="99" name="slayerlevel" id="slayerlevel" maxlength="2" placeholder="99" value="99"></p>
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th>Slayer</th>
+                        <th>Defence</th>
+                        <th>Combat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><input type="text" size="6" min="1" max="99" name="slayerlevel" id="slayerlevel" maxlength="2" placeholder="1-99" value="99"></th>
+                        <th><input type="text" size="6" min="1" max="99" name="defencelevel" id="defencelevel" maxlength="2" placeholder="1-99" value="99"></th>
+                        <th><input type="text" size="6" min="3" max="126" name="combatlevel" id="combatlevel" maxlength="3" placeholder="3-126" value="126"></th>
+                    </tr>
+                </tbody>
+            </table>            
         </div>
         <div class="col-6">
             <input type="submit" value="Apply changes" onclick="applyChanges(currentMaster)">

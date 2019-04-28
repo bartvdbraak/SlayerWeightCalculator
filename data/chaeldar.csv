@@ -1,50 +1,50 @@
-monster,slayer_req,taskweight
-Aberrant spectres,60,8
-Abyssal demons,85,12
-Aviansies,1,9
-Banshees,15,5
-Basilisks,40,7
-Black demons,1,10
-Bloodvelds,50,8
-Blue dragons,1,8
-Brine rats,47,7
-Bronze dragons,1,11
-Cave crawlers,10,5
-Cave horrors,58,10
-Cave krakens,87,12
-Cave slimes,17,6
-Cockatrices,25,6
-Dagannoths,1,11
-Dust devils,65,9
-Elves,1,8
-Fever spiders,42,7
-Fire giants,1,12
-Fossil Island Wyverns,66,7
-Gargoyles,75,11
-Greater demons,1,9
-Harpie Bug Swarms,33,6
-Hellhounds,1,9
-Infernal Mages,45,7
-Iron dragons,1,12
-Jellies,52,10
-Jungle horrors,1,10
-Kalphites,1,11
-Kurasks,70,12
-Lesser demons,1,9
-Lizardmen,1,8
-Lizards,22,5
-Mogres,32,6
-Molanisks,39,6
-Mutated zygomites,57,7
-Nechryaels,80,12
-Pyrefiends,30,6
-Rockslugs,20,5
-Shadow warriors,1,8
-Skeletal Wyverns,72,7
-Spiritual creatures,63,12
-Steel dragon,1,9
-Trolls,1,11
-Turoths,55,10
-TzHaar,1,8
-Wall beasts,35,6
-Wyrms,62,6
+monster,slayer_req,taskweight,combat_req,defence_req
+Aberrant spectres,60,8,65,0
+Abyssal demons,85,12,85,0
+Aviansies,1,9,0,0
+Banshees,15,5,20,0
+Basilisks,40,7,40,20
+Black demons,1,10,80,0
+Bloodvelds,50,8,50,0
+Blue dragons,1,8,65,0
+Brine rats,47,7,45,0
+Bronze dragons,1,11,75,0
+Cave crawlers,10,5,10,0
+Cave horrors,58,10,85,0
+Cave krakens,87,12,80,0
+Cave slimes,17,6,15,0
+Cockatrices,25,6,25,20
+Dagannoths,1,11,75,0
+Dust devils,65,9,70,0
+Elves,1,8,0,0
+Fever spiders,42,7,40,0
+Fire giants,1,12,65,0
+Fossil Island Wyverns,66,7,60,0
+Gargoyles,75,11,80,0
+Greater demons,1,9,75,0
+Harpie Bug Swarms,33,6,45,0
+Hellhounds,1,9,75,0
+Infernal Mages,45,7,40,0
+Iron dragons,1,12,80,0
+Jellies,52,10,57,0
+Jungle horrors,1,10,65,0
+Kalphites,1,11,15,0
+Kurasks,70,12,65,0
+Lesser demons,1,9,60,0
+Lizardmen,1,8,0,0
+Lizards,22,5,15,0
+Mogres,32,6,30,0
+Molanisks,39,6,50,0
+Mutated zygomites,57,7,60,0
+Nechryaels,80,12,85,0
+Pyrefiends,30,6,25,0
+Rockslugs,20,5,20,0
+Shadow warriors,1,8,60,0
+Skeletal Wyverns,72,7,70,0
+Spiritual creatures,63,12,60,0
+Steel dragon,1,9,85,0
+Trolls,1,11,60,0
+Turoths,55,10,60,0
+TzHaar,1,8,0,0
+Wall beasts,35,6,30,5
+Wyrms,62,6,0,0
