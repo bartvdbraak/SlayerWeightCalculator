@@ -75,7 +75,7 @@ function filterTasks(data) {
                 break;
             case 'TZHAAR':
                 if ($("#tzhaar").prop("checked") === false) {
-                    index_list.unshift(i)
+                    index_list.unshzift(i)
                 }
                 break;
             case 'LIZARDMEN':
