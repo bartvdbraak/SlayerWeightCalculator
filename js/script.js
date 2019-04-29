@@ -188,12 +188,6 @@ function filterTasks(data) {
                 
         }
 
-        // Slayer requirement
-
-        if (data[i].slayer_req > $("#slayerlevel").val()) {
-            index_list.unshift(i)
-        }
-
         // Task blocks
 
         $( ".blocktask" ).each(function( index ) {
@@ -201,6 +195,24 @@ function filterTasks(data) {
                 index_list.unshift(i)
             }
         });
+
+        // Slayer requirement
+
+        if (data[i].slayer_req > $("#slayerlevel").val()) {
+            index_list.unshift(i)
+        }
+
+        // Defence requirement
+
+        if (data[i].defence_req > $("#defencelevel").val()) {
+            index_list.unshift(i)
+        }
+
+        // Combat requirement
+
+        if (data[i].combat_req > $("#combatlevel").val()) {
+            index_list.unshift(i)
+        }
 
     }
 

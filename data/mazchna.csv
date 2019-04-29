@@ -1,31 +1,31 @@
-monster,slayer_req,taskweight
-Banshees,15,8
-Bats,1,7
-Bears,1,6
-Catablepons,1,8
-Cave bugs,7,8
-Cave crawlers,10,8
-Cave slimes,17,8
-Cockatrices,25,8
-Crawling Hands,5,8
-Lizards,22,8
-Dogs,1,7
-Earth warriors,1,6
-Flesh Crawlers,1,7
-Ghosts,1,7
-Ghouls,1,7
-Hill Giants,1,7
-Hobgoblins,1,7
-Ice warriors,1,7
-Kalphites,1,6
-Killerwatts,37,6
-Mogres,32,8
-Pyrefiends,30,8
-Rockslugs,20,8
-Scorpions,1,7
-Shades,1,8
-Skeletons,1,7
-Vampyres,1,6
-Wall beasts,35,7
-Wolves,1,7
-Zombies,1,7
+monster,slayer_req,taskweight,combat_req,defence_req
+Banshees,15,8,20,0
+Bats,1,7,5,0
+Bears,1,6,13,0
+Catablepons,1,8,35,0
+Cave bugs,7,8,0,0
+Cave crawlers,10,8,10,0
+Cave slimes,17,8,15,0
+Cockatrices,25,8,25,20
+Crawling Hands,5,8,0,0
+Lizards,22,8,15,0
+Dogs,1,7,15,0
+Earth warriors,1,6,35,0
+Flesh Crawlers,1,7,15,0
+Ghosts,1,7,13,0
+Ghouls,1,7,25,0
+Hill Giants,1,7,25,0
+Hobgoblins,1,7,20,0
+Ice warriors,1,7,45,0
+Kalphites,1,6,15,0
+Killerwatts,37,6,50,0
+Mogres,32,8,30,0
+Pyrefiends,30,8,25,0
+Rockslugs,20,8,20,0
+Scorpions,1,7,7,0
+Shades,1,8,30,0
+Skeletons,1,7,15,0
+Vampyres,1,6,35,0
+Wall beasts,35,7,30,5
+Wolves,1,7,20,0
+Zombies,1,7,10,0
