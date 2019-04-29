@@ -43,9 +43,10 @@ function setBlocklists() {
 $(document).ready(function () {
 
     // starting functions on page load
-
+    
     applyChanges('krystilia');
     toggleQuestAll($('#toggleQuests'));
+    $('[data-toggle="tooltip"]').tooltip()
 });
 
 function filterTasks(data) {
@@ -58,37 +59,37 @@ function filterTasks(data) {
             // Slayer point unlocks
 
             case 'RED DRAGONS':
-                if ($("#reddrags").prop("checked") == false) {
+                if ($("#reddrags").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'MITHRIL DRAGONS':
-                if ($("#mithdrags").prop("checked") == false) {
+                if ($("#mithdrags").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'AVIANSIES':
-                if ($("#aviansies").prop("checked") == false) {
+                if ($("#aviansies").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'TZHAAR':
-                if ($("#tzhaar").prop("checked") == false) {
+                if ($("#tzhaar").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'LIZARDMEN':
-                if ($("#lizardmen").prop("checked") == false) {
+                if ($("#lizardmen").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'BOSSES':
-                if ($("#bosses").prop("checked") == false) {
+                if ($("#bosses").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'FOSSIL ISLAND WYVERNS':
-                if ($("#fossilwyverns").prop("checked") == true) {
+                if ($("#fossilwyverns").prop("checked") === true) {
                     index_list.unshift(i)
                 }
                 break;
@@ -96,91 +97,91 @@ function filterTasks(data) {
             // Quest task unlocks
 
             case 'SPIRITUAL CREATURES':
-                if ($("#spiritcreatures").prop("checked") == false) {
+                if ($("#spiritcreatures").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'RUNE DRAGONS':
             case 'ADAMANT DRAGONS':
-                if ($("#dragonslayer2").prop("checked") == false) {
+                if ($("#dragonslayer2").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'BRINE RATS':
-                if ($("#brinerats").prop("checked") == false) {
+                if ($("#brinerats").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'DAGANNOTHS':
-                if ($("#dagannoths").prop("checked") == false) {
+                if ($("#dagannoths").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'DARK BEASTS':
-                if ($("#darkbeasts").prop("checked") == false) {
+                if ($("#darkbeasts").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'DUST DEVILS':
             case 'SMOKE DEVILS':
-                if ($("#dustdevils").prop("checked") == false) {
+                if ($("#dustdevils").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'FOSSIL ISLAND WYVERNS':
-                if ($("#bonevoyage").prop("checked") == false) {
+                if ($("#bonevoyage").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'MUTATED ZYGOMITES':
             case 'OTHERWORLDLY BEINGS':
-                if ($("#lostcity").prop("checked") == false) {
+                if ($("#lostcity").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'CAVE HORRORS':
             case 'JUNGLE HORRORS':
-                if ($("#cabinfever").prop("checked") == false) {
+                if ($("#cabinfever").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'SKELETAL WYVERNS':
-                if ($("#skeletalwyverns").prop("checked") == false) {
+                if ($("#skeletalwyverns").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'SEA SNAKES':
-                if ($("#seasnakes").prop("checked") == false) {
+                if ($("#seasnakes").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'FIRE GIANTS':
-                if ($("#firegiants").prop("checked") == false) {
+                if ($("#firegiants").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'KILLERWATTS':
-                if ($("#killerwatts").prop("checked") == false) {
+                if ($("#killerwatts").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'ELVES':
-                if ($("#elves").prop("checked") == false) {
+                if ($("#elves").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'FEVER SPIDERS':
-                if ($("#feverspiders").prop("checked") == false) {
+                if ($("#feverspiders").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'MOLANISKS':
-                if ($("#molanisks").prop("checked") == false) {
+                if ($("#molanisks").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'SHADOW WARRIORS':
-                if ($("#shadowwarriors").prop("checked") == false) {
+                if ($("#shadowwarriors").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
@@ -191,22 +192,43 @@ function filterTasks(data) {
             case 'BRONZE DRAGONS':
             case 'IRON DRAGONS':
             case 'STEEL DRAGONS':
-                if ($("#dragonslayer").prop("checked") == false) {
+                if ($("#dragonslayer").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'MINIONS OF SCABARAS':
-                if ($("#scabaras").prop("checked") == false) {
+                if ($("#scabaras").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'SUQAHS':
-                if ($("#suqahs").prop("checked") == false) {
+                if ($("#suqahs").prop("checked") === false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'BANSHEES':
+            case 'CRAWLING HANDS':
+            case 'VAMPYRES':
+            case 'GHOULS':
+            case 'SHADES':
+            case 'WEREWOLVES':
+            case 'BLOODVELDS':
+            case 'ABERRANT SPECTRES':
+            case 'INFERNAL MAGES':
+            case 'NECHRYAELS':
+            case 'GARGOYLES':
+                if ($("#priestinperil").prop("checked") === false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'ABYSSAL DEMONS':
+                if ($("#priestinperil").prop("checked") === false && 
+                    $("#fairytale2").prop("checked") === false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'MOGRES':
-                if ($("#mogres").prop("checked") == false) {
+                if ($("#mogres").prop("checked") === false) {
                     index_list.unshift(i)
                 }
 
@@ -243,7 +265,7 @@ function filterTasks(data) {
     unique_list = index_list.filter(onlyUnique);
 
     for (var i in unique_list) {
-        console.log(data[unique_list[i]])
+        // console.log(data[unique_list[i]])
         data.splice(unique_list[i], 1)
     }
 

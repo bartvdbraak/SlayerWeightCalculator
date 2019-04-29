@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/datatables.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -97,52 +98,57 @@
         <div class="row pt-2">
             <div class="col-6 quests">
                 <form>
-                    <label><input type="checkbox" name="quest" id="spiritcreatures">
-                        Death Plateau <small>Unlocks Spiritual Creatures</small></label><br>
-                    <label><input type="checkbox" name="quest" id="dragonslayer2">
-                        Dragon Slayer II <small>Unlocks Adamant, Rune Dragons</small></label><br>
-                    <label><input type="checkbox" name="quest" id="brinerats">
-                        Olaf's Quest (partial) <small>Unlocks Brine Rats</small></label><br>
-                    <label><input type="checkbox" name="quest" id="dagannoths">
-                        Horror from the Deep <small>Unlocks Dagannoths</small></label><br>
-                    <label><input type="checkbox" name="quest" id="darkbeasts">
-                        Mourning's End Part II (started) <small>Unlocks Dark Beasts</small></label><br>
-                    <label><input type="checkbox" name="quest" id="dustdevils">
-                        Desert Treasure (started) <small>Unlocks Dust, Smoke Devils</small></label><br>
                     <label><input type="checkbox" name="quest" id="bonevoyage">
                         Bone Voyage <small>Unlocks Fossil Island Wyverns</small></label><br>
-                    <label><input type="checkbox" name="quest" id="lostcity">
-                        Lost City <small>Unlocks Mutated Zygomites, Otherworldly Beings</small></label><br>
                     <label><input type="checkbox" name="quest" id="cabinfever">
                         Cabin Fever <small>Unlocks Cave, Jungle Horrors</small></label><br>
+                    <label><input type="checkbox" name="quest" id="scabaras">
+                        Contact! <small>Unlocks Minions of Scabaras</small></label><br>
+                    <label><input type="checkbox" name="quest" id="spiritcreatures">
+                        Death Plateau <small>Unlocks Spiritual Creatures</small></label><br>
+                    <label><input type="checkbox" name="quest" id="molanisks">
+                        Death to the Dorgeshuun <small>Unlocks Molanisks</small></label><br>
+                    <label><input type="checkbox" name="quest" id="dustdevils">
+                        Desert Treasure (started) <small>Unlocks Dust, Smoke Devils</small></label><br>
+                    <label><input type="checkbox" name="quest" id="dragonslayer">
+                        Dragon Slayer <small>Unlocks Dragons</small></label><br>
+                    <label><input type="checkbox" name="quest" id="dragonslayer2">
+                        Dragon Slayer II <small>Unlocks Adamant, Rune Dragons</small></label><br>
                     <label><input type="checkbox" name="quest" id="skeletalwyverns">
                         Elemental Workshop I <small>Unlocks Skeletals Wyverns</small></label><br>
-                    <label><input type="checkbox" name="quest" id="seasnakes">
-                        Royal Trouble <small>Unlocks Sea Snakes</small></label><br>
+                    <label><input type="checkbox" name="quest" id="killerwatts">
+                        Ernest the Chicken <small>Unlocks Killerwatts</small></label><br>
+                    <label><input type="checkbox" name="quest" id="fairytale2">
+                        Fairy Tale II <small>Unlocks Abyssal Demons (without Priest in Peril)</small></label><br>
+                    <label><input type="checkbox" name="quest" id="dagannoths">
+                        Horror from the Deep <small>Unlocks Dagannoths</small></label><br>
+                    
                 </form>
             </div>
             <div class="col-6 quests">
                 <form>
-                    <label><input type="checkbox" name="quest" id="firegiants">
-                        Waterfall Quest <small>Unlocks Fire Giants</small></label><br>
-                    <label><input type="checkbox" name="quest" id="killerwatts">
-                        Ernest the Chicken <small>Unlocks Killerwatts</small></label><br>
-                    <label><input type="checkbox" name="quest" id="elves">
-                        Regicide (started) <small>Unlocks Elves</small></label><br>
-                    <label><input type="checkbox" name="quest" id="feverspiders">
-                        Rum Deal (started) <small>Unlocks Fever Spiders</small></label><br>
-                    <label><input type="checkbox" name="quest" id="molanisks">
-                        Death to the Dorgeshuun <small>Unlocks Molanisks</small></label><br>
                     <label><input type="checkbox" name="quest" id="shadowwarriors">
                         Legends' Quest <small>Unlocks Shadow Warriors</small></label><br>
-                    <label><input type="checkbox" name="quest" id="dragonslayer">
-                        Dragon Slayer <small>Unlocks Dragons</small></label><br>
-                    <label><input type="checkbox" name="quest" id="scabaras">
-                        Contact! <small>Unlocks Minions of Scabaras</small></label><br>
+                    <label><input type="checkbox" name="quest" id="lostcity">
+                        Lost City <small>Unlocks Mutated Zygomites, Otherworldly Beings</small></label><br>
                     <label><input type="checkbox" name="quest" id="suqahs">
                         Lunar Diplomacy (partial) <small>Unlocks Suqahs</small></label><br>
+                    <label><input type="checkbox" name="quest" id="darkbeasts">
+                        Mourning's End Part II (started) <small>Unlocks Dark Beasts</small></label><br>
+                    <label><input type="checkbox" name="quest" id="brinerats">
+                        Olaf's Quest (partial) <small>Unlocks Brine Rats</small></label><br>
+                    <label><input type="checkbox" name="quest" id="priestinperil">
+                        Priest in Peril <small>Unlocks <a href="javascript:void(0)" data-toggle="tooltip" data-original-title="Default tooltip" title="Banshees, Crawling hands, Vampyres, Ghouls, Shades, Werewolves, Bloodvelds, Aberrant spectres, Infernal mages, Nechryaels, Gargoyles and Abyssal Demons">Slayer Tower monsters</a></small></label><br>
+                    <label><input type="checkbox" name="quest" id="elves">
+                        Regicide (started) <small>Unlocks Elves</small></label><br>
+                    <label><input type="checkbox" name="quest" id="seasnakes">
+                        Royal Trouble <small>Unlocks Sea Snakes</small></label><br>
+                    <label><input type="checkbox" name="quest" id="feverspiders">
+                        Rum Deal (started) <small>Unlocks Fever Spiders</small></label><br>
                     <label><input type="checkbox" name="quest" id="mogres">
                         Skippy and the Mogres (miniquest) <small>Unlocks Mogres</small></label><br>
+                    <label><input type="checkbox" name="quest" id="firegiants">
+                        Waterfall Quest <small>Unlocks Fire Giants</small></label><br>
                 </form>
             </div>
         </div>
