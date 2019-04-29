@@ -122,6 +122,7 @@ function filterTasks(data) {
                 }
                 break;
             case 'DUST DEVILS':
+            case 'SMOKE DEVILS':
                 if ($("#dustdevils").prop("checked") == false) {
                     index_list.unshift(i)
                 }
@@ -132,13 +133,34 @@ function filterTasks(data) {
                 }
                 break;
             case 'MUTATED ZYGOMITES':
-                if ($("#mutatedzygomites").prop("checked") == false) {
+            case 'OTHERWORLDLY BEINGS':
+                if ($("#lostcity").prop("checked") == false) {
                     index_list.unshift(i)
                 }
                 break;
             case 'CAVE HORRORS':
             case 'JUNGLE HORRORS':
                 if ($("#cabinfever").prop("checked") == false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'SKELETAL WYVERNS':
+                if ($("#skeletalwyverns").prop("checked") == false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'SEA SNAKES':
+                if ($("#seasnakes").prop("checked") == false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'FIRE GIANTS':
+                if ($("#firegiants").prop("checked") == false) {
+                    index_list.unshift(i)
+                }
+                break;
+            case 'KILLERWATTS':
+                if ($("#killerwatts").prop("checked") == false) {
                     index_list.unshift(i)
                 }
                 break;
@@ -162,9 +184,11 @@ function filterTasks(data) {
                     index_list.unshift(i)
                 }
                 break;
+            case 'GREEN DRAGONS':
             case 'BLUE DRAGONS':
             case 'BLACK DRAGONS':
             case 'RED DRAGONS':
+            case 'BRONZE DRAGONS':
             case 'IRON DRAGONS':
             case 'STEEL DRAGONS':
                 if ($("#dragonslayer").prop("checked") == false) {
