@@ -1,14 +1,14 @@
-String.prototype.capitalize = function() {
+String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
-function onlyUnique(value, index, self) { 
+function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }
 
 function toggleQuestAll(source) {
     checkboxes = document.getElementsByName('quest');
-    for(var i=0, n=checkboxes.length;i<n;i++) {
+    for (var i = 0, n = checkboxes.length; i < n; i++) {
         checkboxes[i].checked = source.prop("checked");
     }
     if (source.prop("checked") == true) {
@@ -17,7 +17,7 @@ function toggleQuestAll(source) {
     else {
         $('.quests').show(100);
     }
-    
+
 }
 
 function setBlocklists() {
@@ -25,22 +25,22 @@ function setBlocklists() {
     // generate blocklist options, currently unused for static html
     // may be reused when updates to monsters.json require new html block options
 
-    $.getJSON( "data/monsters.json", {format: "json"}, function( data ) {
-        
+    $.getJSON("data/monsters.json", { format: "json" }, function (data) {
+
         var content = '';
 
         for (i = 0; i < data.length; i++) {
-            content += '<option value="'+data[i].monster+'">'+data[i].monster+'</option>'
+            content += '<option value="' + data[i].monster + '">' + data[i].monster + '</option>'
         }
 
-        $( ".blocktask" ).each(function( index ) {
+        $(".blocktask").each(function (index) {
             $(this).append(content)
         });
 
     })
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     // starting functions on page load
 
@@ -92,7 +92,7 @@ function filterTasks(data) {
                     index_list.unshift(i)
                 }
                 break;
-            
+
             // Quest task unlocks
 
             case 'SPIRITUAL CREATURES':
@@ -209,12 +209,12 @@ function filterTasks(data) {
                 if ($("#mogres").prop("checked") == false) {
                     index_list.unshift(i)
                 }
-                
+
         }
 
         // Task blocks
 
-        $( ".blocktask" ).each(function( index ) {
+        $(".blocktask").each(function (index) {
             if ($(this).val().toUpperCase() == data[i].monster.toUpperCase()) {
                 index_list.unshift(i)
             }
@@ -241,7 +241,7 @@ function filterTasks(data) {
     }
 
     unique_list = index_list.filter(onlyUnique);
-    
+
     for (var i in unique_list) {
         console.log(data[unique_list[i]])
         data.splice(unique_list[i], 1)
@@ -274,26 +274,27 @@ function applyChanges(master) {
     deleteOldDataTable();
     setMasterTitle(master);
 
-    $.getJSON( "data/"+master+".json", function( data ) {
-        
-        var data = filterTasks(data),
-        totalweight = sumWeights(data);
+    $.getJSON("data/" + master + ".json", function (data) {
 
-        $(document).ready(function() {
+        var data = filterTasks(data),
+            totalweight = sumWeights(data);
+
+        $(document).ready(function () {
             table = $('#master').DataTable({
-            "order": [[ 2, "desc" ]],
-            "pageLength": 15,
-            "data": data,
-            "columns": [
-                {   data: 'monster'},
-                {   data: 'taskweight'},
-                {   data: null, render: function ( data, type, row ) {
-                        return (row.taskweight / totalweight * 100 ).toFixed(2)+'%';
+                "order": [[2, "desc"]],
+                "pageLength": 15,
+                "data": data,
+                "columns": [
+                    { data: 'monster' },
+                    { data: 'taskweight' },
+                    {
+                        data: null, render: function (data, type, row) {
+                            return (row.taskweight / totalweight * 100).toFixed(2) + '%';
+                        }
                     }
-                }
-            ]
+                ]
             });
         });
-        
+
     })
 }
