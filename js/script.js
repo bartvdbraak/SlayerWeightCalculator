@@ -89,7 +89,10 @@ function filterTasks(data) {
                 }
                 break;
             case 'FOSSIL ISLAND WYVERNS':
-                if ($("#fossilwyverns").prop("checked") === true) {
+                if ($("#bonevoyage").prop("checked") === false) {
+                    index_list.unshift(i)
+                }
+                else if ($("#fossilwyverns").prop("checked") === true) {
                     index_list.unshift(i)
                 }
                 break;
@@ -127,12 +130,7 @@ function filterTasks(data) {
                 if ($("#dustdevils").prop("checked") === false) {
                     index_list.unshift(i)
                 }
-                break;
-            case 'FOSSIL ISLAND WYVERNS':
-                if ($("#bonevoyage").prop("checked") === false) {
-                    index_list.unshift(i)
-                }
-                break;
+                break;                
             case 'MUTATED ZYGOMITES':
             case 'OTHERWORLDLY BEINGS':
                 if ($("#lostcity").prop("checked") === false) {
