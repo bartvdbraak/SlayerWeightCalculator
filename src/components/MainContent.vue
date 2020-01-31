@@ -1,15 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>{{ headerText }}</h1>
-  </div>
+  <main class="col-md-9 ml-sm-auto col-lg-10 px-4">
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'MainContent',
-  props: {
-    headerText: String
-  }
+	name: 'MainContent',
+	props: {
+		headerText: String
+	}
 }
 </script>
 

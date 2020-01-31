@@ -1,0 +1,44 @@
+{
+  "masters": [
+    {
+      "id": 0,
+      "name": "Turael",
+      "image": "Turael.png"
+    },
+    {
+      "id": 1,
+      "name": "Krystilia",
+      "image": "Krystilia.png"
+    },
+    {
+      "id": 2,
+      "name": "Mazchna",
+      "image": "Mazchna.png"
+    },
+    {
+      "id": 3,
+      "name": "Vannaka",
+      "image": "Vannaka.png"
+    },
+    {
+      "id": 4,
+      "name": "Chaeldar",
+      "image": "Chaeldar.png"
+    },
+    {
+      "id": 5,
+      "name": "Konar quo Maten",
+      "image": "Konar quo Maten.png"
+    },
+    {
+      "id": 6,
+      "name": "Nieve",
+      "image": "Nieve.png"
+    },
+    {
+      "id": 7,
+      "name": "Duradel",
+      "image": "Duradel.png"
+    }
+  ]
+}
