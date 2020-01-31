@@ -1,0 +1,57 @@
+monster,slayer_req,taskweight,combat_req,defence_req
+Aberrant spectres,60,8,65,0
+Abyssal demons,85,5,85,0
+Ankous,1,7,40,0
+Banshees,15,6,20,0
+Basilisks,40,8,40,0
+Bloodvelds,50,8,50,0
+Blue dragons,1,7,65,0
+Brine rats,47,7,45,0
+Bronze dragons,1,7,75,0
+Cave bugs,7,7,0,0
+Cave crawlers,10,7,10,0
+Cave slimes,17,7,15,0
+Cockatrices,25,8,25,20
+Crawling Hands,5,6,0,0
+Crocodiles,1,6,50,0
+Dagannoths,1,7,75,0
+Lizards,22,7,15,0
+Dust devils,65,8,70,0
+Earth warriors,1,6,35,0
+Elves,1,7,0,0
+Fever spiders,42,7,40,0
+Fire giants,1,7,65,0
+Gargoyles,75,5,80,0
+Ghouls,1,7,25,0
+Green dragons,1,6,52,0
+Harpie Bug Swarms,33,8,45,0
+Hellhounds,1,7,75,0
+Hill Giants,1,7,25,0
+Hobgoblins,1,7,20,0
+Ice giants,1,7,50,0
+Ice warriors,1,7,45,0
+Infernal Mages,45,8,40,0
+Jellies,52,8,57,0
+Jungle horrors,1,8,65,0
+Kalphites,1,7,15,0
+Killerwatts,37,6,50,0
+Kurasks,70,7,65,0
+Lesser demons,1,7,60,0
+Mogres,32,7,30,0
+Molanisks,39,7,50,0
+Moss giants,1,7,40,0
+Nechryaels,80,5,85,0
+Ogres,1,7,40,0
+Otherworldly beings,1,8,40,0
+Pyrefiends,30,8,25,0
+Rockslugs,20,7,20,0
+Shades,1,8,30,0
+Sea snakes,40,6,50,0
+Shadow warriors,1,8,60,0
+Spiritual creatures,63,8,60,0
+Terror dogs,40,6,60,0
+Trolls,1,7,60,0
+Turoths,55,8,60,0
+Vampyres,1,7,35,0
+Wall beasts,35,6,30,5
+Werewolves,1,7,60,0
