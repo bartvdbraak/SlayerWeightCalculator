@@ -13,7 +13,8 @@ Vue.use(VueRouter);
 
 const routes = [
 	{ path: '/', name: 'config', component: ConfigSection },
-	{ path: '/master/:id', name: 'master', component: TableSection }
+	{ path: '/master/:id', name: 'master', component: TableSection },
+	{ path: '**', redirect: {name: 'config'}},
 ];
 
 const router = new VueRouter({

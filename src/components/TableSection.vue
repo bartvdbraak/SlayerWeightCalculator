@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase">{{currentMaster.name}}</h1>
+            <h1 class="h3 text-uppercase"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
             <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
@@ -54,8 +54,7 @@ export default {
 	},
 	methods: {
 		reload() {
-		    this.currentMaster = this.getMasterById(this.mastersData.masters,this.$route.params.id);
-
+		    this.currentMaster = this.mastersData.masters[this.$route.params.id]
 		    this.filterData();
 		},
 	    filterData() {
@@ -68,8 +67,7 @@ export default {
 			return jsonObject.filter(item => item.id === id)[0];
 		},
 	},
-	created() {
-		console.log(this.currentMaster)
+	mounted() {
 		this.reload();
 	},
 	watch: {

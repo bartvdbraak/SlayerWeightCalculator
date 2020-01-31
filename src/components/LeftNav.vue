@@ -1,20 +1,20 @@
 <template >
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar" @click="activate">
         <div class="sidebar-sticky">
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="link in links" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :to="link.to"/>
+                <NavItem v-for="link in links" :isActive="activate(link.id)" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :to="link.to"/>
             </ul>
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Slayer Masters</span>
             </h6>
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="master in masters" :key="master.id" :title="master.name" :id="master.id" :icon_url="master.image" :to="'master'"/>
+                <NavItem v-for="master in masters" :isActive="activate(master.id)"  :key="master.id" :title="master.name" :id="master.id" :icon_url="master.image" :to="'master'"/>
             </ul>
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Other Links</span>
             </h6>
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="link in extraLinks" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :url="link.url"/>
+                <NavItem v-for="link in extraLinks" :isActive="activate(link.id)" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :url="link.url"/>
             </ul>
         </div>
     </nav>
@@ -50,6 +50,11 @@ export default {
 			]
 		}
 	},
+	methods: {
+		activate(id) {
+			return this.$route.params.id == id;
+		},
+	}
 }
 
 </script>
