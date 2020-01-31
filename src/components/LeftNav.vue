@@ -1,6 +1,9 @@
 <template >
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <nav class="bg-light sidebar">
         <div class="sidebar-sticky">
+            <ul class="nav flex-column mb-2">
+                <NavItem v-for="link in links" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon"/>
+            </ul>
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Slayer Masters</span>
             </h6>
@@ -28,13 +31,16 @@ export default {
 	},
 	data() {
 		return {
-			masters: master_json.masters,
-			extraLinks: [
+		    links: [
 				{
 					id: 100,
 					icon: 'hiscores.png',
 					title: 'Account settings',
 				},
+			],
+			masters: master_json.masters,
+			extraLinks: [
+
 				{
 					id: 101,
 					icon: 'osrswiki.png',

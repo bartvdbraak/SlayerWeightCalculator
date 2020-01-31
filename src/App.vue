@@ -2,8 +2,8 @@
   <div id="app">
     <top-nav></top-nav>
     <div class="container-fluid">
-      <div class="row">
-        <left-nav></left-nav>
+      <div class="d-flex">
+        <left-nav class="flox-grow-1"></left-nav>
         <main-content></main-content>
       </div>
     </div>
@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import MainContent from './components/MainContent.vue';
-import LeftNav from './components/LeftNav.vue';
-import TopNav from './components/TopNav.vue';
+import MainContent from './components/MainContent';
+import LeftNav from './components/LeftNav';
+import TopNav from './components/TopNav';
 
 export default {
 	name: 'app',
