@@ -1,0 +1,345 @@
+[
+  {
+    "monster": "Aberrant spectres",
+    "slayer_req": 60,
+    "taskweight": 8,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Abyssal demons",
+    "slayer_req": 85,
+    "taskweight": 12,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "monster": "Aviansies",
+    "slayer_req": 1,
+    "taskweight": 9,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Banshees",
+    "slayer_req": 15,
+    "taskweight": 5,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "monster": "Basilisks",
+    "slayer_req": 40,
+    "taskweight": 7,
+    "combat_req": 40,
+    "defence_req": 20
+  },
+  {
+    "monster": "Black demons",
+    "slayer_req": 1,
+    "taskweight": 10,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Bloodvelds",
+    "slayer_req": 50,
+    "taskweight": 8,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "monster": "Blue dragons",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Brine rats",
+    "slayer_req": 47,
+    "taskweight": 7,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "monster": "Bronze dragons",
+    "slayer_req": 1,
+    "taskweight": 11,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Cave crawlers",
+    "slayer_req": 10,
+    "taskweight": 5,
+    "combat_req": 10,
+    "defence_req": 0
+  },
+  {
+    "monster": "Cave horrors",
+    "slayer_req": 58,
+    "taskweight": 10,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "monster": "Cave krakens",
+    "slayer_req": 87,
+    "taskweight": 12,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Cave slimes",
+    "slayer_req": 17,
+    "taskweight": 6,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "monster": "Cockatrices",
+    "slayer_req": 25,
+    "taskweight": 6,
+    "combat_req": 25,
+    "defence_req": 20
+  },
+  {
+    "monster": "Dagannoths",
+    "slayer_req": 1,
+    "taskweight": 11,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Dust devils",
+    "slayer_req": 65,
+    "taskweight": 9,
+    "combat_req": 70,
+    "defence_req": 0
+  },
+  {
+    "monster": "Elves",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Fever spiders",
+    "slayer_req": 42,
+    "taskweight": 7,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "monster": "Fire giants",
+    "slayer_req": 1,
+    "taskweight": 12,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Fossil Island Wyverns",
+    "slayer_req": 66,
+    "taskweight": 7,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Gargoyles",
+    "slayer_req": 75,
+    "taskweight": 11,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Greater demons",
+    "slayer_req": 1,
+    "taskweight": 9,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Harpie Bug Swarms",
+    "slayer_req": 33,
+    "taskweight": 6,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "monster": "Hellhounds",
+    "slayer_req": 1,
+    "taskweight": 9,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Infernal Mages",
+    "slayer_req": 45,
+    "taskweight": 7,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "monster": "Iron dragons",
+    "slayer_req": 1,
+    "taskweight": 12,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Jellies",
+    "slayer_req": 52,
+    "taskweight": 10,
+    "combat_req": 57,
+    "defence_req": 0
+  },
+  {
+    "monster": "Jungle horrors",
+    "slayer_req": 1,
+    "taskweight": 10,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Kalphites",
+    "slayer_req": 1,
+    "taskweight": 11,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "monster": "Kurasks",
+    "slayer_req": 70,
+    "taskweight": 12,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Lesser demons",
+    "slayer_req": 1,
+    "taskweight": 9,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Lizardmen",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Lizards",
+    "slayer_req": 22,
+    "taskweight": 5,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "monster": "Mogres",
+    "slayer_req": 32,
+    "taskweight": 6,
+    "combat_req": 30,
+    "defence_req": 0
+  },
+  {
+    "monster": "Molanisks",
+    "slayer_req": 39,
+    "taskweight": 6,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "monster": "Mutated zygomites",
+    "slayer_req": 57,
+    "taskweight": 7,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Nechryaels",
+    "slayer_req": 80,
+    "taskweight": 12,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "monster": "Pyrefiends",
+    "slayer_req": 30,
+    "taskweight": 6,
+    "combat_req": 25,
+    "defence_req": 0
+  },
+  {
+    "monster": "Rockslugs",
+    "slayer_req": 20,
+    "taskweight": 5,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "monster": "Shadow warriors",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Skeletal Wyverns",
+    "slayer_req": 72,
+    "taskweight": 7,
+    "combat_req": 70,
+    "defence_req": 0
+  },
+  {
+    "monster": "Spiritual creatures",
+    "slayer_req": 63,
+    "taskweight": 12,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Steel dragon",
+    "slayer_req": 1,
+    "taskweight": 9,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "monster": "Trolls",
+    "slayer_req": 1,
+    "taskweight": 11,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Turoths",
+    "slayer_req": 55,
+    "taskweight": 10,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "TzHaar",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Wall beasts",
+    "slayer_req": 35,
+    "taskweight": 6,
+    "combat_req": 30,
+    "defence_req": 5
+  },
+  {
+    "monster": "Wyrms",
+    "slayer_req": 62,
+    "taskweight": 6,
+    "combat_req": 0,
+    "defence_req": 0
+  }
+]

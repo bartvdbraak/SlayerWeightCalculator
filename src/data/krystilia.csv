@@ -1,0 +1,28 @@
+monster,slayer_req,taskweight,combat_req,defence_req
+Ankous,1,6,40,0
+Aviansies,1,7,0,0
+Bandits,1,4,0,0
+Bears,1,6,13,0
+Black demons,1,7,80,0
+Black dragons,1,4,80,0
+Chaos druids,1,5,0,0
+Dark warriors,1,4,0,0
+Earth warriors,1,6,35,0
+Ents,1,5,0,0
+Fire giants,1,7,65,0
+Greater demons,1,8,75,0
+Green dragons,1,4,52,0
+Hellhounds,1,7,75,0
+Ice giants,1,6,50,0
+Ice warriors,1,7,45,0
+Lava dragons,1,3,0,0
+Lesser demons,1,6,60,0
+Magic axes,1,7,0,0
+Mammoths,1,6,0,0
+Revenants,1,5,0,0
+Rogues,1,5,0,0
+Scorpions,1,6,7,0
+Skeletons,1,5,15,0
+Spiders,1,6,0,0
+Spiritual creatures,63,6,60,0
+Bosses,1,8,0,0

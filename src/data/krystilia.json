@@ -1,0 +1,191 @@
+[
+  {
+    "monster": "Ankous",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "monster": "Aviansies",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Bandits",
+    "slayer_req": 1,
+    "taskweight": 4,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Bears",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 13,
+    "defence_req": 0
+  },
+  {
+    "monster": "Black demons",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Black dragons",
+    "slayer_req": 1,
+    "taskweight": 4,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "monster": "Chaos druids",
+    "slayer_req": 1,
+    "taskweight": 5,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Dark warriors",
+    "slayer_req": 1,
+    "taskweight": 4,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Earth warriors",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 35,
+    "defence_req": 0
+  },
+  {
+    "monster": "Ents",
+    "slayer_req": 1,
+    "taskweight": 5,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Fire giants",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "monster": "Greater demons",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Green dragons",
+    "slayer_req": 1,
+    "taskweight": 4,
+    "combat_req": 52,
+    "defence_req": 0
+  },
+  {
+    "monster": "Hellhounds",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "monster": "Ice giants",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "monster": "Ice warriors",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "monster": "Lava dragons",
+    "slayer_req": 1,
+    "taskweight": 3,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Lesser demons",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Magic axes",
+    "slayer_req": 1,
+    "taskweight": 7,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Mammoths",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Revenants",
+    "slayer_req": 1,
+    "taskweight": 5,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Rogues",
+    "slayer_req": 1,
+    "taskweight": 5,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Scorpions",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 7,
+    "defence_req": 0
+  },
+  {
+    "monster": "Skeletons",
+    "slayer_req": 1,
+    "taskweight": 5,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "monster": "Spiders",
+    "slayer_req": 1,
+    "taskweight": 6,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "monster": "Spiritual creatures",
+    "slayer_req": 63,
+    "taskweight": 6,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "monster": "Bosses",
+    "slayer_req": 1,
+    "taskweight": 8,
+    "combat_req": 0,
+    "defence_req": 0
+  }
+]
