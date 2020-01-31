@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase">Dashboard</h1>
+            <h1 class="h3 text-uppercase">{{currentMaster.name}}</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
@@ -20,15 +20,15 @@
 </template>
 
 <script>
+import master_json from "../data/masters";
 
 export default {
 	name: "TableSection",
-	props: {
-	    tableData: Object,
-	},
 	data() {
 		return {
-		    fields: [
+			mastersData: master_json,
+		    currentMaster: null,
+			fields: [
 				{
 					key: 'last_name',
 					sortable: true
@@ -53,17 +53,30 @@ export default {
 		}
 	},
 	methods: {
+		reload() {
+		    this.currentMaster = this.getMasterById(this.mastersData.masters,this.$route.params.id);
+
+		    this.filterData();
+		},
 	    filterData() {
 			// this.filtered_items = this.items.filter(item => item.last_name.includes('Carney'));
 
 			this.filtered_items = this.items.filter(item => item.combat_requirement < this.filters.combat_level);
 
 		},
+		getMasterById(jsonObject, id) {
+			return jsonObject.filter(item => item.id === id)[0];
+		},
 	},
-	mounted() {
-	    this.filterData();
+	created() {
+		console.log(this.currentMaster)
+		this.reload();
 	},
-
+	watch: {
+		$route(to, from) {
+			this.reload();
+		}
+	}
 }
 </script>
 
