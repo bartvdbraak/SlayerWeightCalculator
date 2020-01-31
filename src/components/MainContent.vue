@@ -1,19 +1,24 @@
 <template>
   <main role="main" class="ml-sm-auto col-lg-10 px-4">
-    <section-content></section-content>
+    <component :is="currentComponent"></component>
   </main>
 </template>
 
 <script>
-import SectionContent from "./TableSection";
+import TableSection from "./TableSection";
+import ConfigSection from "./ConfigSection";
+
 export default {
 	name: 'MainContent',
 	components: {
-	  SectionContent,
+		TableSection,
 	},
 	props: {
-		headerText: String
-	}
+		headerText: String,
+		currentComponent: {
+		  default: 'table-section',
+		},
+	},
 }
 </script>
 
