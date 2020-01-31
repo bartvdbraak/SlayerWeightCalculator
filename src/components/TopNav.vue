@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow " role="navigation" aria-label="main navigation">
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow  " role="navigation" aria-label="main navigation">
         <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Slayer Weight Calculator</a>
 
         <small class="text-white-50 font-italic">A calculator for slayer geeks that need to know percentages.</small>
