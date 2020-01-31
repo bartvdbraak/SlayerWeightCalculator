@@ -2,7 +2,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item">
-                <img src="https://vignette.wikia.nocookie.net/2007scape/images/b/be/Mr._Mordaut_chathead.png">
+                <img src="/src/assets/galvek.webp">
             </a>
         </div>
         <div class="navbar-menu">
