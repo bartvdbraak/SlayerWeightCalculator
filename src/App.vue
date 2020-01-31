@@ -2,8 +2,8 @@
   <div id="app">
     <top-nav></top-nav>
     <div class="container-fluid">
-      <div class="d-flex">
-        <left-nav class="flox-grow-1"></left-nav>
+      <div class="row">
+        <left-nav></left-nav>
         <main-content></main-content>
       </div>
     </div>
