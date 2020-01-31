@@ -1,4 +1,9 @@
-# vue-slayweightcalc
+# Slayer Weight Calculator
+A calculator for slayer geeks that need to know percentages. This branch is will be an update using VueJS.
+
+The full application can be accessed at:
+
+https://bartvdbraak.github.io/slayweightcalc/index.html
 
 ## Project setup
 ```
@@ -19,7 +24,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> init
