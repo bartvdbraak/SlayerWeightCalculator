@@ -21,7 +21,7 @@ export default {
 		MainContent,
 		LeftNav,
 		TopNav,
-	}
+	},
 }
 </script>
 

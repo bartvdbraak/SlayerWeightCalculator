@@ -2,13 +2,13 @@
     <nav class="bg-light sidebar">
         <div class="sidebar-sticky">
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="link in links" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon"/>
+                <NavItem v-for="link in links" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :component="'config-section'"/>
             </ul>
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Slayer Masters</span>
             </h6>
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="master in masters" :key="master.id" :title="master.name" :id="master.id" :icon_url="master.image"/>
+                <NavItem v-for="master in masters" :key="master.id" :title="master.name" :id="master.id" :icon_url="master.image" :component="'table-section'"/>
             </ul>
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Other Links</span>
@@ -40,7 +40,6 @@ export default {
 			],
 			masters: master_json.masters,
 			extraLinks: [
-
 				{
 					id: 101,
 					icon: 'osrswiki.png',

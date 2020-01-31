@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="table-responsive">
-            <b-table striped hover :items="filtered_items"></b-table>
+            <b-table striped hover :items="filtered_items" :fields="fields"></b-table>
         </div>
     </section>
 </template>
@@ -28,6 +28,16 @@ export default {
 	},
 	data() {
 		return {
+		    fields: [
+				{
+					key: 'last_name',
+					sortable: true
+				},
+				{
+					key: 'first_name',
+					sortable: true
+				},
+			],
 		    total_weight: 100,
 			items: [
 				{ age_requirement: 40, first_name: 'Dickerson', last_name: 'Macdonald', combat_requirement: 10 },
@@ -47,7 +57,7 @@ export default {
 			// this.filtered_items = this.items.filter(item => item.last_name.includes('Carney'));
 
 			this.filtered_items = this.items.filter(item => item.combat_requirement < this.filters.combat_level);
-			console.log(this.filtered_items)
+
 		},
 	},
 	mounted() {

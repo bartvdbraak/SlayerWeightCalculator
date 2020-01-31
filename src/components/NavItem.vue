@@ -1,5 +1,5 @@
 <template>
-    <li class="nav-item">
+    <li class="nav-item" @click="contentSwitch">
         <a class="nav-link active" v-bind:class="{ active: isActive }" href="#">
             <img class="mx-2" v-if="icon_url" :src="require(`../assets/${icon_url}`)" width="42" height="42">
             <span class="h6">{{ title }}</span>
@@ -19,6 +19,13 @@ export default {
 		id: Number,
 		icon_url: String,
 		title: String,
+		component: String,
+	},
+	methods: {
+		contentSwitch() {
+			this.$emit('contentSwitch', this.component);
+			console.log('test')
+		}
 	}
 }
 </script>
