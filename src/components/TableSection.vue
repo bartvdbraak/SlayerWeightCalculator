@@ -14,13 +14,14 @@
             </div>
         </div>
         <div class="table-responsive">
-            <b-table striped hover :items="filtered_items" :fields="fields"></b-table>
+            <b-table striped hover :items="monstersData" :fields="fields"></b-table>
         </div>
     </section>
 </template>
 
 <script>
 import master_json from "../data/masters";
+import monster_json from "../data/monsters";
 
 export default {
 	name: "TableSection",
@@ -28,43 +29,31 @@ export default {
 		return {
 			mastersData: master_json,
 		    currentMaster: null,
+			monstersData: monster_json,
+			total_weight: 0,
 			fields: [
 				{
-					key: 'last_name',
-					sortable: true
+					key: 'monster',
+					label: 'Monster name',
+					sortable: true,
 				},
-				{
-					key: 'first_name',
-					sortable: true
-				},
-			],
-		    total_weight: 100,
-			items: [
-				{ age_requirement: 40, first_name: 'Dickerson', last_name: 'Macdonald', combat_requirement: 10 },
-				{ age_requirement: 21, first_name: 'Larsen', last_name: 'Shaw', combat_requirement: 0 },
-				{ age_requirement: 89, first_name: 'Geneva', last_name: 'Wilson', combat_requirement: 50 },
-				{ age_requirement: 38, first_name: 'Jami', last_name: 'Carney', combat_requirement: 0 }
 			],
 			filters: {
-				age: 35,
 				combat_level: 49,
+				slayer_level: 75,
 			},
 			filtered_items: [],
 		}
 	},
 	methods: {
 		reload() {
-		    this.currentMaster = this.mastersData.masters[this.$route.params.id]
+		    this.currentMaster = this.mastersData.masters[this.$route.params.id];
 		    this.filterData();
 		},
 	    filterData() {
 			// this.filtered_items = this.items.filter(item => item.last_name.includes('Carney'));
+			this.filtered_items = this.monstersData.filter(item => item.combat_req < this.filters.combat_level);
 
-			this.filtered_items = this.items.filter(item => item.combat_requirement < this.filters.combat_level);
-
-		},
-		getMasterById(jsonObject, id) {
-			return jsonObject.filter(item => item.id === id)[0];
 		},
 	},
 	mounted() {

@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
   [role="main"] {
-    padding-top: 133px; /* Space for fixed navbar */
+    padding-top: 48px; /* Space for fixed navbar */
   }
 
   @media (min-width: 768px) {
