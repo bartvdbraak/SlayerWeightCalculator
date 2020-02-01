@@ -1,5 +1,5 @@
 <template >
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar" @click="activate">
+    <nav class="col-md-2 d-md-block bg-light sidebar" @click="activate">
         <div class="sidebar-sticky">
             <ul class="nav flex-column mb-2">
                 <NavItem v-for="link in links" :isActive="activate(link.id)" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :to="link.to"/>
@@ -68,6 +68,7 @@ export default {
         z-index: 100; /* Behind the navbar */
         padding: 48px 0 0; /* Height of navbar */
         box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+        width: 250px;
     }
 
     .sidebar-sticky {

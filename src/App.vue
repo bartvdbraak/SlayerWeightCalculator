@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <top-nav></top-nav>
+    <top-nav @clicked="showMenu"></top-nav>
     <div class="container-fluid">
       <div class="row">
-        <left-nav></left-nav>
+        <left-nav v-show="isDisabled"></left-nav>
         <main-content></main-content>
       </div>
     </div>
@@ -22,6 +22,16 @@ export default {
 		LeftNav,
 		TopNav,
 	},
+	data() {
+		return {
+			isDisabled: false
+		}
+	},
+	methods: {
+		showMenu() {
+			this.isDisabled = !this.isDisabled;
+		}
+	}
 }
 </script>
 

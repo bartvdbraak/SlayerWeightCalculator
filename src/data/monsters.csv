@@ -1,111 +1,111 @@
-monster,slayer_req,combat_req,defence_req
-Aberrant spectres,60,65,0
-Abyssal demons,85,85,0
-Adamant dragons,1,0,0
-Ankous,1,40,0
-Aviansies,1,0,0
-Bandits,1,0,0
-Banshees,15,20,0
-Basilisks,40,40,20
-Bats,1,5,0
-Bears,1,13,0
-Birds,1,0,0
-Black demons,1,80,0
-Black dragons,1,80,0
-Bloodvelds,50,50,0
-Blue dragons,1,65,0
-Bosses,1,0,0
-Brine rats,47,45,0
-Bronze dragons,1,75,0
-Catablepons,1,35,0
-Cave bugs,7,0,0
-Cave crawlers,10,10,0
-Cave horrors,58,85,0
-Cave krakens,87,80,0
-Cave slimes,17,15,0
-Chaos druids,1,0,0
-Cockatrices,25,25,20
-Cows,1,5,0
-Crawling Hands,5,0,0
-Crocodiles,1,50,0
-Dagannoths,1,75,0
-Dark beasts,90,90,0
-Dark warriors,1,0,0
-Dogs,1,15,0
-Drakes,84,0,0
-Dust devils,65,70,0
-Dwarves,1,6,0
-Earth warriors,1,35,0
-Elves,1,0,0
-Ents,1,0,0
-Fever spiders,42,40,0
-Fire giants,1,65,0
-Flesh Crawlers,1,15,0
-Fossil Island Wyverns,66,60,0
-Gargoyles,75,80,0
-Ghosts,1,13,0
-Ghouls,1,25,0
-Goblins,1,0,0
-Greater demons,1,75,0
-Green dragons,1,52,0
-Harpie Bug Swarms,33,45,0
-Hellhounds,1,75,0
-Hill Giants,1,25,0
-Hobgoblins,1,20,0
-Hydras,95,0,0
-Ice giants,1,50,0
-Ice warriors,1,45,0
-Icefiends,1,20,0
-Infernal Mages,45,40,0
-Iron dragons,1,80,0
-Jellies,52,57,0
-Jungle horrors,1,65,0
-Kalphites,1,15,0
-Killerwatts,37,50,0
-Kurasks,70,65,0
-Lava dragons,1,0,0
-Lesser demons,1,60,0
-Lizardmen,1,0,0
-Lizards,22,15,0
-Magic axes,1,0,0
-Mammoths,1,0,0
-Minions of Scabaras,1,85,0
-Minotaurs,1,7,0
-Mithril dragons,1,0,0
-Mogres,32,30,0
-Molanisks,39,50,0
-Monkeys,1,0,0
-Moss giants,1,40,0
-Mutated zygomites,57,60,0
-Nechryaels,80,85,0
-Ogres,1,40,0
-Otherworldly beings,1,40,0
-Pyrefiends,30,25,0
-Rats,1,0,0
-Red dragons,1,68,0
-Revenants,1,0,0
-Rockslugs,20,20,0
-Rogues,1,0,0
-Rune dragons,1,0,0
-Scorpions,1,7,0
-Sea snakes,40,50,0
-Shades,1,30,0
-Shadow warriors,1,60,0
-Skeletal Wyverns,72,70,0
-Skeletons,1,15,0
-Smoke devils,93,85,0
-Spiders,1,0,0
-Spiritual creatures,63,60,0
-Steel dragons,1,85,0
-Suqahs,1,85,0
-Terror dogs,40,60,0
-Trolls,1,60,0
-Turoths,55,60,0
-TzHaar,1,0,0
-Vampyres,1,35,0
-Wall beasts,35,30,5
-Waterfiends,1,75,0
-Werewolves,1,60,0
-Wolves,1,20,0
-Wyrms,62,0,0
-Zombies,1,10,0
+id,monster,slayer_req,combat_req,defence_req
+0,Aberrant spectres,60,65,0
+1,Abyssal demons,85,85,0
+2,Adamant dragons,1,0,0
+3,Ankous,1,40,0
+4,Aviansies,1,0,0
+5,Bandits,1,0,0
+6,Banshees,15,20,0
+7,Basilisks,40,40,20
+8,Bats,1,5,0
+9,Bears,1,13,0
+10,Birds,1,0,0
+11,Black demons,1,80,0
+12,Black dragons,1,80,0
+13,Bloodvelds,50,50,0
+14,Blue dragons,1,65,0
+15,Bosses,1,0,0
+16,Brine rats,47,45,0
+17,Bronze dragons,1,75,0
+18,Catablepons,1,35,0
+19,Cave bugs,7,0,0
+20,Cave crawlers,10,10,0
+21,Cave horrors,58,85,0
+22,Cave krakens,87,80,0
+23,Cave slimes,17,15,0
+24,Chaos druids,1,0,0
+25,Cockatrices,25,25,20
+26,Cows,1,5,0
+27,Crawling Hands,5,0,0
+28,Crocodiles,1,50,0
+29,Dagannoths,1,75,0
+30,Dark beasts,90,90,0
+31,Dark warriors,1,0,0
+32,Dogs,1,15,0
+33,Drakes,84,0,0
+34,Dust devils,65,70,0
+35,Dwarves,1,6,0
+36,Earth warriors,1,35,0
+37,Elves,1,0,0
+38,Ents,1,0,0
+39,Fever spiders,42,40,0
+40,Fire giants,1,65,0
+41,Flesh Crawlers,1,15,0
+42,Fossil Island Wyverns,66,60,0
+43,Gargoyles,75,80,0
+44,Ghosts,1,13,0
+45,Ghouls,1,25,0
+46,Goblins,1,0,0
+47,Greater demons,1,75,0
+48,Green dragons,1,52,0
+49,Harpie Bug Swarms,33,45,0
+50,Hellhounds,1,75,0
+51,Hill Giants,1,25,0
+52,Hobgoblins,1,20,0
+53,Hydras,95,0,0
+54,Ice giants,1,50,0
+55,Ice warriors,1,45,0
+56,Icefiends,1,20,0
+57,Infernal Mages,45,40,0
+58,Iron dragons,1,80,0
+59,Jellies,52,57,0
+60,Jungle horrors,1,65,0
+61,Kalphites,1,15,0
+62,Killerwatts,37,50,0
+63,Kurasks,70,65,0
+64,Lava dragons,1,0,0
+65,Lesser demons,1,60,0
+66,Lizardmen,1,0,0
+67,Lizards,22,15,0
+68,Magic axes,1,0,0
+69,Mammoths,1,0,0
+70,Minions of Scabaras,1,85,0
+71,Minotaurs,1,7,0
+72,Mithril dragons,1,0,0
+73,Mogres,32,30,0
+74,Molanisks,39,50,0
+75,Monkeys,1,0,0
+76,Moss giants,1,40,0
+77,Mutated zygomites,57,60,0
+78,Nechryaels,80,85,0
+79,Ogres,1,40,0
+80,Otherworldly beings,1,40,0
+81,Pyrefiends,30,25,0
+82,Rats,1,0,0
+83,Red dragons,1,68,0
+84,Revenants,1,0,0
+85,Rockslugs,20,20,0
+86,Rogues,1,0,0
+87,Rune dragons,1,0,0
+88,Scorpions,1,7,0
+89,Sea snakes,40,50,0
+90,Shades,1,30,0
+91,Shadow warriors,1,60,0
+92,Skeletal Wyverns,72,70,0
+93,Skeletons,1,15,0
+94,Smoke devils,93,85,0
+95,Spiders,1,0,0
+96,Spiritual creatures,63,60,0
+97,Steel dragons,1,85,0
+98,Suqahs,1,85,0
+99,Terror dogs,40,60,0
+100,Trolls,1,60,0
+101,Turoths,55,60,0
+102,TzHaar,1,0,0
+103,Vampyres,1,35,0
+104,Wall beasts,35,30,5
+105,Waterfiends,1,75,0
+106,Werewolves,1,60,0
+107,Wolves,1,20,0
+108,Wyrms,62,0,0
+109,Zombies,1,10,0
