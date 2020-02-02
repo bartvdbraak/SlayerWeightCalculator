@@ -33,41 +33,49 @@ export default {
 			fields: [
 				{
 					key: 'id',
-					label: 'Monster name',
+					label: 'Monster ID',
 					sortable: true,
-					isActive: false,
+					class: 'd-none',
 				},
 				{
 					key: 'monster',
 					label: 'Monster name',
 					sortable: true,
-					isActive: true,
 				},
 				{
 					key: 'combat_req',
 					label: 'Combat Requirement',
 					sortable: true,
-					isActive: false,
+					class: 'd-none',
 				},
 				{
 					key: 'slayer_req',
 					label: 'Slayer Requirement',
 					sortable: true,
-					isActive: false,
+					class: 'd-none',
 				},
 				{
 					key: 'defence_req',
 					label: 'Defence Requirement',
 					sortable: true,
-					isActive: false,
+					class: 'd-none',
+				},
+				{
+					key: 'defence_req',
+					label: 'Defence Requirement',
+					sortable: true,
+					class: 'd-none',
 				},
 			],
 			config: {
-				combat_level: 100,
-				slayer_level: 75,
-				defence_level: 60,
+				combat_level: 126,
+				slayer_level: 99,
+				defence_level: 99,
 			},
-			filters: {
+			masterFilter: {
+			    id: id => id === this.currentMaster.assignments[0],
+			},
+			accountFilters: {
 				combat_req: combat_req => combat_req < this.config.combat_level,
 				slayer_req: slayer_req => slayer_req < this.config.slayer_level,
 				defence_req: defence_req => defence_req < this.config.defence_level,
@@ -79,11 +87,14 @@ export default {
 		reload() {
 		    this.currentMaster = this.mastersData.masters[this.$route.params.id];
 		    this.filterData();
+		    this.generateTaskWeights();
 		},
 	    filterData() {
+			//filter based on current Slayer Master
+			this.filtered_items = this.filterArray(this.monstersData, this.masterFilter);
 
-			//filter based on account
-			this.filtered_items = this.filterArray(this.monstersData, this.filters)
+			//filter based on Account Settings
+			this.filtered_items = this.filterArray(this.filtered_items, this.accountFilters);
 		},
 		filterArray(array, filters) {
 			const filterKeys = Object.keys(filters);
@@ -95,9 +106,12 @@ export default {
 					return filters[key](item[key]);
 				});
 			});
-		}
+		},
+		generateTaskWeights() {
+
+		},
 	},
-	mounted() {
+	created() {
 		this.reload();
 	},
 	watch: {
