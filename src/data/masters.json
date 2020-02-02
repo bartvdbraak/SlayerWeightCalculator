@@ -4,51 +4,1274 @@
       "id": 0,
       "name": "Turael",
       "image": "Turael.png",
-      "assignments": [1, 2, 3, 4]
+      "assignments": {
+        "6": {
+          "id": "6",
+          "task_weight": "8"
+        },
+        "8": {
+          "id": "8",
+          "task_weight": "7"
+        },
+        "10": {
+          "id": "10",
+          "task_weight": "6"
+        },
+        "9": {
+          "id": "9",
+          "task_weight": "7"
+        },
+        "19": {
+          "id": "19",
+          "task_weight": "8"
+        },
+        "20": {
+          "id": "20",
+          "task_weight": "8"
+        },
+        "23": {
+          "id": "23",
+          "task_weight": "8"
+        },
+        "26": {
+          "id": "26",
+          "task_weight": "8"
+        },
+        "27": {
+          "id": "27",
+          "task_weight": "8"
+        },
+        "32": {
+          "id": "32",
+          "task_weight": "7"
+        },
+        "35": {
+          "id": "35",
+          "task_weight": "7"
+        },
+        "44": {
+          "id": "44",
+          "task_weight": "7"
+        },
+        "46": {
+          "id": "46",
+          "task_weight": "7"
+        },
+        "56": {
+          "id": "56",
+          "task_weight": "8"
+        },
+        "61": {
+          "id": "61",
+          "task_weight": "6"
+        },
+        "67": {
+          "id": "67",
+          "task_weight": "8"
+        },
+        "71": {
+          "id": "71",
+          "task_weight": "7"
+        },
+        "75": {
+          "id": "75",
+          "task_weight": "6"
+        },
+        "82": {
+          "id": "82",
+          "task_weight": "7"
+        },
+        "88": {
+          "id": "88",
+          "task_weight": "7"
+        },
+        "93": {
+          "id": "93",
+          "task_weight": "7"
+        },
+        "95": {
+          "id": "95",
+          "task_weight": "6"
+        },
+        "107": {
+          "id": "107",
+          "task_weight": "7"
+        },
+        "109": {
+          "id": "109",
+          "task_weight": "7"
+        }
+      }
     },
     "1": {
       "id": 1,
       "name": "Krystilia",
       "image": "Krystilia.png",
-      "assignments": [5, 3, 6]
+      "assignments": {
+        "3": {
+          "id": "3",
+          "task_weight": "6"
+        },
+        "4": {
+          "id": "4",
+          "task_weight": "7"
+        },
+        "5": {
+          "id": "5",
+          "task_weight": "4"
+        },
+        "9": {
+          "id": "9",
+          "task_weight": "6"
+        },
+        "11": {
+          "id": "11",
+          "task_weight": "7"
+        },
+        "12": {
+          "id": "12",
+          "task_weight": "4"
+        },
+        "24": {
+          "id": "24",
+          "task_weight": "5"
+        },
+        "31": {
+          "id": "31",
+          "task_weight": "4"
+        },
+        "36": {
+          "id": "36",
+          "task_weight": "6"
+        },
+        "38": {
+          "id": "38",
+          "task_weight": "5"
+        },
+        "40": {
+          "id": "40",
+          "task_weight": "7"
+        },
+        "47": {
+          "id": "47",
+          "task_weight": "8"
+        },
+        "48": {
+          "id": "48",
+          "task_weight": "4"
+        },
+        "50": {
+          "id": "50",
+          "task_weight": "7"
+        },
+        "54": {
+          "id": "54",
+          "task_weight": "6"
+        },
+        "55": {
+          "id": "55",
+          "task_weight": "7"
+        },
+        "64": {
+          "id": "64",
+          "task_weight": "3"
+        },
+        "65": {
+          "id": "65",
+          "task_weight": "6"
+        },
+        "68": {
+          "id": "68",
+          "task_weight": "7"
+        },
+        "69": {
+          "id": "69",
+          "task_weight": "6"
+        },
+        "84": {
+          "id": "84",
+          "task_weight": "5"
+        },
+        "86": {
+          "id": "86",
+          "task_weight": "5"
+        },
+        "88": {
+          "id": "88",
+          "task_weight": "6"
+        },
+        "93": {
+          "id": "93",
+          "task_weight": "5"
+        },
+        "95": {
+          "id": "95",
+          "task_weight": "6"
+        },
+        "96": {
+          "id": "96",
+          "task_weight": "6"
+        },
+        "15": {
+          "id": "15",
+          "task_weight": "8"
+        }
+      }
     },
   "2":{
       "id": 2,
       "name": "Mazchna",
       "image": "Mazchna.png",
-      "assignments": [5, 3, 6]
+      "assignments": {
+        "6": {
+          "id": "6",
+          "task_weight": "8"
+        },
+        "8": {
+          "id": "8",
+          "task_weight": "7"
+        },
+        "9": {
+          "id": "9",
+          "task_weight": "6"
+        },
+        "18": {
+          "id": "18",
+          "task_weight": "8"
+        },
+        "19": {
+          "id": "19",
+          "task_weight": "8"
+        },
+        "20": {
+          "id": "20",
+          "task_weight": "8"
+        },
+        "23": {
+          "id": "23",
+          "task_weight": "8"
+        },
+        "25": {
+          "id": "25",
+          "task_weight": "8"
+        },
+        "27": {
+          "id": "27",
+          "task_weight": "8"
+        },
+        "67": {
+          "id": "67",
+          "task_weight": "8"
+        },
+        "32": {
+          "id": "32",
+          "task_weight": "7"
+        },
+        "36": {
+          "id": "36",
+          "task_weight": "6"
+        },
+        "41": {
+          "id": "41",
+          "task_weight": "7"
+        },
+        "44": {
+          "id": "44",
+          "task_weight": "7"
+        },
+        "45": {
+          "id": "45",
+          "task_weight": "7"
+        },
+        "51": {
+          "id": "51",
+          "task_weight": "7"
+        },
+        "52": {
+          "id": "52",
+          "task_weight": "7"
+        },
+        "55": {
+          "id": "55",
+          "task_weight": "7"
+        },
+        "61": {
+          "id": "61",
+          "task_weight": "6"
+        },
+        "62": {
+          "id": "62",
+          "task_weight": "6"
+        },
+        "73": {
+          "id": "73",
+          "task_weight": "8"
+        },
+        "81": {
+          "id": "81",
+          "task_weight": "8"
+        },
+        "85": {
+          "id": "85",
+          "task_weight": "8"
+        },
+        "88": {
+          "id": "88",
+          "task_weight": "7"
+        },
+        "90": {
+          "id": "90",
+          "task_weight": "8"
+        },
+        "93": {
+          "id": "93",
+          "task_weight": "7"
+        },
+        "103": {
+          "id": "103",
+          "task_weight": "6"
+        },
+        "104": {
+          "id": "104",
+          "task_weight": "7"
+        },
+        "107": {
+          "id": "107",
+          "task_weight": "7"
+        },
+        "109": {
+          "id": "109",
+          "task_weight": "7"
+        }
+      }
   },
   "3":{
       "id": 3,
       "name": "Vannaka",
       "image": "Vannaka.png",
-    "assignments": [5, 3, 6]
-
+    "assignments": {
+      "0": {
+        "id": "0",
+        "task_weight": "8"
+      },
+      "1": {
+        "id": "1",
+        "task_weight": "5"
+      },
+      "3": {
+        "id": "3",
+        "task_weight": "7"
+      },
+      "6": {
+        "id": "6",
+        "task_weight": "6"
+      },
+      "7": {
+        "id": "7",
+        "task_weight": "8"
+      },
+      "13": {
+        "id": "13",
+        "task_weight": "8"
+      },
+      "14": {
+        "id": "14",
+        "task_weight": "7"
+      },
+      "16": {
+        "id": "16",
+        "task_weight": "7"
+      },
+      "17": {
+        "id": "17",
+        "task_weight": "7"
+      },
+      "19": {
+        "id": "19",
+        "task_weight": "7"
+      },
+      "20": {
+        "id": "20",
+        "task_weight": "7"
+      },
+      "23": {
+        "id": "23",
+        "task_weight": "7"
+      },
+      "25": {
+        "id": "25",
+        "task_weight": "8"
+      },
+      "27": {
+        "id": "27",
+        "task_weight": "6"
+      },
+      "28": {
+        "id": "28",
+        "task_weight": "6"
+      },
+      "29": {
+        "id": "29",
+        "task_weight": "7"
+      },
+      "67": {
+        "id": "67",
+        "task_weight": "7"
+      },
+      "34": {
+        "id": "34",
+        "task_weight": "8"
+      },
+      "36": {
+        "id": "36",
+        "task_weight": "6"
+      },
+      "37": {
+        "id": "37",
+        "task_weight": "7"
+      },
+      "39": {
+        "id": "39",
+        "task_weight": "7"
+      },
+      "40": {
+        "id": "40",
+        "task_weight": "7"
+      },
+      "43": {
+        "id": "43",
+        "task_weight": "5"
+      },
+      "45": {
+        "id": "45",
+        "task_weight": "7"
+      },
+      "48": {
+        "id": "48",
+        "task_weight": "6"
+      },
+      "49": {
+        "id": "49",
+        "task_weight": "8"
+      },
+      "50": {
+        "id": "50",
+        "task_weight": "7"
+      },
+      "51": {
+        "id": "51",
+        "task_weight": "7"
+      },
+      "52": {
+        "id": "52",
+        "task_weight": "7"
+      },
+      "54": {
+        "id": "54",
+        "task_weight": "7"
+      },
+      "55": {
+        "id": "55",
+        "task_weight": "7"
+      },
+      "57": {
+        "id": "57",
+        "task_weight": "8"
+      },
+      "59": {
+        "id": "59",
+        "task_weight": "8"
+      },
+      "60": {
+        "id": "60",
+        "task_weight": "8"
+      },
+      "61": {
+        "id": "61",
+        "task_weight": "7"
+      },
+      "62": {
+        "id": "62",
+        "task_weight": "6"
+      },
+      "63": {
+        "id": "63",
+        "task_weight": "7"
+      },
+      "65": {
+        "id": "65",
+        "task_weight": "7"
+      },
+      "73": {
+        "id": "73",
+        "task_weight": "7"
+      },
+      "74": {
+        "id": "74",
+        "task_weight": "7"
+      },
+      "76": {
+        "id": "76",
+        "task_weight": "7"
+      },
+      "78": {
+        "id": "78",
+        "task_weight": "5"
+      },
+      "79": {
+        "id": "79",
+        "task_weight": "7"
+      },
+      "80": {
+        "id": "80",
+        "task_weight": "8"
+      },
+      "81": {
+        "id": "81",
+        "task_weight": "8"
+      },
+      "85": {
+        "id": "85",
+        "task_weight": "7"
+      },
+      "90": {
+        "id": "90",
+        "task_weight": "8"
+      },
+      "89": {
+        "id": "89",
+        "task_weight": "6"
+      },
+      "91": {
+        "id": "91",
+        "task_weight": "8"
+      },
+      "96": {
+        "id": "96",
+        "task_weight": "8"
+      },
+      "99": {
+        "id": "99",
+        "task_weight": "6"
+      },
+      "100": {
+        "id": "100",
+        "task_weight": "7"
+      },
+      "101": {
+        "id": "101",
+        "task_weight": "8"
+      },
+      "103": {
+        "id": "103",
+        "task_weight": "7"
+      },
+      "104": {
+        "id": "104",
+        "task_weight": "6"
+      },
+      "106": {
+        "id": "106",
+        "task_weight": "7"
+      }
+    }
   },
   "4":{
       "id": 4,
       "name": "Chaeldar",
       "image": "Chaeldar.png",
-    "assignments": [5, 3, 6]
-
+    "assignments": {
+      "0": {
+        "id": "0",
+        "task_weight": "8"
+      },
+      "1": {
+        "id": "1",
+        "task_weight": "12"
+      },
+      "4": {
+        "id": "4",
+        "task_weight": "9"
+      },
+      "6": {
+        "id": "6",
+        "task_weight": "5"
+      },
+      "7": {
+        "id": "7",
+        "task_weight": "7"
+      },
+      "11": {
+        "id": "11",
+        "task_weight": "10"
+      },
+      "13": {
+        "id": "13",
+        "task_weight": "8"
+      },
+      "14": {
+        "id": "14",
+        "task_weight": "8"
+      },
+      "16": {
+        "id": "16",
+        "task_weight": "7"
+      },
+      "17": {
+        "id": "17",
+        "task_weight": "11"
+      },
+      "20": {
+        "id": "20",
+        "task_weight": "5"
+      },
+      "21": {
+        "id": "21",
+        "task_weight": "10"
+      },
+      "22": {
+        "id": "22",
+        "task_weight": "12"
+      },
+      "23": {
+        "id": "23",
+        "task_weight": "6"
+      },
+      "25": {
+        "id": "25",
+        "task_weight": "6"
+      },
+      "29": {
+        "id": "29",
+        "task_weight": "11"
+      },
+      "34": {
+        "id": "34",
+        "task_weight": "9"
+      },
+      "37": {
+        "id": "37",
+        "task_weight": "8"
+      },
+      "39": {
+        "id": "39",
+        "task_weight": "7"
+      },
+      "40": {
+        "id": "40",
+        "task_weight": "12"
+      },
+      "42": {
+        "id": "42",
+        "task_weight": "7"
+      },
+      "43": {
+        "id": "43",
+        "task_weight": "11"
+      },
+      "47": {
+        "id": "47",
+        "task_weight": "9"
+      },
+      "49": {
+        "id": "49",
+        "task_weight": "6"
+      },
+      "50": {
+        "id": "50",
+        "task_weight": "9"
+      },
+      "57": {
+        "id": "57",
+        "task_weight": "7"
+      },
+      "58": {
+        "id": "58",
+        "task_weight": "12"
+      },
+      "59": {
+        "id": "59",
+        "task_weight": "10"
+      },
+      "60": {
+        "id": "60",
+        "task_weight": "10"
+      },
+      "61": {
+        "id": "61",
+        "task_weight": "11"
+      },
+      "63": {
+        "id": "63",
+        "task_weight": "12"
+      },
+      "65": {
+        "id": "65",
+        "task_weight": "9"
+      },
+      "66": {
+        "id": "66",
+        "task_weight": "8"
+      },
+      "67": {
+        "id": "67",
+        "task_weight": "5"
+      },
+      "73": {
+        "id": "73",
+        "task_weight": "6"
+      },
+      "74": {
+        "id": "74",
+        "task_weight": "6"
+      },
+      "77": {
+        "id": "77",
+        "task_weight": "7"
+      },
+      "78": {
+        "id": "78",
+        "task_weight": "12"
+      },
+      "81": {
+        "id": "81",
+        "task_weight": "6"
+      },
+      "85": {
+        "id": "85",
+        "task_weight": "5"
+      },
+      "91": {
+        "id": "91",
+        "task_weight": "8"
+      },
+      "92": {
+        "id": "92",
+        "task_weight": "7"
+      },
+      "96": {
+        "id": "96",
+        "task_weight": "12"
+      },
+      "100": {
+        "id": "100",
+        "task_weight": "11"
+      },
+      "101": {
+        "id": "101",
+        "task_weight": "10"
+      },
+      "102": {
+        "id": "102",
+        "task_weight": "8"
+      },
+      "104": {
+        "id": "104",
+        "task_weight": "6"
+      },
+      "108": {
+        "id": "108",
+        "task_weight": "6"
+      }
+    }
   },
   "5":{
       "id": 5,
       "name": "Konar quo Maten",
       "image": "Konar quo Maten.png",
-    "assignments": [5, 3, 6]
+    "assignments": {
+      "0": {
+        "id": "0",
+        "task_weight": "6"
+      },
+      "1": {
+        "id": "1",
+        "task_weight": "9"
+      },
+      "2": {
+        "id": "2",
+        "task_weight": "5"
+      },
+      "3": {
+        "id": "3",
+        "task_weight": "5"
+      },
+      "4": {
+        "id": "4",
+        "task_weight": "6"
+      },
+      "11": {
+        "id": "11",
+        "task_weight": "9"
+      },
+      "12": {
+        "id": "12",
+        "task_weight": "6"
+      },
+      "13": {
+        "id": "13",
+        "task_weight": "9"
+      },
+      "14": {
+        "id": "14",
+        "task_weight": "4"
+      },
+      "15": {
+        "id": "15",
+        "task_weight": "8"
+      },
+      "16": {
+        "id": "16",
+        "task_weight": "2"
+      },
+      "17": {
+        "id": "17",
+        "task_weight": "5"
+      },
+      "22": {
+        "id": "22",
+        "task_weight": "9"
+      },
+      "29": {
+        "id": "29",
+        "task_weight": "8"
+      },
+      "30": {
+        "id": "30",
+        "task_weight": "5"
+      },
+      "33": {
+        "id": "33",
+        "task_weight": "10"
+      },
+      "34": {
+        "id": "34",
+        "task_weight": "6"
+      },
+      "40": {
+        "id": "40",
+        "task_weight": "9"
+      },
+      "42": {
+        "id": "42",
+        "task_weight": "5"
+      },
+      "43": {
+        "id": "43",
+        "task_weight": "6"
+      },
+      "47": {
+        "id": "47",
+        "task_weight": "7"
+      },
+      "50": {
+        "id": "50",
+        "task_weight": "8"
+      },
+      "53": {
+        "id": "53",
+        "task_weight": "10"
+      },
+      "58": {
+        "id": "58",
+        "task_weight": "5"
+      },
+      "59": {
+        "id": "59",
+        "task_weight": "6"
+      },
+      "61": {
+        "id": "61",
+        "task_weight": "9"
+      },
+      "63": {
+        "id": "63",
+        "task_weight": "3"
+      },
+      "66": {
+        "id": "66",
+        "task_weight": "8"
+      },
+      "72": {
+        "id": "72",
+        "task_weight": "5"
+      },
+      "78": {
+        "id": "78",
+        "task_weight": "7"
+      },
+      "83": {
+        "id": "83",
+        "task_weight": "5"
+      },
+      "87": {
+        "id": "87",
+        "task_weight": "5"
+      },
+      "92": {
+        "id": "92",
+        "task_weight": "5"
+      },
+      "94": {
+        "id": "94",
+        "task_weight": "7"
+      },
+      "97": {
+        "id": "97",
+        "task_weight": "5"
+      },
+      "100": {
+        "id": "100",
+        "task_weight": "6"
+      },
+      "101": {
+        "id": "101",
+        "task_weight": "3"
+      },
+      "105": {
+        "id": "105",
+        "task_weight": "2"
+      },
+      "108": {
+        "id": "108",
+        "task_weight": "10"
+      }
+    }
 
   },
   "6":{
       "id": 6,
       "name": "Nieve",
-      "image": "Nieve.png"
+      "image": "Nieve.png",
+      "assignments": {
+        "0": {
+          "id": "0",
+          "task_weight": "6"
+        },
+        "1": {
+          "id": "1",
+          "task_weight": "9"
+        },
+        "2": {
+          "id": "2",
+          "task_weight": "2"
+        },
+        "3": {
+          "id": "3",
+          "task_weight": "5"
+        },
+        "4": {
+          "id": "4",
+          "task_weight": "6"
+        },
+        "11": {
+          "id": "11",
+          "task_weight": "9"
+        },
+        "12": {
+          "id": "12",
+          "task_weight": "6"
+        },
+        "13": {
+          "id": "13",
+          "task_weight": "9"
+        },
+        "14": {
+          "id": "14",
+          "task_weight": "4"
+        },
+        "15": {
+          "id": "15",
+          "task_weight": "8"
+        },
+        "16": {
+          "id": "16",
+          "task_weight": "3"
+        },
+        "21": {
+          "id": "21",
+          "task_weight": "5"
+        },
+        "22": {
+          "id": "22",
+          "task_weight": "6"
+        },
+        "29": {
+          "id": "29",
+          "task_weight": "8"
+        },
+        "30": {
+          "id": "30",
+          "task_weight": "5"
+        },
+        "33": {
+          "id": "33",
+          "task_weight": "7"
+        },
+        "34": {
+          "id": "34",
+          "task_weight": "6"
+        },
+        "37": {
+          "id": "37",
+          "task_weight": "4"
+        },
+        "40": {
+          "id": "40",
+          "task_weight": "9"
+        },
+        "42": {
+          "id": "42",
+          "task_weight": "5"
+        },
+        "43": {
+          "id": "43",
+          "task_weight": "6"
+        },
+        "47": {
+          "id": "47",
+          "task_weight": "7"
+        },
+        "50": {
+          "id": "50",
+          "task_weight": "8"
+        },
+        "58": {
+          "id": "58",
+          "task_weight": "5"
+        },
+        "61": {
+          "id": "61",
+          "task_weight": "9"
+        },
+        "63": {
+          "id": "63",
+          "task_weight": "3"
+        },
+        "66": {
+          "id": "66",
+          "task_weight": "8"
+        },
+        "70": {
+          "id": "70",
+          "task_weight": "4"
+        },
+        "72": {
+          "id": "72",
+          "task_weight": "5"
+        },
+        "78": {
+          "id": "78",
+          "task_weight": "7"
+        },
+        "83": {
+          "id": "83",
+          "task_weight": "5"
+        },
+        "87": {
+          "id": "87",
+          "task_weight": "2"
+        },
+        "92": {
+          "id": "92",
+          "task_weight": "5"
+        },
+        "94": {
+          "id": "94",
+          "task_weight": "7"
+        },
+        "96": {
+          "id": "96",
+          "task_weight": "6"
+        },
+        "97": {
+          "id": "97",
+          "task_weight": "5"
+        },
+        "98": {
+          "id": "98",
+          "task_weight": "8"
+        },
+        "100": {
+          "id": "100",
+          "task_weight": "6"
+        },
+        "101": {
+          "id": "101",
+          "task_weight": "3"
+        },
+        "102": {
+          "id": "102",
+          "task_weight": "10"
+        },
+        "108": {
+          "id": "108",
+          "task_weight": "7"
+        }
+      }
     },
   "7":{
       "id": 7,
       "name": "Duradel",
       "image": "Duradel.png",
-    "assignments": [5, 3, 6]
+    "assignments": {
+      "0": {
+        "id": "0",
+        "task_weight": "7"
+      },
+      "1": {
+        "id": "1",
+        "task_weight": "12"
+      },
+      "2": {
+        "id": "2",
+        "task_weight": "2"
+      },
+      "3": {
+        "id": "3",
+        "task_weight": "5"
+      },
+      "4": {
+        "id": "4",
+        "task_weight": "8"
+      },
+      "11": {
+        "id": "11",
+        "task_weight": "8"
+      },
+      "12": {
+        "id": "12",
+        "task_weight": "9"
+      },
+      "13": {
+        "id": "13",
+        "task_weight": "8"
+      },
+      "14": {
+        "id": "14",
+        "task_weight": "4"
+      },
+      "15": {
+        "id": "15",
+        "task_weight": "12"
+      },
+      "21": {
+        "id": "21",
+        "task_weight": "4"
+      },
+      "22": {
+        "id": "22",
+        "task_weight": "9"
+      },
+      "29": {
+        "id": "29",
+        "task_weight": "9"
+      },
+      "30": {
+        "id": "30",
+        "task_weight": "11"
+      },
+      "33": {
+        "id": "33",
+        "task_weight": "8"
+      },
+      "34": {
+        "id": "34",
+        "task_weight": "5"
+      },
+      "37": {
+        "id": "37",
+        "task_weight": "4"
+      },
+      "40": {
+        "id": "40",
+        "task_weight": "7"
+      },
+      "42": {
+        "id": "42",
+        "task_weight": "5"
+      },
+      "43": {
+        "id": "43",
+        "task_weight": "8"
+      },
+      "47": {
+        "id": "47",
+        "task_weight": "9"
+      },
+      "50": {
+        "id": "50",
+        "task_weight": "10"
+      },
+      "58": {
+        "id": "58",
+        "task_weight": "5"
+      },
+      "61": {
+        "id": "61",
+        "task_weight": "9"
+      },
+      "63": {
+        "id": "63",
+        "task_weight": "4"
+      },
+      "66": {
+        "id": "66",
+        "task_weight": "10"
+      },
+      "72": {
+        "id": "72",
+        "task_weight": "9"
+      },
+      "78": {
+        "id": "78",
+        "task_weight": "9"
+      },
+      "83": {
+        "id": "83",
+        "task_weight": "8"
+      },
+      "87": {
+        "id": "87",
+        "task_weight": "2"
+      },
+      "92": {
+        "id": "92",
+        "task_weight": "7"
+      },
+      "94": {
+        "id": "94",
+        "task_weight": "9"
+      },
+      "96": {
+        "id": "96",
+        "task_weight": "7"
+      },
+      "97": {
+        "id": "97",
+        "task_weight": "7"
+      },
+      "98": {
+        "id": "98",
+        "task_weight": "8"
+      },
+      "100": {
+        "id": "100",
+        "task_weight": "6"
+      },
+      "102": {
+        "id": "102",
+        "task_weight": "10"
+      },
+      "105": {
+        "id": "105",
+        "task_weight": "2"
+      },
+      "108": {
+        "id": "108",
+        "task_weight": "8"
+      }
+    }
 
   }
 }
