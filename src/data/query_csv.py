@@ -17,14 +17,21 @@ def write_results(current_master):
             reader = csv.reader(master)
             writer = csv.writer(results)
 
-            writer.writerow(next(reader, []) + ['id'])
+            # Skip old header
+            next(reader, [])
+
+            # Write new CSV header row:
+            # id,task_weight\n
+            writer.writerow(['id'] + ['task_weight'])
 
             for row in reader:
-
+                # row is found in slayer master AND monsters
                 index = master_indices.get(row[0])
 
                 if index is not None:
-                    writer.writerow(row + [index - 1])
+                    # Row with value for id and slayer_weight:
+                    # 0,12\n
+                    writer.writerow([index - 1] + [row[2]] )
 
 
 if __name__ == "__main__":
