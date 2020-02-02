@@ -3,33 +3,42 @@
     "0": {
       "id": 0,
       "name": "Turael",
-      "image": "Turael.png"
+      "image": "Turael.png",
+      "assignments": [1, 2, 3, 4]
     },
     "1": {
       "id": 1,
       "name": "Krystilia",
-      "image": "Krystilia.png"
+      "image": "Krystilia.png",
+      "assignments": [5, 3, 6]
     },
   "2":{
       "id": 2,
       "name": "Mazchna",
-      "image": "Mazchna.png"
-    },
+      "image": "Mazchna.png",
+      "assignments": [5, 3, 6]
+  },
   "3":{
       "id": 3,
       "name": "Vannaka",
-      "image": "Vannaka.png"
-    },
+      "image": "Vannaka.png",
+    "assignments": [5, 3, 6]
+
+  },
   "4":{
       "id": 4,
       "name": "Chaeldar",
-      "image": "Chaeldar.png"
-    },
+      "image": "Chaeldar.png",
+    "assignments": [5, 3, 6]
+
+  },
   "5":{
       "id": 5,
       "name": "Konar quo Maten",
-      "image": "Konar quo Maten.png"
-    },
+      "image": "Konar quo Maten.png",
+    "assignments": [5, 3, 6]
+
+  },
   "6":{
       "id": 6,
       "name": "Nieve",
@@ -38,7 +47,9 @@
   "7":{
       "id": 7,
       "name": "Duradel",
-      "image": "Duradel.png"
-    }
+      "image": "Duradel.png",
+    "assignments": [5, 3, 6]
+
+  }
 }
 }
