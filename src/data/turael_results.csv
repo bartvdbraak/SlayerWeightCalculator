@@ -1,0 +1,25 @@
+monster,slayer_req,taskweight,combat_req,defence_req,id
+Banshees,15,8,20,0,6
+Bats,1,7,5,0,8
+Birds,1,6,0,0,10
+Bears,1,7,13,0,9
+Cave bugs,7,8,0,0,19
+Cave crawlers,10,8,10,0,20
+Cave slimes,17,8,15,0,23
+Cows,1,8,5,0,26
+Crawling Hands,5,8,0,0,27
+Dogs,1,7,15,0,32
+Dwarves,1,7,6,0,35
+Ghosts,1,7,13,0,44
+Goblins,1,7,0,0,46
+Icefiends,1,8,20,0,56
+Kalphites,1,6,15,0,61
+Lizards,22,8,15,0,67
+Minotaurs,1,7,7,0,71
+Monkeys,1,6,0,0,75
+Rats,1,7,0,0,82
+Scorpions,1,7,7,0,88
+Skeletons,1,7,15,0,93
+Spiders,1,6,0,0,95
+Wolves,1,7,20,0,107
+Zombies,1,7,10,0,109

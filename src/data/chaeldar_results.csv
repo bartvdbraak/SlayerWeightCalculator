@@ -1,0 +1,49 @@
+monster,slayer_req,taskweight,combat_req,defence_req,id
+Aberrant spectres,60,8,65,0,0
+Abyssal demons,85,12,85,0,1
+Aviansies,1,9,0,0,4
+Banshees,15,5,20,0,6
+Basilisks,40,7,40,20,7
+Black demons,1,10,80,0,11
+Bloodvelds,50,8,50,0,13
+Blue dragons,1,8,65,0,14
+Brine rats,47,7,45,0,16
+Bronze dragons,1,11,75,0,17
+Cave crawlers,10,5,10,0,20
+Cave horrors,58,10,85,0,21
+Cave krakens,87,12,80,0,22
+Cave slimes,17,6,15,0,23
+Cockatrices,25,6,25,20,25
+Dagannoths,1,11,75,0,29
+Dust devils,65,9,70,0,34
+Elves,1,8,0,0,37
+Fever spiders,42,7,40,0,39
+Fire giants,1,12,65,0,40
+Fossil Island Wyverns,66,7,60,0,42
+Gargoyles,75,11,80,0,43
+Greater demons,1,9,75,0,47
+Harpie Bug Swarms,33,6,45,0,49
+Hellhounds,1,9,75,0,50
+Infernal Mages,45,7,40,0,57
+Iron dragons,1,12,80,0,58
+Jellies,52,10,57,0,59
+Jungle horrors,1,10,65,0,60
+Kalphites,1,11,15,0,61
+Kurasks,70,12,65,0,63
+Lesser demons,1,9,60,0,65
+Lizardmen,1,8,0,0,66
+Lizards,22,5,15,0,67
+Mogres,32,6,30,0,73
+Molanisks,39,6,50,0,74
+Mutated zygomites,57,7,60,0,77
+Nechryaels,80,12,85,0,78
+Pyrefiends,30,6,25,0,81
+Rockslugs,20,5,20,0,85
+Shadow warriors,1,8,60,0,91
+Skeletal Wyverns,72,7,70,0,92
+Spiritual creatures,63,12,60,0,96
+Trolls,1,11,60,0,100
+Turoths,55,10,60,0,101
+TzHaar,1,8,0,0,102
+Wall beasts,35,6,30,5,104
+Wyrms,62,6,0,0,108
