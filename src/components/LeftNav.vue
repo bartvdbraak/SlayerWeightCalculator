@@ -14,7 +14,7 @@
                 <span>Other Links</span>
             </h6>
             <ul class="nav flex-column mb-2">
-                <NavItem v-for="link in extraLinks" :isActive="activate(link.id)" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :url="link.url"/>
+                <NavItem v-for="link in extraLinks" :targetVal="'_blank'" :isActive="activate(link.id)" :key="link.id" :title="link.title" :id="link.id" :icon_url="link.icon" :url="link.url"/>
             </ul>
         </div>
     </nav>

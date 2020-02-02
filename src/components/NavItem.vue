@@ -6,7 +6,7 @@
 
         </router-link>
 
-        <a class="nav-link" v-bind:class="{ active: isActive }" v-if="url" :href="url" >
+        <a class="nav-link" :target="targetVal" v-bind:class="{ active: isActive }" v-if="url" :href="url" >
             <img class="mx-2 rounded-circle shadow" v-if="icon_url" :src="require(`../assets/${icon_url}`)" width="42" height="42">
             <span class="h6">{{ title }}</span>
         </a>
@@ -28,6 +28,7 @@ export default {
 		url: String,
 		to: String,
 		isActive: Boolean,
+		targetVal: String,
 	},
 }
 </script>
