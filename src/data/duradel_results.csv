@@ -1,0 +1,40 @@
+monster,slayer_req,taskweight,combat_req,defence_req,id
+Aberrant spectres,60,7,65,0,0
+Abyssal demons,85,12,85,0,1
+Adamant dragons,1,2,0,0,2
+Ankous,1,5,40,0,3
+Aviansies,1,8,0,0,4
+Black demons,1,8,80,0,11
+Black dragons,1,9,80,0,12
+Bloodvelds,50,8,50,0,13
+Blue dragons,1,4,65,0,14
+Bosses,1,12,0,0,15
+Cave horrors,58,4,85,0,21
+Cave krakens,87,9,80,0,22
+Dagannoths,1,9,75,0,29
+Dark beasts,90,11,90,0,30
+Drakes,84,8,0,0,33
+Dust devils,65,5,70,0,34
+Elves,1,4,0,0,37
+Fire giants,1,7,65,0,40
+Fossil Island Wyverns,66,5,60,0,42
+Gargoyles,75,8,80,0,43
+Greater demons,1,9,75,0,47
+Hellhounds,1,10,75,0,50
+Iron dragons,1,5,80,0,58
+Kalphites,1,9,15,0,61
+Kurasks,70,4,65,0,63
+Lizardmen,1,10,0,0,66
+Mithril dragons,1,9,0,0,72
+Nechryaels,80,9,85,0,78
+Red dragons,1,8,68,0,83
+Rune dragons,1,2,0,0,87
+Skeletal Wyverns,72,7,70,0,92
+Smoke devils,93,9,85,0,94
+Spiritual creatures,63,7,60,0,96
+Steel dragons,1,7,85,0,97
+Suqahs,1,8,85,0,98
+Trolls,1,6,60,0,100
+TzHaar,1,10,0,0,102
+Waterfiends,1,2,75,0,105
+Wyrms,62,8,0,0,108
