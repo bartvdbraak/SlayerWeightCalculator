@@ -1,19 +1,28 @@
 import csv
 import json
 
+MASTERS_JSON = 'masters.json'
+MASTERS_KEY = 'masters'
+MONSTERS_CSV = 'monsters.csv'
+RESULT_SUFFIX = '_results'
+
+
 def loop_over_masters():
-    master = open('masters.json')
-    data = json.load(master)["masters"]
+    master = open(MASTERS_JSON)
+    data = json.load(master)[MASTERS_KEY]
     master.close()
     for (key, value) in data.items():
-        write_results(str(value['name'].lower()))
+        file_name = str(value['name'].lower())
+        write_results(file_name)
+        generate_json(file_name)
+
 
 def write_results(current_master):
-    with open('monsters.csv', 'r') as monsters:
+    with open(MONSTERS_CSV, 'r') as monsters:
         master_indices = dict((r[1], i) for i, r in enumerate(csv.reader(monsters)))
 
     with open(current_master + '.csv', 'r') as master:
-        with open(current_master + '_results.csv', 'w') as results:
+        with open(current_master + RESULT_SUFFIX + '.csv', 'w') as results:
             reader = csv.reader(master)
             writer = csv.writer(results)
 
@@ -34,5 +43,19 @@ def write_results(current_master):
                     writer.writerow([index - 1] + [row[2]] )
 
 
+def generate_json(file_name):
+    data = {}
+
+    with open(file_name + RESULT_SUFFIX + '.csv', 'r') as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        for rows in csv_reader:
+            id = rows['id']
+            data[id] = rows
+
+    with open(file_name + RESULT_SUFFIX + '.json', 'w') as json_file:
+        json_file.write(json.dumps(data, indent=4))
+
+
 if __name__ == "__main__":
     loop_over_masters()
+
