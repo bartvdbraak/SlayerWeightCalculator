@@ -73,7 +73,7 @@ export default {
 				defence_level: 99,
 			},
 			masterFilter: {
-			    id: id => id === this.currentMaster.assignments[0],
+			    id: id => id === 0,
 			},
 			accountFilters: {
 				combat_req: combat_req => combat_req < this.config.combat_level,
@@ -85,12 +85,16 @@ export default {
 	},
 	methods: {
 		reload() {
+			//set current Slayer Master
 		    this.currentMaster = this.mastersData.masters[this.$route.params.id];
+
+		    //filter the list of Monsters
 		    this.filterData();
 		    this.generateTaskWeights();
 		},
 	    filterData() {
 			//filter based on current Slayer Master
+
 			this.filtered_items = this.filterArray(this.monstersData, this.masterFilter);
 
 			//filter based on Account Settings
