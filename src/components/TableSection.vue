@@ -13,7 +13,11 @@
             </div>
         </div>
         <div class="table-responsive">
-            <b-table striped hover :items="filtered_items" :fields="fields"></b-table>
+            <b-table striped hover :items="filtered_items" :fields="fields">
+                <template v-slot:cell(task_percentage)="data">
+                    <span class="text-monospace">{{ data.value.toFixed(2) }}%</span>
+                </template>
+            </b-table>
         </div>
     </section>
 </template>
@@ -65,6 +69,11 @@ export default {
 					sortable: true,
 					class: 'd-none',
 				},
+				{
+					key: 'task_percentage',
+					label: 'Task chance',
+					sortable: true,
+				},
 			],
 			config: {
 				combat_level: 60,
@@ -105,7 +114,15 @@ export default {
 			});
 		},
 		generateTaskWeights() {
+			//calculate total weight
+			this.total_weight = this.filtered_items.reduce(function(prev, cur) {
+				return prev + parseInt(cur.taskweight);
+			}, 0);
 
+			//add new entry with calculated task change
+			this.filtered_items.forEach(item => {
+				item.task_percentage = item.taskweight / this.total_weight * 100;
+			})
 		},
 	},
 	created() {
