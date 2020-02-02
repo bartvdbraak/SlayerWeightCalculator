@@ -1,31 +1,31 @@
-id,task_weight
-6,8
-8,7
-9,6
-18,8
-19,8
-20,8
-23,8
-25,8
-27,8
-67,8
-32,7
-36,6
-41,7
-44,7
-45,7
-51,7
-52,7
-55,7
-61,6
-62,6
-73,8
-81,8
-85,8
-88,7
-90,8
-93,7
-103,6
-104,7
-107,7
-109,7
+id,monster,slayer_req,taskweight,combat_req,defence_req
+6,Banshees,15,8,20,0
+8,Bats,1,7,5,0
+9,Bears,1,6,13,0
+18,Catablepons,1,8,35,0
+19,Cave bugs,7,8,0,0
+20,Cave crawlers,10,8,10,0
+23,Cave slimes,17,8,15,0
+25,Cockatrices,25,8,25,20
+27,Crawling Hands,5,8,0,0
+67,Lizards,22,8,15,0
+32,Dogs,1,7,15,0
+36,Earth warriors,1,6,35,0
+41,Flesh Crawlers,1,7,15,0
+44,Ghosts,1,7,13,0
+45,Ghouls,1,7,25,0
+51,Hill Giants,1,7,25,0
+52,Hobgoblins,1,7,20,0
+55,Ice warriors,1,7,45,0
+61,Kalphites,1,6,15,0
+62,Killerwatts,37,6,50,0
+73,Mogres,32,8,30,0
+81,Pyrefiends,30,8,25,0
+85,Rockslugs,20,8,20,0
+88,Scorpions,1,7,7,0
+90,Shades,1,8,30,0
+93,Skeletons,1,7,15,0
+103,Vampyres,1,6,35,0
+104,Wall beasts,35,7,30,5
+107,Wolves,1,7,20,0
+109,Zombies,1,7,10,0
