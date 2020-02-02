@@ -1,42 +1,42 @@
-id,task_weight
-0,6
-1,9
-2,2
-3,5
-4,6
-11,9
-12,6
-13,9
-14,4
-15,8
-16,3
-21,5
-22,6
-29,8
-30,5
-33,7
-34,6
-37,4
-40,9
-42,5
-43,6
-47,7
-50,8
-58,5
-61,9
-63,3
-66,8
-70,4
-72,5
-78,7
-83,5
-87,2
-92,5
-94,7
-96,6
-97,5
-98,8
-100,6
-101,3
-102,10
-108,7
+id,monster,slayer_req,taskweight,combat_req,defence_req
+0,Aberrant spectres,60,6,65,0
+1,Abyssal demons,85,9,85,0
+2,Adamant dragons,1,2,0,0
+3,Ankous,1,5,40,0
+4,Aviansies,1,6,0,0
+11,Black demons,1,9,80,0
+12,Black dragons,1,6,80,0
+13,Bloodvelds,50,9,50,0
+14,Blue dragons,1,4,65,0
+15,Bosses,1,8,0,0
+16,Brine rats,47,3,45,0
+21,Cave horrors,58,5,85,0
+22,Cave krakens,87,6,80,0
+29,Dagannoths,1,8,75,0
+30,Dark beasts,90,5,90,0
+33,Drakes,84,7,0,0
+34,Dust devils,65,6,70,0
+37,Elves,1,4,0,0
+40,Fire giants,1,9,65,0
+42,Fossil Island Wyverns,66,5,60,0
+43,Gargoyles,75,6,80,0
+47,Greater demons,1,7,75,0
+50,Hellhounds,1,8,75,0
+58,Iron dragons,1,5,80,0
+61,Kalphites,1,9,15,0
+63,Kurasks,70,3,65,0
+66,Lizardmen,1,8,0,0
+70,Minions of Scabaras,1,4,85,0
+72,Mithril dragons,1,5,0,0
+78,Nechryaels,80,7,85,0
+83,Red dragons,1,5,68,0
+87,Rune dragons,1,2,0,0
+92,Skeletal Wyverns,72,5,70,0
+94,Smoke devils,93,7,85,0
+96,Spiritual creatures,63,6,60,0
+97,Steel dragons,1,5,85,0
+98,Suqahs,1,8,85,0
+100,Trolls,1,6,60,0
+101,Turoths,55,3,60,0
+102,TzHaar,1,10,0,0
+108,Wyrms,62,7,0,0

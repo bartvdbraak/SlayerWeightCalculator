@@ -1,57 +1,57 @@
-id,task_weight
-0,8
-1,5
-3,7
-6,6
-7,8
-13,8
-14,7
-16,7
-17,7
-19,7
-20,7
-23,7
-25,8
-27,6
-28,6
-29,7
-67,7
-34,8
-36,6
-37,7
-39,7
-40,7
-43,5
-45,7
-48,6
-49,8
-50,7
-51,7
-52,7
-54,7
-55,7
-57,8
-59,8
-60,8
-61,7
-62,6
-63,7
-65,7
-73,7
-74,7
-76,7
-78,5
-79,7
-80,8
-81,8
-85,7
-90,8
-89,6
-91,8
-96,8
-99,6
-100,7
-101,8
-103,7
-104,6
-106,7
+id,monster,slayer_req,taskweight,combat_req,defence_req
+0,Aberrant spectres,60,8,65,0
+1,Abyssal demons,85,5,85,0
+3,Ankous,1,7,40,0
+6,Banshees,15,6,20,0
+7,Basilisks,40,8,40,0
+13,Bloodvelds,50,8,50,0
+14,Blue dragons,1,7,65,0
+16,Brine rats,47,7,45,0
+17,Bronze dragons,1,7,75,0
+19,Cave bugs,7,7,0,0
+20,Cave crawlers,10,7,10,0
+23,Cave slimes,17,7,15,0
+25,Cockatrices,25,8,25,20
+27,Crawling Hands,5,6,0,0
+28,Crocodiles,1,6,50,0
+29,Dagannoths,1,7,75,0
+67,Lizards,22,7,15,0
+34,Dust devils,65,8,70,0
+36,Earth warriors,1,6,35,0
+37,Elves,1,7,0,0
+39,Fever spiders,42,7,40,0
+40,Fire giants,1,7,65,0
+43,Gargoyles,75,5,80,0
+45,Ghouls,1,7,25,0
+48,Green dragons,1,6,52,0
+49,Harpie Bug Swarms,33,8,45,0
+50,Hellhounds,1,7,75,0
+51,Hill Giants,1,7,25,0
+52,Hobgoblins,1,7,20,0
+54,Ice giants,1,7,50,0
+55,Ice warriors,1,7,45,0
+57,Infernal Mages,45,8,40,0
+59,Jellies,52,8,57,0
+60,Jungle horrors,1,8,65,0
+61,Kalphites,1,7,15,0
+62,Killerwatts,37,6,50,0
+63,Kurasks,70,7,65,0
+65,Lesser demons,1,7,60,0
+73,Mogres,32,7,30,0
+74,Molanisks,39,7,50,0
+76,Moss giants,1,7,40,0
+78,Nechryaels,80,5,85,0
+79,Ogres,1,7,40,0
+80,Otherworldly beings,1,8,40,0
+81,Pyrefiends,30,8,25,0
+85,Rockslugs,20,7,20,0
+90,Shades,1,8,30,0
+89,Sea snakes,40,6,50,0
+91,Shadow warriors,1,8,60,0
+96,Spiritual creatures,63,8,60,0
+99,Terror dogs,40,6,60,0
+100,Trolls,1,7,60,0
+101,Turoths,55,8,60,0
+103,Vampyres,1,7,35,0
+104,Wall beasts,35,6,30,5
+106,Werewolves,1,7,60,0

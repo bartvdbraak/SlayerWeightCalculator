@@ -5,6 +5,8 @@ MASTERS_JSON = 'masters.json'
 MASTERS_KEY = 'masters'
 MONSTERS_CSV = 'monsters.csv'
 RESULT_SUFFIX = '_results'
+NEW_COLUMN = 'id'
+JOIN_INDEX = 0
 
 
 def loop_over_masters():
@@ -26,21 +28,17 @@ def write_results(current_master):
             reader = csv.reader(master)
             writer = csv.writer(results)
 
-            # Skip old header
-            next(reader, [])
-
-            # Write new CSV header row:
-            # id,task_weight\n
-            writer.writerow(['id'] + ['task_weight'])
+            # New column with old header
+            writer.writerow([NEW_COLUMN] + next(reader, []))
 
             for row in reader:
                 # row is found in slayer master AND monsters
-                index = master_indices.get(row[0])
+                index = master_indices.get(row[JOIN_INDEX])
 
                 if index is not None:
                     # Row with value for id and slayer_weight:
                     # 0,12\n
-                    writer.writerow([index - 1] + [row[2]] )
+                    writer.writerow([index - 1] + row)
 
 
 def generate_json(file_name):

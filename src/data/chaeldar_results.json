@@ -1,194 +1,386 @@
 {
     "0": {
         "id": "0",
-        "task_weight": "8"
+        "monster": "Aberrant spectres",
+        "slayer_req": "60",
+        "taskweight": "8",
+        "combat_req": "65",
+        "defence_req": "0"
     },
     "1": {
         "id": "1",
-        "task_weight": "12"
+        "monster": "Abyssal demons",
+        "slayer_req": "85",
+        "taskweight": "12",
+        "combat_req": "85",
+        "defence_req": "0"
     },
     "4": {
         "id": "4",
-        "task_weight": "9"
+        "monster": "Aviansies",
+        "slayer_req": "1",
+        "taskweight": "9",
+        "combat_req": "0",
+        "defence_req": "0"
     },
     "6": {
         "id": "6",
-        "task_weight": "5"
+        "monster": "Banshees",
+        "slayer_req": "15",
+        "taskweight": "5",
+        "combat_req": "20",
+        "defence_req": "0"
     },
     "7": {
         "id": "7",
-        "task_weight": "7"
+        "monster": "Basilisks",
+        "slayer_req": "40",
+        "taskweight": "7",
+        "combat_req": "40",
+        "defence_req": "20"
     },
     "11": {
         "id": "11",
-        "task_weight": "10"
+        "monster": "Black demons",
+        "slayer_req": "1",
+        "taskweight": "10",
+        "combat_req": "80",
+        "defence_req": "0"
     },
     "13": {
         "id": "13",
-        "task_weight": "8"
+        "monster": "Bloodvelds",
+        "slayer_req": "50",
+        "taskweight": "8",
+        "combat_req": "50",
+        "defence_req": "0"
     },
     "14": {
         "id": "14",
-        "task_weight": "8"
+        "monster": "Blue dragons",
+        "slayer_req": "1",
+        "taskweight": "8",
+        "combat_req": "65",
+        "defence_req": "0"
     },
     "16": {
         "id": "16",
-        "task_weight": "7"
+        "monster": "Brine rats",
+        "slayer_req": "47",
+        "taskweight": "7",
+        "combat_req": "45",
+        "defence_req": "0"
     },
     "17": {
         "id": "17",
-        "task_weight": "11"
+        "monster": "Bronze dragons",
+        "slayer_req": "1",
+        "taskweight": "11",
+        "combat_req": "75",
+        "defence_req": "0"
     },
     "20": {
         "id": "20",
-        "task_weight": "5"
+        "monster": "Cave crawlers",
+        "slayer_req": "10",
+        "taskweight": "5",
+        "combat_req": "10",
+        "defence_req": "0"
     },
     "21": {
         "id": "21",
-        "task_weight": "10"
+        "monster": "Cave horrors",
+        "slayer_req": "58",
+        "taskweight": "10",
+        "combat_req": "85",
+        "defence_req": "0"
     },
     "22": {
         "id": "22",
-        "task_weight": "12"
+        "monster": "Cave krakens",
+        "slayer_req": "87",
+        "taskweight": "12",
+        "combat_req": "80",
+        "defence_req": "0"
     },
     "23": {
         "id": "23",
-        "task_weight": "6"
+        "monster": "Cave slimes",
+        "slayer_req": "17",
+        "taskweight": "6",
+        "combat_req": "15",
+        "defence_req": "0"
     },
     "25": {
         "id": "25",
-        "task_weight": "6"
+        "monster": "Cockatrices",
+        "slayer_req": "25",
+        "taskweight": "6",
+        "combat_req": "25",
+        "defence_req": "20"
     },
     "29": {
         "id": "29",
-        "task_weight": "11"
+        "monster": "Dagannoths",
+        "slayer_req": "1",
+        "taskweight": "11",
+        "combat_req": "75",
+        "defence_req": "0"
     },
     "34": {
         "id": "34",
-        "task_weight": "9"
+        "monster": "Dust devils",
+        "slayer_req": "65",
+        "taskweight": "9",
+        "combat_req": "70",
+        "defence_req": "0"
     },
     "37": {
         "id": "37",
-        "task_weight": "8"
+        "monster": "Elves",
+        "slayer_req": "1",
+        "taskweight": "8",
+        "combat_req": "0",
+        "defence_req": "0"
     },
     "39": {
         "id": "39",
-        "task_weight": "7"
+        "monster": "Fever spiders",
+        "slayer_req": "42",
+        "taskweight": "7",
+        "combat_req": "40",
+        "defence_req": "0"
     },
     "40": {
         "id": "40",
-        "task_weight": "12"
+        "monster": "Fire giants",
+        "slayer_req": "1",
+        "taskweight": "12",
+        "combat_req": "65",
+        "defence_req": "0"
     },
     "42": {
         "id": "42",
-        "task_weight": "7"
+        "monster": "Fossil Island Wyverns",
+        "slayer_req": "66",
+        "taskweight": "7",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "43": {
         "id": "43",
-        "task_weight": "11"
+        "monster": "Gargoyles",
+        "slayer_req": "75",
+        "taskweight": "11",
+        "combat_req": "80",
+        "defence_req": "0"
     },
     "47": {
         "id": "47",
-        "task_weight": "9"
+        "monster": "Greater demons",
+        "slayer_req": "1",
+        "taskweight": "9",
+        "combat_req": "75",
+        "defence_req": "0"
     },
     "49": {
         "id": "49",
-        "task_weight": "6"
+        "monster": "Harpie Bug Swarms",
+        "slayer_req": "33",
+        "taskweight": "6",
+        "combat_req": "45",
+        "defence_req": "0"
     },
     "50": {
         "id": "50",
-        "task_weight": "9"
+        "monster": "Hellhounds",
+        "slayer_req": "1",
+        "taskweight": "9",
+        "combat_req": "75",
+        "defence_req": "0"
     },
     "57": {
         "id": "57",
-        "task_weight": "7"
+        "monster": "Infernal Mages",
+        "slayer_req": "45",
+        "taskweight": "7",
+        "combat_req": "40",
+        "defence_req": "0"
     },
     "58": {
         "id": "58",
-        "task_weight": "12"
+        "monster": "Iron dragons",
+        "slayer_req": "1",
+        "taskweight": "12",
+        "combat_req": "80",
+        "defence_req": "0"
     },
     "59": {
         "id": "59",
-        "task_weight": "10"
+        "monster": "Jellies",
+        "slayer_req": "52",
+        "taskweight": "10",
+        "combat_req": "57",
+        "defence_req": "0"
     },
     "60": {
         "id": "60",
-        "task_weight": "10"
+        "monster": "Jungle horrors",
+        "slayer_req": "1",
+        "taskweight": "10",
+        "combat_req": "65",
+        "defence_req": "0"
     },
     "61": {
         "id": "61",
-        "task_weight": "11"
+        "monster": "Kalphites",
+        "slayer_req": "1",
+        "taskweight": "11",
+        "combat_req": "15",
+        "defence_req": "0"
     },
     "63": {
         "id": "63",
-        "task_weight": "12"
+        "monster": "Kurasks",
+        "slayer_req": "70",
+        "taskweight": "12",
+        "combat_req": "65",
+        "defence_req": "0"
     },
     "65": {
         "id": "65",
-        "task_weight": "9"
+        "monster": "Lesser demons",
+        "slayer_req": "1",
+        "taskweight": "9",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "66": {
         "id": "66",
-        "task_weight": "8"
+        "monster": "Lizardmen",
+        "slayer_req": "1",
+        "taskweight": "8",
+        "combat_req": "0",
+        "defence_req": "0"
     },
     "67": {
         "id": "67",
-        "task_weight": "5"
+        "monster": "Lizards",
+        "slayer_req": "22",
+        "taskweight": "5",
+        "combat_req": "15",
+        "defence_req": "0"
     },
     "73": {
         "id": "73",
-        "task_weight": "6"
+        "monster": "Mogres",
+        "slayer_req": "32",
+        "taskweight": "6",
+        "combat_req": "30",
+        "defence_req": "0"
     },
     "74": {
         "id": "74",
-        "task_weight": "6"
+        "monster": "Molanisks",
+        "slayer_req": "39",
+        "taskweight": "6",
+        "combat_req": "50",
+        "defence_req": "0"
     },
     "77": {
         "id": "77",
-        "task_weight": "7"
+        "monster": "Mutated zygomites",
+        "slayer_req": "57",
+        "taskweight": "7",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "78": {
         "id": "78",
-        "task_weight": "12"
+        "monster": "Nechryaels",
+        "slayer_req": "80",
+        "taskweight": "12",
+        "combat_req": "85",
+        "defence_req": "0"
     },
     "81": {
         "id": "81",
-        "task_weight": "6"
+        "monster": "Pyrefiends",
+        "slayer_req": "30",
+        "taskweight": "6",
+        "combat_req": "25",
+        "defence_req": "0"
     },
     "85": {
         "id": "85",
-        "task_weight": "5"
+        "monster": "Rockslugs",
+        "slayer_req": "20",
+        "taskweight": "5",
+        "combat_req": "20",
+        "defence_req": "0"
     },
     "91": {
         "id": "91",
-        "task_weight": "8"
+        "monster": "Shadow warriors",
+        "slayer_req": "1",
+        "taskweight": "8",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "92": {
         "id": "92",
-        "task_weight": "7"
+        "monster": "Skeletal Wyverns",
+        "slayer_req": "72",
+        "taskweight": "7",
+        "combat_req": "70",
+        "defence_req": "0"
     },
     "96": {
         "id": "96",
-        "task_weight": "12"
+        "monster": "Spiritual creatures",
+        "slayer_req": "63",
+        "taskweight": "12",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "100": {
         "id": "100",
-        "task_weight": "11"
+        "monster": "Trolls",
+        "slayer_req": "1",
+        "taskweight": "11",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "101": {
         "id": "101",
-        "task_weight": "10"
+        "monster": "Turoths",
+        "slayer_req": "55",
+        "taskweight": "10",
+        "combat_req": "60",
+        "defence_req": "0"
     },
     "102": {
         "id": "102",
-        "task_weight": "8"
+        "monster": "TzHaar",
+        "slayer_req": "1",
+        "taskweight": "8",
+        "combat_req": "0",
+        "defence_req": "0"
     },
     "104": {
         "id": "104",
-        "task_weight": "6"
+        "monster": "Wall beasts",
+        "slayer_req": "35",
+        "taskweight": "6",
+        "combat_req": "30",
+        "defence_req": "5"
     },
     "108": {
         "id": "108",
-        "task_weight": "6"
+        "monster": "Wyrms",
+        "slayer_req": "62",
+        "taskweight": "6",
+        "combat_req": "0",
+        "defence_req": "0"
     }
 }
