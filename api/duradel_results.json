@@ -1,21 +1,21 @@
-{
-    "0": {
+[
+    {
         "id": "0",
         "monster": "Aberrant spectres",
         "slayer_req": "60",
-        "taskweight": "6",
+        "taskweight": "7",
         "combat_req": "65",
         "defence_req": "0"
     },
-    "1": {
+    {
         "id": "1",
         "monster": "Abyssal demons",
         "slayer_req": "85",
-        "taskweight": "9",
+        "taskweight": "12",
         "combat_req": "85",
         "defence_req": "0"
     },
-    "2": {
+    {
         "id": "2",
         "monster": "Adamant dragons",
         "slayer_req": "1",
@@ -23,7 +23,7 @@
         "combat_req": "0",
         "defence_req": "0"
     },
-    "3": {
+    {
         "id": "3",
         "monster": "Ankous",
         "slayer_req": "1",
@@ -31,39 +31,39 @@
         "combat_req": "40",
         "defence_req": "0"
     },
-    "4": {
+    {
         "id": "4",
         "monster": "Aviansies",
         "slayer_req": "1",
-        "taskweight": "6",
+        "taskweight": "8",
         "combat_req": "0",
         "defence_req": "0"
     },
-    "11": {
+    {
         "id": "11",
         "monster": "Black demons",
         "slayer_req": "1",
-        "taskweight": "9",
+        "taskweight": "8",
         "combat_req": "80",
         "defence_req": "0"
     },
-    "12": {
+    {
         "id": "12",
         "monster": "Black dragons",
         "slayer_req": "1",
-        "taskweight": "6",
+        "taskweight": "9",
         "combat_req": "80",
         "defence_req": "0"
     },
-    "13": {
+    {
         "id": "13",
         "monster": "Bloodvelds",
         "slayer_req": "50",
-        "taskweight": "9",
+        "taskweight": "8",
         "combat_req": "50",
         "defence_req": "0"
     },
-    "14": {
+    {
         "id": "14",
         "monster": "Blue dragons",
         "slayer_req": "1",
@@ -71,71 +71,63 @@
         "combat_req": "65",
         "defence_req": "0"
     },
-    "15": {
+    {
         "id": "15",
         "monster": "Bosses",
         "slayer_req": "1",
-        "taskweight": "8",
+        "taskweight": "12",
         "combat_req": "0",
         "defence_req": "0"
     },
-    "16": {
-        "id": "16",
-        "monster": "Brine rats",
-        "slayer_req": "47",
-        "taskweight": "3",
-        "combat_req": "45",
-        "defence_req": "0"
-    },
-    "21": {
+    {
         "id": "21",
         "monster": "Cave horrors",
         "slayer_req": "58",
-        "taskweight": "5",
+        "taskweight": "4",
         "combat_req": "85",
         "defence_req": "0"
     },
-    "22": {
+    {
         "id": "22",
         "monster": "Cave krakens",
         "slayer_req": "87",
-        "taskweight": "6",
+        "taskweight": "9",
         "combat_req": "80",
         "defence_req": "0"
     },
-    "29": {
+    {
         "id": "29",
         "monster": "Dagannoths",
         "slayer_req": "1",
-        "taskweight": "8",
+        "taskweight": "9",
         "combat_req": "75",
         "defence_req": "0"
     },
-    "30": {
+    {
         "id": "30",
         "monster": "Dark beasts",
         "slayer_req": "90",
-        "taskweight": "5",
+        "taskweight": "11",
         "combat_req": "90",
         "defence_req": "0"
     },
-    "33": {
+    {
         "id": "33",
         "monster": "Drakes",
         "slayer_req": "84",
-        "taskweight": "7",
+        "taskweight": "8",
         "combat_req": "0",
         "defence_req": "0"
     },
-    "34": {
+    {
         "id": "34",
         "monster": "Dust devils",
         "slayer_req": "65",
-        "taskweight": "6",
+        "taskweight": "5",
         "combat_req": "70",
         "defence_req": "0"
     },
-    "37": {
+    {
         "id": "37",
         "monster": "Elves",
         "slayer_req": "1",
@@ -143,15 +135,15 @@
         "combat_req": "0",
         "defence_req": "0"
     },
-    "40": {
+    {
         "id": "40",
         "monster": "Fire giants",
         "slayer_req": "1",
-        "taskweight": "9",
+        "taskweight": "7",
         "combat_req": "65",
         "defence_req": "0"
     },
-    "42": {
+    {
         "id": "42",
         "monster": "Fossil Island Wyverns",
         "slayer_req": "66",
@@ -159,31 +151,31 @@
         "combat_req": "60",
         "defence_req": "0"
     },
-    "43": {
+    {
         "id": "43",
         "monster": "Gargoyles",
         "slayer_req": "75",
-        "taskweight": "6",
+        "taskweight": "8",
         "combat_req": "80",
         "defence_req": "0"
     },
-    "47": {
+    {
         "id": "47",
         "monster": "Greater demons",
         "slayer_req": "1",
-        "taskweight": "7",
+        "taskweight": "9",
         "combat_req": "75",
         "defence_req": "0"
     },
-    "50": {
+    {
         "id": "50",
         "monster": "Hellhounds",
         "slayer_req": "1",
-        "taskweight": "8",
+        "taskweight": "10",
         "combat_req": "75",
         "defence_req": "0"
     },
-    "58": {
+    {
         "id": "58",
         "monster": "Iron dragons",
         "slayer_req": "1",
@@ -191,7 +183,7 @@
         "combat_req": "80",
         "defence_req": "0"
     },
-    "61": {
+    {
         "id": "61",
         "monster": "Kalphites",
         "slayer_req": "1",
@@ -199,55 +191,47 @@
         "combat_req": "15",
         "defence_req": "0"
     },
-    "63": {
+    {
         "id": "63",
         "monster": "Kurasks",
         "slayer_req": "70",
-        "taskweight": "3",
+        "taskweight": "4",
         "combat_req": "65",
         "defence_req": "0"
     },
-    "66": {
+    {
         "id": "66",
         "monster": "Lizardmen",
         "slayer_req": "1",
-        "taskweight": "8",
+        "taskweight": "10",
         "combat_req": "0",
         "defence_req": "0"
     },
-    "70": {
-        "id": "70",
-        "monster": "Minions of Scabaras",
-        "slayer_req": "1",
-        "taskweight": "4",
-        "combat_req": "85",
-        "defence_req": "0"
-    },
-    "72": {
+    {
         "id": "72",
         "monster": "Mithril dragons",
         "slayer_req": "1",
-        "taskweight": "5",
+        "taskweight": "9",
         "combat_req": "0",
         "defence_req": "0"
     },
-    "78": {
+    {
         "id": "78",
         "monster": "Nechryaels",
         "slayer_req": "80",
-        "taskweight": "7",
+        "taskweight": "9",
         "combat_req": "85",
         "defence_req": "0"
     },
-    "83": {
+    {
         "id": "83",
         "monster": "Red dragons",
         "slayer_req": "1",
-        "taskweight": "5",
+        "taskweight": "8",
         "combat_req": "68",
         "defence_req": "0"
     },
-    "87": {
+    {
         "id": "87",
         "monster": "Rune dragons",
         "slayer_req": "1",
@@ -255,39 +239,39 @@
         "combat_req": "0",
         "defence_req": "0"
     },
-    "92": {
+    {
         "id": "92",
         "monster": "Skeletal Wyverns",
         "slayer_req": "72",
-        "taskweight": "5",
+        "taskweight": "7",
         "combat_req": "70",
         "defence_req": "0"
     },
-    "94": {
+    {
         "id": "94",
         "monster": "Smoke devils",
         "slayer_req": "93",
+        "taskweight": "9",
+        "combat_req": "85",
+        "defence_req": "0"
+    },
+    {
+        "id": "96",
+        "monster": "Spiritual creatures",
+        "slayer_req": "63",
+        "taskweight": "7",
+        "combat_req": "60",
+        "defence_req": "0"
+    },
+    {
+        "id": "97",
+        "monster": "Steel dragons",
+        "slayer_req": "1",
         "taskweight": "7",
         "combat_req": "85",
         "defence_req": "0"
     },
-    "96": {
-        "id": "96",
-        "monster": "Spiritual creatures",
-        "slayer_req": "63",
-        "taskweight": "6",
-        "combat_req": "60",
-        "defence_req": "0"
-    },
-    "97": {
-        "id": "97",
-        "monster": "Steel dragons",
-        "slayer_req": "1",
-        "taskweight": "5",
-        "combat_req": "85",
-        "defence_req": "0"
-    },
-    "98": {
+    {
         "id": "98",
         "monster": "Suqahs",
         "slayer_req": "1",
@@ -295,7 +279,7 @@
         "combat_req": "85",
         "defence_req": "0"
     },
-    "100": {
+    {
         "id": "100",
         "monster": "Trolls",
         "slayer_req": "1",
@@ -303,15 +287,7 @@
         "combat_req": "60",
         "defence_req": "0"
     },
-    "101": {
-        "id": "101",
-        "monster": "Turoths",
-        "slayer_req": "55",
-        "taskweight": "3",
-        "combat_req": "60",
-        "defence_req": "0"
-    },
-    "102": {
+    {
         "id": "102",
         "monster": "TzHaar",
         "slayer_req": "1",
@@ -319,12 +295,20 @@
         "combat_req": "0",
         "defence_req": "0"
     },
-    "108": {
+    {
+        "id": "105",
+        "monster": "Waterfiends",
+        "slayer_req": "1",
+        "taskweight": "2",
+        "combat_req": "75",
+        "defence_req": "0"
+    },
+    {
         "id": "108",
         "monster": "Wyrms",
         "slayer_req": "62",
-        "taskweight": "7",
+        "taskweight": "8",
         "combat_req": "0",
         "defence_req": "0"
     }
-}
+]

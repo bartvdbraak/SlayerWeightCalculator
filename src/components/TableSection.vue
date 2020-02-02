@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
+            <h1 class="h3 text-uppercase font-weight-bolder"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
             <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
@@ -20,7 +20,6 @@
 
 <script>
 import master_json from "../data/masters";
-import monster_json from "../data/monsters";
 
 export default {
 	name: "TableSection",
@@ -28,7 +27,7 @@ export default {
 		return {
 			mastersData: master_json,
 		    currentMaster: null,
-			monstersData: monster_json,
+			monstersData: null,
 			total_weight: 0,
 			fields: [
 				{
@@ -68,17 +67,14 @@ export default {
 				},
 			],
 			config: {
-				combat_level: 126,
-				slayer_level: 99,
-				defence_level: 99,
-			},
-			masterFilter: {
-			    id: id => id === 0,
+				combat_level: 60,
+				slayer_level: 50,
+				defence_level: 1,
 			},
 			accountFilters: {
-				combat_req: combat_req => combat_req < this.config.combat_level,
-				slayer_req: slayer_req => slayer_req < this.config.slayer_level,
-				defence_req: defence_req => defence_req < this.config.defence_level,
+				combat_req: combat_req => combat_req <= this.config.combat_level,
+				slayer_req: slayer_req => slayer_req <= this.config.slayer_level,
+				defence_req: defence_req => defence_req <= this.config.defence_level,
 			},
 			filtered_items: [],
 		}
@@ -86,19 +82,16 @@ export default {
 	methods: {
 		reload() {
 			//set current Slayer Master
-		    this.currentMaster = this.mastersData.masters[this.$route.params.id];
+		    this.currentMaster = this.mastersData[this.$route.params.id];
+		    this.monstersData = this.currentMaster.assignments;
 
 		    //filter the list of Monsters
 		    this.filterData();
 		    this.generateTaskWeights();
 		},
 	    filterData() {
-			//filter based on current Slayer Master
-
-			this.filtered_items = this.filterArray(this.monstersData, this.masterFilter);
-
 			//filter based on Account Settings
-			this.filtered_items = this.filterArray(this.filtered_items, this.accountFilters);
+			this.filtered_items = this.filterArray(this.monstersData, this.accountFilters);
 		},
 		filterArray(array, filters) {
 			const filterKeys = Object.keys(filters);

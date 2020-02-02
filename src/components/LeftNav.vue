@@ -39,7 +39,7 @@ export default {
 					to: 'config',
 				},
 			],
-			masters: master_json.masters,
+			masters: master_json,
 			extraLinks: [
 				{
 					id: 101,

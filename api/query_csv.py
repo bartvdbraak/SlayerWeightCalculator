@@ -1,5 +1,6 @@
 import csv
 import json
+from collections import OrderedDict
 
 MASTERS_JSON = 'masters.json'
 MASTERS_KEY = 'masters'
@@ -10,13 +11,14 @@ JOIN_INDEX = 0
 
 
 def loop_over_masters():
-    master = open(MASTERS_JSON)
-    data = json.load(master)[MASTERS_KEY]
-    master.close()
+    masters_file = open(MASTERS_JSON)
+    data = json.load(masters_file)[MASTERS_KEY]
+    masters_file.close()
     for (key, value) in data.items():
-        file_name = str(value['name'].lower())
-        write_results(file_name)
-        generate_json(file_name)
+        current_master = str(value['name'].lower())
+        write_results(current_master)
+        generate_json(current_master)
+    replace_masters()
 
 
 def write_results(current_master):
@@ -42,16 +44,33 @@ def write_results(current_master):
 
 
 def generate_json(file_name):
-    data = {}
+    data = []
 
     with open(file_name + RESULT_SUFFIX + '.csv', 'r') as csv_file:
         csv_reader = csv.DictReader(csv_file)
+
         for rows in csv_reader:
             id = rows['id']
-            data[id] = rows
+            data.append(rows)
 
     with open(file_name + RESULT_SUFFIX + '.json', 'w') as json_file:
         json_file.write(json.dumps(data, indent=4))
+
+    return json_file
+
+
+def replace_masters():
+    masters_file = open(MASTERS_JSON)
+    master_data = json.load(masters_file)[MASTERS_KEY]
+    masters_file.close()
+    for item in master_data.items():
+        cur_master_file = open(item[1]['name'].lower()+'_results.json')
+        cur_data = json.load(cur_master_file)
+        cur_master_file.close()
+        item[1]['assignments'] = cur_data
+
+    with open(MASTERS_JSON + '_new' + '.json', 'w') as json_file:
+        json_file.write(json.dumps(master_data, indent=4))
 
 
 if __name__ == "__main__":
