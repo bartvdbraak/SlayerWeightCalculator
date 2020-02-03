@@ -1,0 +1,772 @@
+[
+  {
+    "id": 0,
+    "monster": "Aberrant spectres",
+    "slayer_req": 60,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "id": 1,
+    "monster": "Abyssal demons",
+    "slayer_req": 85,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 2,
+    "monster": "Adamant dragons",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 3,
+    "monster": "Ankous",
+    "slayer_req": 1,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 4,
+    "monster": "Aviansies",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 5,
+    "monster": "Bandits",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 6,
+    "monster": "Banshees",
+    "slayer_req": 15,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "id": 7,
+    "monster": "Basilisks",
+    "slayer_req": 40,
+    "combat_req": 40,
+    "defence_req": 20
+  },
+  {
+    "id": 8,
+    "monster": "Bats",
+    "slayer_req": 1,
+    "combat_req": 5,
+    "defence_req": 0
+  },
+  {
+    "id": 9,
+    "monster": "Bears",
+    "slayer_req": 1,
+    "combat_req": 13,
+    "defence_req": 0
+  },
+  {
+    "id": 10,
+    "monster": "Birds",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 11,
+    "monster": "Black demons",
+    "slayer_req": 1,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "id": 12,
+    "monster": "Black dragons",
+    "slayer_req": 1,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "id": 13,
+    "monster": "Bloodvelds",
+    "slayer_req": 50,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 14,
+    "monster": "Blue dragons",
+    "slayer_req": 1,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "id": 15,
+    "monster": "Bosses",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 16,
+    "monster": "Brine rats",
+    "slayer_req": 47,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "id": 17,
+    "monster": "Bronze dragons",
+    "slayer_req": 1,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "id": 18,
+    "monster": "Catablepons",
+    "slayer_req": 1,
+    "combat_req": 35,
+    "defence_req": 0
+  },
+  {
+    "id": 19,
+    "monster": "Cave bugs",
+    "slayer_req": 7,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 20,
+    "monster": "Cave crawlers",
+    "slayer_req": 10,
+    "combat_req": 10,
+    "defence_req": 0
+  },
+  {
+    "id": 21,
+    "monster": "Cave horrors",
+    "slayer_req": 58,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 22,
+    "monster": "Cave krakens",
+    "slayer_req": 87,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "id": 23,
+    "monster": "Cave slimes",
+    "slayer_req": 17,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 24,
+    "monster": "Chaos druids",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 25,
+    "monster": "Cockatrices",
+    "slayer_req": 25,
+    "combat_req": 25,
+    "defence_req": 20
+  },
+  {
+    "id": 26,
+    "monster": "Cows",
+    "slayer_req": 1,
+    "combat_req": 5,
+    "defence_req": 0
+  },
+  {
+    "id": 27,
+    "monster": "Crawling Hands",
+    "slayer_req": 5,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 28,
+    "monster": "Crocodiles",
+    "slayer_req": 1,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 29,
+    "monster": "Dagannoths",
+    "slayer_req": 1,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "id": 30,
+    "monster": "Dark beasts",
+    "slayer_req": 90,
+    "combat_req": 90,
+    "defence_req": 0
+  },
+  {
+    "id": 31,
+    "monster": "Dark warriors",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 32,
+    "monster": "Dogs",
+    "slayer_req": 1,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 33,
+    "monster": "Drakes",
+    "slayer_req": 84,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 34,
+    "monster": "Dust devils",
+    "slayer_req": 65,
+    "combat_req": 70,
+    "defence_req": 0
+  },
+  {
+    "id": 35,
+    "monster": "Dwarves",
+    "slayer_req": 1,
+    "combat_req": 6,
+    "defence_req": 0
+  },
+  {
+    "id": 36,
+    "monster": "Earth warriors",
+    "slayer_req": 1,
+    "combat_req": 35,
+    "defence_req": 0
+  },
+  {
+    "id": 37,
+    "monster": "Elves",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 38,
+    "monster": "Ents",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 39,
+    "monster": "Fever spiders",
+    "slayer_req": 42,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 40,
+    "monster": "Fire giants",
+    "slayer_req": 1,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "id": 41,
+    "monster": "Flesh Crawlers",
+    "slayer_req": 1,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 42,
+    "monster": "Fossil Island Wyverns",
+    "slayer_req": 66,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 43,
+    "monster": "Gargoyles",
+    "slayer_req": 75,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "id": 44,
+    "monster": "Ghosts",
+    "slayer_req": 1,
+    "combat_req": 13,
+    "defence_req": 0
+  },
+  {
+    "id": 45,
+    "monster": "Ghouls",
+    "slayer_req": 1,
+    "combat_req": 25,
+    "defence_req": 0
+  },
+  {
+    "id": 46,
+    "monster": "Goblins",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 47,
+    "monster": "Greater demons",
+    "slayer_req": 1,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "id": 48,
+    "monster": "Green dragons",
+    "slayer_req": 1,
+    "combat_req": 52,
+    "defence_req": 0
+  },
+  {
+    "id": 49,
+    "monster": "Harpie Bug Swarms",
+    "slayer_req": 33,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "id": 50,
+    "monster": "Hellhounds",
+    "slayer_req": 1,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "id": 51,
+    "monster": "Hill Giants",
+    "slayer_req": 1,
+    "combat_req": 25,
+    "defence_req": 0
+  },
+  {
+    "id": 52,
+    "monster": "Hobgoblins",
+    "slayer_req": 1,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "id": 53,
+    "monster": "Hydras",
+    "slayer_req": 95,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 54,
+    "monster": "Ice giants",
+    "slayer_req": 1,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 55,
+    "monster": "Ice warriors",
+    "slayer_req": 1,
+    "combat_req": 45,
+    "defence_req": 0
+  },
+  {
+    "id": 56,
+    "monster": "Icefiends",
+    "slayer_req": 1,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "id": 57,
+    "monster": "Infernal Mages",
+    "slayer_req": 45,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 58,
+    "monster": "Iron dragons",
+    "slayer_req": 1,
+    "combat_req": 80,
+    "defence_req": 0
+  },
+  {
+    "id": 59,
+    "monster": "Jellies",
+    "slayer_req": 52,
+    "combat_req": 57,
+    "defence_req": 0
+  },
+  {
+    "id": 60,
+    "monster": "Jungle horrors",
+    "slayer_req": 1,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "id": 61,
+    "monster": "Kalphites",
+    "slayer_req": 1,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 62,
+    "monster": "Killerwatts",
+    "slayer_req": 37,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 63,
+    "monster": "Kurasks",
+    "slayer_req": 70,
+    "combat_req": 65,
+    "defence_req": 0
+  },
+  {
+    "id": 64,
+    "monster": "Lava dragons",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 65,
+    "monster": "Lesser demons",
+    "slayer_req": 1,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 66,
+    "monster": "Lizardmen",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 67,
+    "monster": "Lizards",
+    "slayer_req": 22,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 68,
+    "monster": "Magic axes",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 69,
+    "monster": "Mammoths",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 70,
+    "monster": "Minions of Scabaras",
+    "slayer_req": 1,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 71,
+    "monster": "Minotaurs",
+    "slayer_req": 1,
+    "combat_req": 7,
+    "defence_req": 0
+  },
+  {
+    "id": 72,
+    "monster": "Mithril dragons",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 73,
+    "monster": "Mogres",
+    "slayer_req": 32,
+    "combat_req": 30,
+    "defence_req": 0
+  },
+  {
+    "id": 74,
+    "monster": "Molanisks",
+    "slayer_req": 39,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 75,
+    "monster": "Monkeys",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 76,
+    "monster": "Moss giants",
+    "slayer_req": 1,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 77,
+    "monster": "Mutated zygomites",
+    "slayer_req": 57,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 78,
+    "monster": "Nechryaels",
+    "slayer_req": 80,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 79,
+    "monster": "Ogres",
+    "slayer_req": 1,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 80,
+    "monster": "Otherworldly beings",
+    "slayer_req": 1,
+    "combat_req": 40,
+    "defence_req": 0
+  },
+  {
+    "id": 81,
+    "monster": "Pyrefiends",
+    "slayer_req": 30,
+    "combat_req": 25,
+    "defence_req": 0
+  },
+  {
+    "id": 82,
+    "monster": "Rats",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 83,
+    "monster": "Red dragons",
+    "slayer_req": 1,
+    "combat_req": 68,
+    "defence_req": 0
+  },
+  {
+    "id": 84,
+    "monster": "Revenants",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 85,
+    "monster": "Rockslugs",
+    "slayer_req": 20,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "id": 86,
+    "monster": "Rogues",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 87,
+    "monster": "Rune dragons",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 88,
+    "monster": "Scorpions",
+    "slayer_req": 1,
+    "combat_req": 7,
+    "defence_req": 0
+  },
+  {
+    "id": 89,
+    "monster": "Sea snakes",
+    "slayer_req": 40,
+    "combat_req": 50,
+    "defence_req": 0
+  },
+  {
+    "id": 90,
+    "monster": "Shades",
+    "slayer_req": 1,
+    "combat_req": 30,
+    "defence_req": 0
+  },
+  {
+    "id": 91,
+    "monster": "Shadow warriors",
+    "slayer_req": 1,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 92,
+    "monster": "Skeletal Wyverns",
+    "slayer_req": 72,
+    "combat_req": 70,
+    "defence_req": 0
+  },
+  {
+    "id": 93,
+    "monster": "Skeletons",
+    "slayer_req": 1,
+    "combat_req": 15,
+    "defence_req": 0
+  },
+  {
+    "id": 94,
+    "monster": "Smoke devils",
+    "slayer_req": 93,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 95,
+    "monster": "Spiders",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 96,
+    "monster": "Spiritual creatures",
+    "slayer_req": 63,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 97,
+    "monster": "Steel dragons",
+    "slayer_req": 1,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 98,
+    "monster": "Suqahs",
+    "slayer_req": 1,
+    "combat_req": 85,
+    "defence_req": 0
+  },
+  {
+    "id": 99,
+    "monster": "Terror dogs",
+    "slayer_req": 40,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 100,
+    "monster": "Trolls",
+    "slayer_req": 1,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 101,
+    "monster": "Turoths",
+    "slayer_req": 55,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 102,
+    "monster": "TzHaar",
+    "slayer_req": 1,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 103,
+    "monster": "Vampyres",
+    "slayer_req": 1,
+    "combat_req": 35,
+    "defence_req": 0
+  },
+  {
+    "id": 104,
+    "monster": "Wall beasts",
+    "slayer_req": 35,
+    "combat_req": 30,
+    "defence_req": 5
+  },
+  {
+    "id": 105,
+    "monster": "Waterfiends",
+    "slayer_req": 1,
+    "combat_req": 75,
+    "defence_req": 0
+  },
+  {
+    "id": 106,
+    "monster": "Werewolves",
+    "slayer_req": 1,
+    "combat_req": 60,
+    "defence_req": 0
+  },
+  {
+    "id": 107,
+    "monster": "Wolves",
+    "slayer_req": 1,
+    "combat_req": 20,
+    "defence_req": 0
+  },
+  {
+    "id": 108,
+    "monster": "Wyrms",
+    "slayer_req": 62,
+    "combat_req": 0,
+    "defence_req": 0
+  },
+  {
+    "id": 109,
+    "monster": "Zombies",
+    "slayer_req": 1,
+    "combat_req": 10,
+    "defence_req": 0
+  }
+]
