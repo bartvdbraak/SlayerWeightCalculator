@@ -32,6 +32,9 @@ import master_json from "../data/masters";
 
 export default {
 	name: "TableSection",
+	props: {
+		configData: Object,
+	},
 	data() {
 		return {
 			mastersData: master_json,
