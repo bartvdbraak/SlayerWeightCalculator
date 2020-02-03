@@ -92,18 +92,18 @@ export default {
 	data() {
 	    return {
 	    	monsterData: monster_json,
-	    	masterData: master_json,
+	    	mastersData: master_json,
 			configData: {
-	    	pointUnlocks: [
-		        {id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: false, masters: [5,6,7]},
-		        {id: 1, name: 'I hope you mith me', monster_ids: [72], unlock: false, masters: [5,6,7]},
-		        {id: 2, name: 'Watch the birdie', monster_ids: [4], unlock: false, masters: [4,5,6,7]},
-		        {id: 3, name: 'Hot stuff', monster_ids: [102], unlock: false, masters: [4,6,7]},
-		        {id: 4, name: 'Reptile got ripped', monster_ids: [66], unlock: false, masters: [4,5,6,7]},
-		        {id: 5, name: 'Like a boss', monster_ids: [15], unlock: false, masters: [5,6,7]},
-		        {id: 6, name: 'Stop the Wyvern', monster_ids: [42], unlock: false, block: true},
-		        {id: 7, name: 'Basilocked', monster_ids: [7], unlock: false, masters: [5,6,7]},
-	        ],
+				pointUnlocks: [
+					{id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: false, masters: [5,6,7]},
+					{id: 1, name: 'I hope you mith me', monster_ids: [72], unlock: false, masters: [5,6,7]},
+					{id: 2, name: 'Watch the birdie', monster_ids: [4], unlock: false, masters: [4,5,6,7]},
+					{id: 3, name: 'Hot stuff', monster_ids: [102], unlock: false, masters: [4,6,7]},
+					{id: 4, name: 'Reptile got ripped', monster_ids: [66], unlock: false, masters: [4,5,6,7]},
+					{id: 5, name: 'Like a boss', monster_ids: [15], unlock: false, masters: [5,6,7]},
+					{id: 6, name: 'Stop the Wyvern', monster_ids: [42], unlock: false, block: true},
+					{id: 7, name: 'Basilocked', monster_ids: [7], unlock: false, masters: [5,6,7]},
+				],
 				blockList: [
 					{id: 0, name: 'Block task (50 quest points)', monster_ids: null, block: true},
 					{id: 1, name: 'Block task (100 quest points)', monster_ids: null, block: true},
@@ -164,6 +164,7 @@ export default {
 			return monsterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
 		masterListString(entry) {
+
 			let masterList = [];
 			entry['masters'].forEach( id => {
 				masterList.push(this.mastersData[id].name)
