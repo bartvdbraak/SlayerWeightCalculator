@@ -13,7 +13,12 @@
             </div>
         </div>
         <div class="table-responsive">
-            <b-table striped hover :items="filtered_items" :fields="fields">
+            <b-table striped hover
+                     :items="filtered_items"
+                     :fields="fields"
+                     :sort-by.sync="sortBy"
+                     :sort-desc.sync="sortDesc"
+                     :sort-direction="sortDirection">
                 <template v-slot:cell(task_percentage)="data">
                     <span class="text-monospace">{{ data.value.toFixed(2) }}%</span>
                 </template>
@@ -33,6 +38,10 @@ export default {
 		    currentMaster: null,
 			monstersData: null,
 			total_weight: 0,
+			sortDirection: 'desc',
+			sortDesc: true,
+			sortBy: 'task_percentage',
+
 			fields: [
 				{
 					key: 'id',
