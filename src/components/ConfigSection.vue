@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase mb-2" @click="testConfig">Account Settings</h1>
+            <h1 class="h3 text-uppercase mb-2">Account Settings</h1>
             <hr>
             <h4>Stats</h4>
             <b-row class="text-center align-content-center">
@@ -36,8 +36,15 @@
                             value="true"
                             unchecked-value="false"
                             >
-                        <span class="mr-2" v-b-tooltip.hover.right :title="masterListString(pointUnlock)">{{ pointUnlock.name }}
-                            <small class="text-monospace text-muted">{{ monsterPreText(pointUnlock) }}</small>
+                        <span class="mr-2">
+                            <span v-if="pointUnlock.masters" v-b-tooltip.hover.right :title="masterListString(pointUnlock)">
+                                {{ pointUnlock.name }}
+                                <small class="text-monospace text-muted">{{ monsterPreText(pointUnlock) }}</small>
+                            </span>
+                            <span v-else>
+                                {{ pointUnlock.name }}
+                                <small class="text-monospace text-muted">{{ monsterPreText(pointUnlock) }}</small>
+                            </span>
                         </span>
                     </b-form-checkbox>
                 </b-col>
@@ -76,7 +83,6 @@
                         </b-form-checkbox>
                     </b-col>
             </b-row>
-
         </div>
     </section>
 </template>
@@ -164,20 +170,18 @@ export default {
 			return monsterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
 		masterListString(entry) {
-
 			let masterList = [];
 			entry['masters'].forEach( id => {
 				masterList.push(this.mastersData[id].name)
 			});
 
-			return 'Assigned by' + masterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
-		},
-		testConfig() {
-			console.log(JSON.stringify(this.configData.blockList, null, 2))
+			return 'Added to ' + masterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
 	},
-	beforeDestroy: function() {
-		this.$emit('config', this.configData)
+	watch: {
+		$route(to, from) {
+			console.log(JSON.stringify(this.configData, 0, 2))
+		}
 	}
 }
 </script>

@@ -1,20 +1,23 @@
 <template>
   <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
-    <router-view></router-view>
+    <router-view v-bind="currentConfig" v-on:config="setConfig"></router-view>
   </main>
 </template>
 
 <script>
 export default {
 	name: 'MainContent',
-	components: {
+	data() {
+		return {
+			currentConfig: {},
+		}
 	},
-	props: {
-		headerText: String,
-		currentComponent: {
-		  default: 'config-section',
-		},
-	},
+	methods: {
+		setConfig(configObject) {
+			this.currentConfig = configObject;
+			console.log(this.currentConfig)
+		}
+	}
 }
 </script>
 
