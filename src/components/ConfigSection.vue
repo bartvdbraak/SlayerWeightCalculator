@@ -1,24 +1,60 @@
 <template>
     <section>
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase">Account Settings</h1>
-            <div class="btn-toolbar mb-2 mb-md-0">
-                <div class="btn-group mr-2">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-                </div>
-                <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    This week
-                </button>
-            </div>
+        <div class="pt-3 pb-2 my-2">
+            <h1 class="h3 text-uppercase mb-2">Account Settings</h1>
+            <hr>
+            <b-row>
+                <b-col class="text-center align-content-center">
+                    <h4>Slayer Point Unlocks</h4>
+                </b-col>
+                <b-col class="text-center align-content-center">
+                    <h4>Slayer Block List</h4>
+                </b-col>
+            </b-row>
+            <hr>
+            <b-row class="text-center align-content-center">
+                <b-col>
+                    <h4>Quests</h4>
+                </b-col>
+            </b-row>
+            <hr>
+            <b-row class="text-center align-content-center">
+                <b-col>
+                    <h4>Stats</h4>
+                </b-col>
+            </b-row>
         </div>
     </section>
 </template>
 
 <script>
+import monster_json from '../data/masters'
 export default {
-	name: "ConfigSection"
+	name: "ConfigSection",
+	props: {
+		config: Object,
+	},
+	data() {
+	    return {
+	    	monsterData: monster_json,
+	    	pointUnlocks: {
+	    		redDragons: false,
+	    		mithDragons: false,
+	    		aviansies: false,
+				tzhaars: false,
+	    		lizardmen: false,
+	    		fossilIslandWyverns: false,
+			},
+			blockList: [],
+			questUnlocks: [
+				{id: 0, name: 'Bone Voyage', monster_ids: [42], unlock: false},
+				{id: 1, name: 'Cabin Fever', monster_ids: [60, 21], unlock: false},
+				{id: 2, name: 'Contact!', monster_ids: [70], unlock: false},
+				{id: 3, name: 'Death Plateau', monster_ids: [96], unlock: false},
+				{id: 4, name: 'Death to the Dorgeshuun', monster_ids: [74], unlock: false},
+			]
+		}
+	},
 }
 </script>
 
