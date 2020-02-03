@@ -36,7 +36,7 @@
                             value="true"
                             unchecked-value="false"
                             >
-                        <span class="mr-2" v-b-tooltip.hover.right :title="''">{{ pointUnlock.name }}
+                        <span class="mr-2" v-b-tooltip.hover.right :title="masterListString(pointUnlock)">{{ pointUnlock.name }}
                             <small class="text-monospace text-muted">{{ monsterPreText(pointUnlock) }}</small>
                         </span>
                     </b-form-checkbox>
@@ -83,6 +83,7 @@
 
 <script>
 import monster_json from '../data/monsters'
+import master_json from '../data/masters'
 export default {
 	name: "ConfigSection",
 	props: {
@@ -91,6 +92,7 @@ export default {
 	data() {
 	    return {
 	    	monsterData: monster_json,
+	    	masterData: master_json,
 			configData: {
 	    	pointUnlocks: [
 		        {id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: false, masters: [5,6,7]},
@@ -162,12 +164,12 @@ export default {
 			return monsterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
 		masterListString(entry) {
-			let monsterList = [];
-			entry['add_to_sm'].forEach( id => {
-				monsterList.push(this.mastersData[id].name)
+			let masterList = [];
+			entry['masters'].forEach( id => {
+				masterList.push(this.mastersData[id].name)
 			});
 
-			return 'Assigned by' + monsterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
+			return 'Assigned by' + masterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
 		testConfig() {
 			console.log(JSON.stringify(this.configData.blockList, null, 2))
