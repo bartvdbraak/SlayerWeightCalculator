@@ -1,6 +1,6 @@
 <template>
   <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
-    <router-view :configData="mainConfig" @update="updateConfig($event)"></router-view>
+    <router-view :configData.sync="mainConfig"></router-view>
   </main>
 </template>
 
@@ -62,15 +62,21 @@ export default {
 		}
 	},
 	methods: {
-		updateConfig(eventData) {
-			this.mainConfig = eventData;
-			if (localStorage.getItem('remember') === 'true') {
-				localStorage.setItem('configData', JSON.stringify(this.mainConfig));
-			}
+	},
+	watch: {
+		mainConfig: {
+			handler() {
+				if (localStorage.getItem('remember') === 'true') {
+					localStorage.setItem('configData', JSON.stringify(this.mainConfig));
+				}
+			},
+			deep: true,
 		}
 	},
 	created() {
-		this.mainConfig = JSON.parse(localStorage.getItem("configData"));
+		if (localStorage.getItem("configData")) {
+			this.mainConfig = JSON.parse(localStorage.getItem("configData"));
+		}
 	},
 }
 </script>

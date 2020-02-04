@@ -176,15 +176,11 @@ export default {
 			});
 		}
 	},
-	beforeRouteLeave (to, from, next) {
-		this.$emit('update',this.configData);
-		next()
-	},
 	created() {
 		this.setRemember()
 	},
 	watch: {
-		configFile: function () {
+		configFile() {
 			if (window.File && window.FileReader && window.FileList && window.Blob) {
 				this.readFile(this.configFile);
 			} else {
