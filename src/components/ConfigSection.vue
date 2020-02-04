@@ -1,10 +1,34 @@
 <template>
     <section>
-        <div class="pt-3 pb-2 my-2">
-            <h1 class="h3 text-uppercase mb-2">Account Settings</h1>
-            <hr>
-            <h4>Stats</h4>
-            <b-row class="text-center align-content-center">
+        <div class="pt-3 pb-2 my-2 px-4">
+            <b-row>
+                <b-col>
+                    <h1 class="h3 text-uppercase mb-4">Account Settings</h1>
+                </b-col>
+                <b-col class="flex-column">
+                    <b-button-toolbar aria-label="Toolbar with button groups and input groups">
+                        <b-button-group size="sm" class="mr-1">
+                            <b-button @click="flipRemember"
+                                    :pressed="remember"
+                                    size="sm">
+                                <svg v-if="remember" xmlns="http://www.w3.org/2000/svg" width=".8em" height=".8em" class="mr-1" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+                                <svg v-else xmlns="http://www.w3.org/2000/svg" width=".8em" height=".8em" class="mr-1" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+                                Remember
+                            </b-button>
+                            <b-button @click="serveConfig"><a ref="config-export" download="config.json"></a>Export</b-button>
+                        </b-button-group>
+                        <b-form-file class="w-auto"
+                                v-model="configFile"
+                                placeholder="Load settings.json"
+                                accept=".json">
+                        </b-form-file>
+                    </b-button-toolbar>
+
+
+                </b-col>
+            </b-row>
+            <b-row class="shadow py-3 mb-5">
+                <b-col sm="12" ><h4>Stats</h4></b-col>
                 <b-col sm="6" md="4" v-for="statUnlock in configData.statUnlocks" v-bind:key="statUnlock.id">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
@@ -23,9 +47,8 @@
                     </div>
                 </b-col>
             </b-row>
-            <hr>
-            <b-row>
-                <b-col class="justify-content-between">
+            <b-row class="shadow py-3 mb-5">
+                <b-col>
                     <h4>Slayer Point Unlocks</h4>
                     <b-form-checkbox
                             class="mb-1"
@@ -64,24 +87,22 @@
                     </b-form-select>
                 </b-col>
             </b-row>
-            <hr>
-            <h4>Quests Unlocks</h4>
-            <b-row>
-                    <b-col md="6" xl="4" v-for="questUnlock in configData.questUnlocks" v-bind:key="questUnlock.id">
-                        <b-form-checkbox
-                                class="mb-1"
-                                v-model="questUnlock.unlock"
-                                :name="questUnlock.name"
-                                value="true"
-                                unchecked-value="false"
-                        >
-                            {{ questUnlock.name }} <br>
-                            <small v-if="questUnlock.alternative_text" class="text-monospace text-muted" >
-                                Unlocks <span class="text-info" v-b-tooltip.hover.right :title="monsterListString(questUnlock)">{{ questUnlock.alternative_text }}</span>
-                            </small>
-                            <small v-else class="text-monospace text-muted">{{ monsterListString(questUnlock) }}</small>
-                        </b-form-checkbox>
-                    </b-col>
+            <b-row class="shadow py-3">
+                <b-col sm="12" ><h4>Quests Unlocks</h4></b-col>
+                <b-col md="6" xl="4" v-for="questUnlock in configData.questUnlocks" v-bind:key="questUnlock.id">
+                    <b-form-checkbox
+                            class="mb-1"
+                            v-model="questUnlock.unlock"
+                            :name="questUnlock.name"
+                            value="true"
+                            unchecked-value="false">
+                        {{ questUnlock.name }} <br>
+                        <small v-if="questUnlock.alternative_text" class="text-monospace text-muted" >
+                            Unlocks <span class="text-info" v-b-tooltip.hover.right :title="monsterListString(questUnlock)">{{ questUnlock.alternative_text }}</span>
+                        </small>
+                        <small v-else class="text-monospace text-muted">{{ monsterListString(questUnlock) }}</small>
+                    </b-form-checkbox>
+                </b-col>
             </b-row>
         </div>
     </section>
@@ -99,6 +120,8 @@ export default {
 	    return {
 	    	monsterData: monster_json,
 	    	mastersData: master_json,
+			configFile: null,
+			remember: null,
 		}
 	},
 	methods: {
@@ -127,10 +150,47 @@ export default {
 
 			return 'Added to ' + masterList.join(', ').replace(/,(?!.*,)/gmi, ' and');
 		},
+		serveConfig() {
+			let data = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.configData));
+			let node = this.$refs['config-export'];
+			node.setAttribute("href", data);
+			node.click();
+		},
+		flipRemember() {
+			localStorage.setItem('remember', (!(localStorage.getItem('remember') === 'true')).toString());
+			this.setRemember();
+		},
+		setRemember() {
+			if (localStorage.getItem('remember') === null) {
+				localStorage.setItem('remember', 'true');
+			}
+			this.remember = (localStorage.getItem('remember') === 'true');
+		},
+		readFile(file){
+			return new Promise((resolve, reject) => {
+				let fr = new FileReader();
+				fr.onload = () => {
+					this.$emit('update', JSON.parse(fr.result));
+				};
+				fr.readAsText(file);
+			});
+		}
 	},
 	beforeRouteLeave (to, from, next) {
 		this.$emit('update',this.configData);
 		next()
+	},
+	created() {
+		this.setRemember()
+	},
+	watch: {
+		configFile: function () {
+			if (window.File && window.FileReader && window.FileList && window.Blob) {
+				this.readFile(this.configFile);
+			} else {
+				alert('The File APIs are not fully supported in this browser.');
+			}
+		}
 	}
 
 }
