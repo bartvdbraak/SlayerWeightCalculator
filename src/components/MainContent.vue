@@ -1,6 +1,6 @@
 <template>
   <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
-    <router-view :configData="mainConfig" @update="mainConfig = $event"></router-view>
+    <router-view :configData="mainConfig" @update="updateConfig($event)"></router-view>
   </main>
 </template>
 
@@ -60,6 +60,17 @@ export default {
 				],
 			}
 		}
+	},
+	methods: {
+		updateConfig(eventData) {
+			this.mainConfig = eventData;
+			if (localStorage.getItem('remember') === 'true') {
+				localStorage.setItem('configData', JSON.stringify(this.mainConfig));
+			}
+		}
+	},
+	created() {
+		this.mainConfig = JSON.parse(localStorage.getItem("configData"));
 	},
 }
 </script>
