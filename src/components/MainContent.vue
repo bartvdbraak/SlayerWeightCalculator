@@ -10,6 +10,11 @@ export default {
 	data() {
 		return {
 			mainConfig: {
+				statUnlocks: [
+					{id: 0, name: 'Slayer level', value: {min: 1, current: 99, max: 99}, image: 'slayer_icon.png', unlock: false},
+					{id: 1, name: 'Combat level', value: {min: 3, current: 126, max: 126}, image: 'combat_icon.png', unlock: false},
+					{id: 2, name: 'Defence level', value: {min: 1, current: 99, max: 99}, image: 'defence_icon.png', unlock: false},
+				],
 				pointUnlocks: [
 					{id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: false, masters: [5,6,7]},
 					{id: 1, name: 'I hope you mith me', monster_ids: [72], unlock: false, masters: [5,6,7]},
@@ -35,7 +40,7 @@ export default {
 					{id: 3, name: 'Death Plateau', monster_ids: [96], unlock: false},
 					{id: 4, name: 'Death to the Dorgeshuun', monster_ids: [74], unlock: false},
 					{id: 5, name: 'Desert Treasure (started)', monster_ids: [34, 94], unlock: false},
-					{id: 6, name: 'Dragon Slayer', monster_ids: [48, 14, 83, 12, 17, 58, 97, 72, 2, 87], alternative_text: "Dragons", unlock: false},
+					{id: 6, name: 'Dragon Slayer', monster_ids: [48, 14, 83, 12, 17, 58, 97, 72], alternative_text: "Dragons", unlock: false},
 					{id: 7, name: 'Dragon Slayer II', monster_ids: [2, 87], unlock: false},
 					{id: 8, name: 'Elemental Workshop I', monster_ids: [92], unlock: false},
 					{id: 9, name: 'Ernest the Chicken', monster_ids: [62], unlock: false},
@@ -53,11 +58,6 @@ export default {
 					{id: 21, name: 'Skippy and the Mogres (miniquest)', monster_ids: [73], unlock: false},
 					{id: 22, name: 'Waterfall Quest', monster_ids: [40], unlock: false},
 				],
-				statUnlocks: [
-					{id: 0, name: 'Slayer level', value: {min: 1, current: 99, max: 99}, image: 'Slayer_icon.png', unlock: false},
-					{id: 1, name: 'Combat level', value: {min: 3, current: 126, max: 126}, image: 'Combat_icon.png', unlock: false},
-					{id: 2, name: 'Defence level', value: {min: 1, current: 99, max: 99}, image: 'Defence_icon.png', unlock: false},
-				]
 			}
 		}
 	},
