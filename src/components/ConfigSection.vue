@@ -3,7 +3,7 @@
         <div class="pt-3 pb-2 my-2 px-4">
             <b-row>
                 <b-col>
-                    <h1 class="h3 text-uppercase mb-4">Account Settings</h1>
+                    <h1 class="h3 text-uppercase font-weight-bolder mb-4">Account Settings</h1>
                 </b-col>
                 <b-col class="flex-column">
                     <b-button-toolbar aria-label="Toolbar with button groups and input groups">
