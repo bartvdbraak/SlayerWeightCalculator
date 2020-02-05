@@ -11,6 +11,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.3.0",
     "core-js": "^3.4.4",
+    "lodash": "^4.17.15",
     "vue": "^2.6.10",
     "vue-router": "^3.1.5"
   },
@@ -50,6 +51,7 @@
     "last 2 versions"
   ],
   "peerDependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "webpack": "^5.0.04"
   }
 }

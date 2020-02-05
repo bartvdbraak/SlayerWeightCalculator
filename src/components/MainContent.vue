@@ -11,9 +11,9 @@ export default {
 		return {
 			mainConfig: {
 				statUnlocks: [
-					{id: 0, name: 'Slayer level', value: {min: 1, current: 99, max: 99}, image: 'slayer_icon.png', unlock: false},
-					{id: 1, name: 'Combat level', value: {min: 3, current: 126, max: 126}, image: 'combat_icon.png', unlock: false},
-					{id: 2, name: 'Defence level', value: {min: 1, current: 99, max: 99}, image: 'defence_icon.png', unlock: false},
+					{id: 0, name: 'Slayer level', filter: 'slayer_req', value: {min: 1, current: 99, max: 99}, image: 'slayer_icon.png', unlock: false},
+					{id: 1, name: 'Combat level', filter: 'combat_req', value: {min: 3, current: 126, max: 126}, image: 'combat_icon.png', unlock: false},
+					{id: 2, name: 'Defence level', filter: 'defence_req', value: {min: 1, current: 99, max: 99}, image: 'defence_icon.png', unlock: false},
 				],
 				pointUnlocks: [
 					{id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: false, masters: [5,6,7]},
@@ -76,6 +76,9 @@ export default {
 	created() {
 		if (localStorage.getItem("configData") && localStorage.getItem('remember') === 'true') {
 			this.mainConfig = JSON.parse(localStorage.getItem("configData"));
+		}
+		else if (localStorage.getItem("configData") && localStorage.getItem('remember') === 'false') {
+			localStorage.removeItem("configData");
 		}
 	},
 }

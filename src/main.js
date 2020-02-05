@@ -1,5 +1,6 @@
 import '@babel/polyfill'
 import 'mutationobserver-shim'
+import 'lodash'
 import Vue from 'vue'
 import './plugins/bootstrap-vue'
 import VueRouter from 'vue-router'
