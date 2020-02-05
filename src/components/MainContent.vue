@@ -74,7 +74,7 @@ export default {
 		}
 	},
 	created() {
-		if (localStorage.getItem("configData")) {
+		if (localStorage.getItem("configData") && localStorage.getItem('remember') === 'true') {
 			this.mainConfig = JSON.parse(localStorage.getItem("configData"));
 		}
 	},
