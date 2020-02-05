@@ -61,13 +61,13 @@ export default {
 					key: 'combat_req',
 					label: 'Combat Requirement',
 					sortable: true,
-					class: 'd-none',
+					// class: 'd-none',
 				},
 				{
 					key: 'slayer_req',
 					label: 'Slayer Requirement',
 					sortable: true,
-					class: 'd-none',
+					class: '',
 				},
 				{
 					key: 'defence_req',
@@ -87,16 +87,6 @@ export default {
 					sortable: true,
 				},
 			],
-			config: {
-				combat_level: 60,
-				slayer_level: 50,
-				defence_level: 1,
-			},
-			accountFilters: {
-				combat_req: combat_req => combat_req <= this.config.combat_level,
-				slayer_req: slayer_req => slayer_req <= this.config.slayer_level,
-				defence_req: defence_req => defence_req <= this.config.defence_level,
-			},
 			filtered_items: [],
 		}
 	},
@@ -111,18 +101,12 @@ export default {
 		    this.generateTaskWeights();
 		},
 	    filterData() {
-			//filter based on Account Settings
-			this.filtered_items = this.filterArray(this.monstersData, this.accountFilters);
-		},
-		filterArray(array, filters) {
-			const filterKeys = Object.keys(filters);
-			return array.filter(item => {
-				// validates all filter criteria
-				return filterKeys.every(key => {
-					// ignores non-function predicates
-					if (typeof filters[key] !== 'function') return true;
-					return filters[key](item[key]);
-				});
+			this.filtered_items = this.monstersData;
+			//filter based on Account Stats
+
+			this.configData.statUnlocks.forEach(stat=>{
+				// For each stat requirement, remove those from list where the current stat value is greater or equal to the monsters requirement value.
+				this.filtered_items = _.filter(this.filtered_items, function(o){ return parseInt(stat.value.current) >= parseInt(o[stat.filter]) } );
 			});
 		},
 		generateTaskWeights() {
@@ -145,7 +129,6 @@ export default {
 			this.reload();
 		}
 	}
-
 }
 </script>
 

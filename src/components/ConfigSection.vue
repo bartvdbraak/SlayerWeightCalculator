@@ -170,7 +170,7 @@ export default {
 			return new Promise((resolve, reject) => {
 				let fr = new FileReader();
 				fr.onload = () => {
-					this.$emit('update', JSON.parse(fr.result));
+					this.$emit('update:configData', JSON.parse(fr.result));
 				};
 				fr.readAsText(file);
 			});
