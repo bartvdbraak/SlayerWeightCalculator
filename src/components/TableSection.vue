@@ -96,18 +96,35 @@ export default {
 		    this.currentMaster = this.mastersData[this.$route.params.id];
 		    this.monstersData = this.currentMaster.assignments;
 
-		    //filter the list of Monsters
+		    //filter the list of Monsters and calculate task chances
 		    this.filterData();
-		    this.generateTaskWeights();
+			this.generateTaskWeights();
 		},
 	    filterData() {
 			this.filtered_items = this.monstersData;
-			//filter based on Account Stats
+			let removeIds = [];
 
+			//filter based on Stats
 			this.configData.statUnlocks.forEach(stat=>{
-				// For each stat requirement, remove those from list where the current stat value is greater or equal to the monsters requirement value.
-				this.filtered_items = _.filter(this.filtered_items, function(o){ return parseInt(stat.value.current) >= parseInt(o[stat.filter]) } );
+				//for each stat requirement, remove those from list where the current stat value is greater or equal to the monsters requirement value.
+				this.filtered_items = _.filter(this.filtered_items, function(monster){ return parseInt(stat.value.current) >= parseInt(monster[stat.filter]) } );
 			});
+
+			//filter based on Point Unlocks
+			this.configData.pointUnlocks.forEach(reward=>{
+	            if ((reward.unlock === 'true' && reward.block) || reward.unlock === 'false') {
+					//if reward unlocked but blocks monsters OR reward not unlocked and doesnt block
+					//then, add to removal
+					removeIds = removeIds.concat(reward.monster_ids)
+				}
+			});
+
+			//filter based on Block List
+
+			//filter based on Quest unlocks
+
+			//handle removal list
+			this.filtered_items = _.filter(this.filtered_items, function(monster){ return !removeIds.includes(parseInt(monster.id)) } );
 		},
 		generateTaskWeights() {
 			//calculate total weight
