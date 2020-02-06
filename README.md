@@ -54,3 +54,19 @@ yarn build
 ```
 yarn lint
 ```
+
+## Github Pages Deploy
+Clone the gh-pages branch (it uses a different `publicpath` module). 
+
+Build dist folder:
+```
+yarn build
+```
+Remove old root build files 
+```
+rm -rf js img css index.html
+```
+Move new files to root.
+```
+rsync -a dist/* .
+```
