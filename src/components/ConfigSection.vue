@@ -86,7 +86,16 @@
                 </b-col>
             </b-row>
             <b-row class="shadow py-3">
-                <b-col sm="12" ><h4>Quests Unlocks</h4></b-col>
+                <b-col sm="12" ><h4>Quests Unlocks</h4>
+                    <b-form-checkbox
+                            @change="checkAll($event)"
+                            class="mb-1">
+                        <small class="text-monospace text-muted text-primary" >
+                            Unlocked all
+                        </small>
+                    </b-form-checkbox>
+
+                </b-col>
                 <b-col md="6" xl="4" v-for="questUnlock in configData.questUnlocks" v-bind:key="questUnlock.id">
                     <b-form-checkbox
                             class="mb-1"
@@ -171,6 +180,12 @@ export default {
 					this.$emit('update:configData', JSON.parse(fr.result));
 				};
 				fr.readAsText(file);
+			});
+		},
+		checkAll(value) {
+			let data = this.configData;
+			data.questUnlocks.forEach(quest=>{
+				quest.unlock = value;
 			});
 		}
 	},
