@@ -1,5 +1,5 @@
 # Slayer Weight Calculator
-[![A cross-section of the Applications interface.](application.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![A cross-section of the Applications interface.](application.png)](https://bartvdbraak.github.io/slayweightcalc/index.html)
 > A calculator for slayer geeks that need to know percentages. Reworked in VueJS.
 ***
 
