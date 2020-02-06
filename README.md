@@ -1,11 +1,11 @@
 # Slayer Weight Calculator
-[![A cross-section of the Applications interface.](application.png)](https://bartvdbraak.github.io/slayweightcalc/index.html)
+[![A cross-section of the Applications interface.](application.png)](https://bartvdbraak.github.io/SlayerWeightCalculator)
 > A calculator for slayer geeks that need to know percentages. Reworked in VueJS.
 ***
 
 The full application can be accessed at:
 
-https://bartvdbraak.github.io/slayweightcalc/index.html
+https://bartvdbraak.github.io/SlayerWeightCalculator
 
 ## Why VueJS?
 This application was first written with little knowledge of the front-end Javascript landscape. Therefore, only jQuery and Datatables were used in conjunction with vanilla HTML and Bootstrap CSS. The codebase wasn't easily maintainable, making bugfixes or feature additions extremely tedious and time consuming.
