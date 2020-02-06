@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2019, Bart van der Braak
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * @author Bart
+ */
+
 import '@babel/polyfill'
 import 'mutationobserver-shim'
 import 'lodash'

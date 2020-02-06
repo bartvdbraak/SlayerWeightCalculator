@@ -34,7 +34,7 @@ export default {
 		    links: [
 				{
 					id: 100,
-					icon: 'hiscores.png',
+					icon: 'account.png',
 					title: 'Account settings',
 					to: 'config',
 				},
