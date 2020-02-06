@@ -61,13 +61,13 @@ export default {
 					key: 'combat_req',
 					label: 'Combat Requirement',
 					sortable: true,
-					// class: 'd-none',
+					class: 'd-none',
 				},
 				{
 					key: 'slayer_req',
 					label: 'Slayer Requirement',
 					sortable: true,
-					class: '',
+					class: 'd-none',
 				},
 				{
 					key: 'defence_req',
@@ -112,7 +112,7 @@ export default {
 
 			//filter based on Point Unlocks
 			this.configData.pointUnlocks.forEach(reward=>{
-	            if ((reward.unlock === 'true' && reward.block) || reward.unlock === 'false') {
+	            if ((reward.unlock === 'true' && reward.block) || (reward.unlock === 'false' && !reward.block)) {
 					//if reward unlocked but blocks monsters OR reward not unlocked and doesnt block
 					//then, add to removal
 					removeIds = removeIds.concat(reward.monster_ids)
@@ -120,8 +120,10 @@ export default {
 			});
 
 			//filter based on Block List
+			removeIds = removeIds.concat(this.configData.blockList.map(item => item.monster_ids));
 
 			//filter based on Quest unlocks
+			removeIds = removeIds.concat(this.configData.questUnlocks.filter(quest => quest.unlock === 'false').flatMap(item => item.monster_ids));
 
 			//handle removal list
 			this.filtered_items = _.filter(this.filtered_items, function(monster){ return !removeIds.includes(parseInt(monster.id)) } );
