@@ -39,9 +39,19 @@
                                 v-model="statUnlock.value.current"
                                 debounce="500"
                                 type="number"
+                                :disabled="statUnlock.ignore === 'true'"
                                 :min="statUnlock.value.min"
                                 :max="statUnlock.value.max">
                         </b-form-input>
+                        <div class="input-group-append" v-if="statUnlock.hasOwnProperty('ignore')">
+                            <span class="input-group-text">
+                                <b-form-checkbox
+                                        @change="ignoreStat(statUnlock, $event)"
+                                        :checked="statUnlock.ignore === 'true'"
+                                        v-b-tooltip.hover.right
+                                        :title="'Ignore '+statUnlock.name"></b-form-checkbox>
+                            </span>
+                        </div>
                     </div>
                 </b-col>
             </b-row>
@@ -187,10 +197,13 @@ export default {
 			data.questUnlocks.forEach(quest=>{
 				quest.unlock = value;
 			});
+		},
+		ignoreStat(obj, value) {
+			this.configData.statUnlocks.filter(stat => stat.id === obj.id)[0].ignore = value.toString()
 		}
 	},
 	created() {
-		this.setRemember()
+		this.setRemember();
 	},
 	watch: {
 		configFile() {
