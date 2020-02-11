@@ -4,12 +4,12 @@
             <h1 class="h3 text-uppercase font-weight-bolder"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
         </div>
         <b-row>
-            <b-col lg="12" class="my-1">
+            <b-col lg="10" class="my-1">
                 <b-form-group
                         label="Filter"
                         label-cols-sm="1"
                         label-align-sm="right"
-                        label-size="sm"
+                        size="sm"
                         label-for="filterInput"
                         class="mb-0"
                 >
@@ -25,6 +25,15 @@
                         </b-input-group-append>
                     </b-input-group>
                 </b-form-group>
+            </b-col>
+
+            <b-col lg="2" class="my-1" align="right">
+                <b-dropdown right text="Show/Hide Columns" size="sm" align="right" >
+                    <b-dropdown-form v-for="field in fields"
+                                     :key="field.key">
+                        <b-form-checkbox v-model="field.class" v-bind:value="'d-none'">{{ field.label }}</b-form-checkbox>
+                    </b-dropdown-form>
+                </b-dropdown>
             </b-col>
 
             <b-col lg="12" class="my-1">
@@ -132,6 +141,7 @@ export default {
 					key: 'monster',
 					label: 'Monster name',
 					sortable: true,
+					class: '',
 				},
 				{
 					key: 'combat_req',
@@ -152,15 +162,10 @@ export default {
 					class: 'd-none',
 				},
 				{
-					key: 'defence_req',
-					label: 'Defence Requirement',
-					sortable: true,
-					class: 'd-none',
-				},
-				{
 					key: 'task_percentage',
 					label: 'Task chance',
 					sortable: true,
+					class: '',
 				},
 			],
 			filtered_items: [],
@@ -221,7 +226,7 @@ export default {
 		onFiltered(filteredItems) {
 			this.totalRows = filteredItems.length
 			this.currentPage = 1
-		}
+		},
 	},
 	created() {
 		this.reload();
