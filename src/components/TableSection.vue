@@ -3,13 +3,55 @@
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-2">
             <h1 class="h3 text-uppercase font-weight-bolder"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
         </div>
+        <b-row>
+            <b-col lg="6" class="my-1">
+                <b-form-group
+                        label="Filter"
+                        label-cols-sm="3"
+                        label-align-sm="right"
+                        label-size="sm"
+                        label-for="filterInput"
+                        class="mb-0"
+                >
+                    <b-input-group size="sm">
+                        <b-form-input
+                                v-model="filter"
+                                type="search"
+                                id="filterInput"
+                                placeholder="Type to Search"
+                        ></b-form-input>
+                        <b-input-group-append>
+                            <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+                        </b-input-group-append>
+                    </b-input-group>
+                </b-form-group>
+            </b-col>
+
+            <b-col lg="6" class="my-1">
+                <b-form-group
+                        label="Filter On"
+                        label-cols-sm="3"
+                        label-align-sm="right"
+                        label-size="sm"
+                        description="Leave all unchecked to filter on all data"
+                        class="mb-0">
+                    <b-form-checkbox-group v-model="filterOn" class="mt-1">
+                        <b-form-checkbox value="monster">Name</b-form-checkbox>
+                        <b-form-checkbox value="combat_req">Combat</b-form-checkbox>
+                        <b-form-checkbox value="slayer_req">Slayer</b-form-checkbox>
+                    </b-form-checkbox-group>
+                </b-form-group>
+            </b-col>
+        </b-row>
         <div class="table-responsive">
             <b-table striped hover
                      :items="filtered_items"
                      :fields="fields"
                      :sort-by.sync="sortBy"
                      :sort-desc.sync="sortDesc"
-                     :sort-direction="sortDirection">
+                     :sort-direction="sortDirection"
+                     :filter="filter"
+                     :filterIncludedFields="filterOn">
                 <template v-slot:cell(task_percentage)="data">
                     <span class="text-monospace">{{ data.value.toFixed(2) }}%</span>
                 </template>
@@ -35,6 +77,8 @@ export default {
 			sortDirection: 'desc',
 			sortDesc: true,
 			sortBy: 'task_percentage',
+			filter: null,
+			filterOn: [],
 			fields: [
 				{
 					key: 'id',
