@@ -4,10 +4,10 @@
             <h1 class="h3 text-uppercase font-weight-bolder"><span v-if="currentMaster">{{currentMaster.name}}</span></h1>
         </div>
         <b-row>
-            <b-col lg="6" class="my-1">
+            <b-col lg="12" class="my-1">
                 <b-form-group
                         label="Filter"
-                        label-cols-sm="3"
+                        label-cols-sm="1"
                         label-align-sm="right"
                         label-size="sm"
                         label-for="filterInput"
@@ -27,10 +27,10 @@
                 </b-form-group>
             </b-col>
 
-            <b-col lg="6" class="my-1">
+            <b-col lg="12" class="my-1">
                 <b-form-group
                         label="Filter On"
-                        label-cols-sm="3"
+                        label-cols-sm="1"
                         label-align-sm="right"
                         label-size="sm"
                         description="Leave all unchecked to filter on all data"
@@ -45,6 +45,38 @@
                     </b-form-checkbox-group>
                 </b-form-group>
             </b-col>
+
+            <b-col sm="5" md="6" class="my-1">
+                <b-form-group
+                        label="Per page"
+                        label-cols-sm="6"
+                        label-cols-md="4"
+                        label-cols-lg="3"
+                        label-align-sm="right"
+                        label-size="sm"
+                        label-for="perPageSelect"
+                        class="mb-0"
+                >
+                    <b-form-select
+                            v-model="perPage"
+                            id="perPageSelect"
+                            size="sm"
+                            :options="pageOptions"
+                    ></b-form-select>
+                </b-form-group>
+            </b-col>
+
+            <b-col sm="7" md="6" class="my-1">
+                <b-pagination
+                        v-model="currentPage"
+                        :total-rows="totalRows"
+                        :per-page="perPage"
+                        align="fill"
+                        size="sm"
+                        class="my-0"
+                ></b-pagination>
+            </b-col>
+
         </b-row>
         <div class="table-responsive">
             <b-table striped hover
@@ -54,7 +86,10 @@
                      :sort-desc.sync="sortDesc"
                      :sort-direction="sortDirection"
                      :filter="filter"
-                     :filterIncludedFields="filterOn">
+                     :filterIncludedFields="filterOn"
+                     :current-page="currentPage"
+                     :per-page="perPage"
+                     @filtered="onFiltered">
                 <template v-slot:cell(task_percentage)="data">
                     <span class="text-monospace">{{ data.value.toFixed(2) }}%</span>
                 </template>
@@ -82,6 +117,10 @@ export default {
 			sortBy: 'task_percentage',
 			filter: null,
 			filterOn: [],
+			perPage: 15,
+			pageOptions: [10, 15, 25],
+			totalRows: 1,
+			currentPage: 1,
 			fields: [
 				{
 					key: 'id',
@@ -164,6 +203,9 @@ export default {
 
 			//handle removal list
 			this.filtered_items = _.filter(this.filtered_items, function(monster){ return !removeIds.includes(parseInt(monster.id)) } );
+
+			//recalculate row length
+			this.totalRows = this.filtered_items.length
 		},
 		generateTaskWeights() {
 			//calculate total weight
@@ -176,6 +218,10 @@ export default {
 				item.task_percentage = item.taskweight / this.total_weight * 100;
 			})
 		},
+		onFiltered(filteredItems) {
+			this.totalRows = filteredItems.length
+			this.currentPage = 1
+		}
 	},
 	created() {
 		this.reload();
