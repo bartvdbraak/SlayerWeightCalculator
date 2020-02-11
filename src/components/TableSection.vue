@@ -36,9 +36,12 @@
                         description="Leave all unchecked to filter on all data"
                         class="mb-0">
                     <b-form-checkbox-group v-model="filterOn" class="mt-1">
-                        <b-form-checkbox value="monster">Name</b-form-checkbox>
-                        <b-form-checkbox value="combat_req">Combat</b-form-checkbox>
-                        <b-form-checkbox value="slayer_req">Slayer</b-form-checkbox>
+                        <b-form-checkbox
+                                v-for="field in fields"
+                                :key="field.key"
+                                :value="field.key">
+                            {{ field.label }}
+                        </b-form-checkbox>
                     </b-form-checkbox-group>
                 </b-form-group>
             </b-col>
