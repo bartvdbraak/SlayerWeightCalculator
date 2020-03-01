@@ -1560,6 +1560,14 @@
         "defence_req": "0"
       },
       {
+        "id": "7",
+        "monster": "Basilisks",
+        "slayer_req": "40",
+        "taskweight": "5",
+        "combat_req": "40",
+        "defence_req": "20"
+      },
+      {
         "id": "11",
         "monster": "Black demons",
         "slayer_req": "1",
@@ -1876,6 +1884,14 @@
         "slayer_req": "1",
         "taskweight": "6",
         "combat_req": "0",
+        "defence_req": "0"
+      },
+      {
+        "id": "7",
+        "monster": "Basilisks",
+        "slayer_req": "40",
+        "taskweight": "6",
+        "combat_req": "40",
         "defence_req": "0"
       },
       {
@@ -2211,6 +2227,14 @@
         "slayer_req": "1",
         "taskweight": "8",
         "combat_req": "0",
+        "defence_req": "0"
+      },
+      {
+        "id": "7",
+        "monster": "Basilisks",
+        "slayer_req": "40",
+        "taskweight": "7",
+        "combat_req": "40",
         "defence_req": "0"
       },
       {

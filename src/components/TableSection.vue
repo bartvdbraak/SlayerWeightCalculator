@@ -193,9 +193,10 @@ export default {
 
 			//filter based on Point Unlocks
 			this.configData.pointUnlocks.forEach(reward=>{
-	            if ((reward.unlock === 'true' && reward.block) || (reward.unlock === 'false' && !reward.block)) {
-					//if reward unlocked but blocks monsters OR reward not unlocked and doesnt block
-					//then, add to removal
+	            if (reward.unlock === 'true' && reward.block) {
+					removeIds = removeIds.concat(reward.monster_ids)
+				}
+	            else if (reward.unlock === 'false' && !reward.block && reward.masters.includes(this.currentMaster.id)) {
 					removeIds = removeIds.concat(reward.monster_ids)
 				}
 			});

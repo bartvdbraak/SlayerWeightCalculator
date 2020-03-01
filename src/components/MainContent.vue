@@ -16,7 +16,7 @@ export default {
 					{id: 2, name: 'Defence level', filter: 'defence_req', value: {min: 1, current: 99, max: 99}, image: 'defence_icon.png'},
 				],
 				pointUnlocks: [
-					{id: 0, name: 'Seeing red', monster_ids: [83, 3], unlock: 'false', masters: [5,6,7]},
+					{id: 0, name: 'Seeing red', monster_ids: [83], unlock: 'false', masters: [5,6,7]},
 					{id: 1, name: 'I hope you mith me', monster_ids: [72], unlock: 'false', masters: [5,6,7]},
 					{id: 2, name: 'Watch the birdie', monster_ids: [4], unlock: 'false', masters: [4,5,6,7]},
 					{id: 3, name: 'Hot stuff', monster_ids: [102], unlock: 'false', masters: [4,6,7]},
