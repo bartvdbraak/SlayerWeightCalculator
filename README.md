@@ -1,3 +1,9 @@
+> **Note**
+> 
+> I created this Slayer calculator for OldSchool RuneScape in 2019, but I am no longer maintaining it. As of 23th April 2023, I have decided to publicly archive the repository for it. While my version may be outdated, it may still be useful to some players as a reference or for nostalgia purposes. 
+> 
+> However, developers from the Oldschool Runescape Wiki have created a more up-to-date and improved version ([Calculator:Slayer/Slayer task weight](https://oldschool.runescape.wiki/w/Calculator:Slayer/Slayer_task_weight)) which I highly recommend. Thank you for considering my Slayer calculator repository.
+
 # Slayer Weight Calculator
 [![A cross-section of the Applications interface.](application.png)](https://bartvdbraak.github.io/SlayerWeightCalculator)
 > A calculator for slayer geeks that need to know percentages. Reworked in VueJS.
